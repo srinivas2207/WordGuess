@@ -1,5 +1,5 @@
 {
-"translateJs" :"var translateLoader = window.TRANSLATE_LOADER; var source = null; var result = null; try { source = document.getElementById(\"source\").value; } catch(e) {} ; try {result = document.querySelector(\"span.translation\").innerText; } catch(e){} ; translateLoader.setResult(source,result);"
+"translateJs" :"javascript: var translateLoader = window.TRANSLATE_LOADER; var source = null; var result = null; try { source = document.getElementById(\"source\").value; } catch(e) {} ; try {result = document.querySelector(\"span.translation\").innerText; } catch(e){} ; translateLoader.setResult(source,result);"
 ,
 
 "translateUrl" : "https://translate.google.com/#en/{code}/{word}",
