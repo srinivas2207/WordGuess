@@ -1,4 +1,5 @@
 {
+  "adInterval" : 5,
 "translateJs" :"javascript: var translateLoader = window.TRANSLATE_LOADER; var source = null; var result = null; try { source = document.getElementById(\"source\").value; } catch(e) {} ; try {result = document.querySelector(\"span.translation\").innerText; } catch(e){} ; translateLoader.setResult(source,result);"
 ,
 
