@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:id="@+id/listItemContainer"
+    android:background="?android:attr/selectableItemBackground"
+    android:focusable="true">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:gravity="center_vertical" >
+        <TextView
+            android:id="@+id/rankTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            style="@style/listItemTitle"
+            android:singleLine="true"
+            android:layout_marginLeft="0dp"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:text="Rank" />
+
+        <TextView
+            android:id="@+id/categoryTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/listItemTitle"
+            android:maxLines="2"
+            android:layout_toRightOf="@id/rankTitle"
+            android:layout_toLeftOf="@id/gamesTitle"
+            android:layout_marginLeft="15dp"
+            android:layout_centerVertical="true"
+            android:text="@string/category" />
+
+        <TextView
+            android:id="@+id/scoreTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentRight="true"
+            style="@style/listItemTitle"
+            android:singleLine="true"
+            android:minWidth="30dp"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:text="PTs" />
+
+        <TextView
+            android:id="@+id/gamesTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/scoreTitle"
+            style="@style/listItemTitle"
+            android:singleLine="true"
+            android:minWidth="30dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:text="GP" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#E3E3E3"
+            android:layout_alignParentBottom="true"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/detailsContainer"
+        android:layout_below="@id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center_vertical" >
+
+
+        <TextView
+            android:id="@+id/rank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            style="@style/listItemTitle"
+            android:singleLine="true"
+            android:minWidth="30dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:text="1" />
+
+        <TextView
+            android:id="@+id/category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/listItemSubTitle"
+            android:maxLines="2"
+            android:layout_toRightOf="@id/rank"
+            android:layout_toLeftOf="@id/games"
+            android:layout_marginLeft="15dp"
+            android:layout_centerVertical="true"
+            android:text="Animals dfadf " />
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentRight="true"
+            style="@style/listItemTitle"
+            android:singleLine="true"
+            android:minWidth="30dp"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:text="500" />
+
+        <TextView
+            android:id="@+id/games"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/score"
+            style="@style/listItemTitle"
+            android:singleLine="true"
+            android:minWidth="30dp"
+            android:layout_marginLeft="30dp"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:text="1" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@id/detailsContainer"
+        android:background="#E3E3E3"
+        />
+</RelativeLayout>

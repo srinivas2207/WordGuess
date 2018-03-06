@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/spellBee"
+        android:title="@string/spellBee"/>
+
+    <item
+        android:id="@+id/vocabulary"
+        android:title="@string/vocabulary"/>
+
+</menu>

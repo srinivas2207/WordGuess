@@ -1,0 +1,259 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="DefaultTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="colorPrimary">@color/ColorPrimary_green</item>
+        <item name="colorPrimaryDark">@color/ColorPrimaryDark_green</item>
+        <item name="colorAccent">@color/ColorPrimary_green</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- Splash theme -->
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <!--  <item name="android:windowBackground">@drawable/splash_bg</item> -->
+    </style>
+
+    <!-- Black theme-->
+    <style name="BlackTheme" parent="DefaultTheme">
+        <item name="colorPrimary">#000000</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">#FFFFFF</item>
+    </style>
+
+    <!-- BLUE APP THEME -->
+    <style name="BlueTheme" parent="DefaultTheme">
+        <item name="colorPrimary">@color/ColorPrimary_blue</item>
+        <item name="colorPrimaryDark">@color/ColorPrimaryDark_blue</item>
+        <item name="colorAccent">@color/ColorPrimary_blue</item>
+
+        <item name="chatListDateBgColor">@color/colorChatListDate_blue</item>
+        <item name="msgRightBgColor">@color/colorRightMsgBg_blue</item>
+        <item name="msgRightTextColor">@color/colorRightMsgTextColor_blue</item>
+        <item name="msgRightTimeBgColor">@color/colorRightMsgTimeBg_blue</item>
+        <item name="msgLeftBgColor">@color/colorLeftMsgBg_blue</item>
+        <item name="msgLeftTextColor">@color/colorLeftMsgTextColor_blue</item>
+    </style>
+
+    <!-- Purple APP THEME -->
+    <style name="purpleTheme" parent="DefaultTheme">
+        <item name="colorPrimary">@color/ColorPrimary_purple</item>
+        <item name="colorPrimaryDark">@color/ColorPrimaryDark_purple</item>
+        <item name="colorAccent">@color/ColorPrimary_purple</item>
+
+        <item name="chatListDateBgColor">@color/colorChatListDate_purple</item>
+        <item name="msgRightBgColor">@color/colorRightMsgBg_purple</item>
+        <item name="msgRightTextColor">@color/colorRightMsgTextColor_purple</item>
+        <item name="msgRightTimeBgColor">@color/colorRightMsgTimeBg_purple</item>
+        <item name="msgLeftBgColor">@color/colorLeftMsgBg_purple</item>
+        <item name="msgLeftTextColor">@color/colorLeftMsgTextColor_purple</item>
+    </style>
+
+
+    <!-- RED APP THEME -->
+    <style name="RedTheme" parent="DefaultTheme">
+        <item name="colorPrimary">@color/ColorPrimary_red</item>
+        <item name="colorPrimaryDark">@color/ColorPrimaryDark_red</item>
+        <item name="colorAccent">@color/ColorPrimary_red</item>
+
+        <item name="chatListDateBgColor">@color/colorChatListDate_red</item>
+        <item name="msgRightBgColor">@color/colorRightMsgBg_red</item>
+        <item name="msgRightTextColor">@color/colorRightMsgTextColor_red</item>
+        <item name="msgRightTimeBgColor">@color/colorRightMsgTimeBg_red</item>
+        <item name="msgLeftBgColor">@color/colorLeftMsgBg_red</item>
+        <item name="msgLeftTextColor">@color/colorLeftMsgTextColor_red</item>
+    </style>
+
+
+    <!-- GREEN APP THEME -->
+    <style name="GreenTheme" parent="DefaultTheme">
+        <item name="colorPrimary">@color/ColorPrimary_green</item>
+        <item name="colorPrimaryDark">@color/ColorPrimaryDark_green</item>
+        <item name="colorAccent">@color/ColorPrimary_green</item>
+
+        <item name="chatListDateBgColor">@color/colorChatListDate_green</item>
+        <item name="msgRightBgColor">@color/colorRightMsgBg_green</item>
+        <item name="msgRightTextColor">@color/colorRightMsgTextColor_green</item>
+        <item name="msgRightTimeBgColor">@color/colorRightMsgTimeBg_green</item>
+        <item name="msgLeftBgColor">@color/colorLeftMsgBg_green</item>
+        <item name="msgLeftTextColor">@color/colorLeftMsgTextColor_green</item>
+    </style>
+
+
+    <style name="ProgressDialog" parent="Theme.AppCompat.Dialog">
+        <item name="colorAccent">#ffffff</item>
+        <item name="android:textColorPrimary">#ffffff</item>
+        <item name="android:background">@color/ColorPrimary_green</item>
+    </style>
+
+    <!-- Button styling -->
+    <style name="bgColoredBtn" parent="Widget.AppCompat.Button.Colored">
+
+    </style>
+
+    <style name="borderLessColored" parent="Widget.AppCompat.Button.Borderless.Colored">
+        <item name="android:textColor">?attr/colorAccent</item>
+    </style>
+
+
+    <style name="detailsTitle">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="listItemTitle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="listItemSubTitle">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="spinnerButtonTitle">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+
+    <style name="spinnerButtonContent">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+
+    <!-- Theme radio button styling -->
+
+    <style name="themeRadioBtnStyle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+    </style>
+
+
+    <!-- ==============   BELOW STYLES ARE FOR PLAY FRAGMENT    ===================-->
+
+    <!-- Keyboard button style -->
+    <style name="KeysStyle">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:background">@color/transparent</item>
+    </style>
+
+    <!-- choice style -->
+    <style name="ChoiceStyle">
+        <item name="android:width">30dp</item>
+        <item name="android:height">30dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginLeft">1dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:background">@drawable/circle_fill</item>
+    </style>
+
+    <!-- mistake choices style -->
+    <style name="MistakeStyle">
+        <item name="android:width">30dp</item>
+        <item name="android:gravity">center_horizontal</item>
+
+        <item name="android:layout_marginRight">1dp</item>
+        <item name="android:visibility">invisible</item>
+
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#CC0000</item>
+    </style>
+
+
+    <!--  ============   BELOW STYLES ARE FOR REFERENCE PURPOSE ONLY =============== -->
+
+    <style name="welcomeMessageStyle">
+        <item name="android:textColor">?attr/colorPrimaryDark</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:lineSpacingExtra">5dp</item>
+    </style>
+
+
+    <!-- textviews styling -->
+    <style name="userNameToolbar">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="lastseenToolbar">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+
+    <style name="timeListItem">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+
+    <style name="profileStatusTitle">
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+
+
+    <style name="chatMsgStyle">
+        <item name="android:textSize">17sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="chatTimeStyle">
+        <item name="android:textSize">11sp</item>
+    </style>
+
+
+    <!-- Custom chat messages styling -->
+    <style name="rightChatMsgStyle" parent="chatMsgStyle">
+        <item name="android:textColor">?attr/msgRightTextColor</item>
+    </style>
+
+    <style name="leftChatMsgStyle" parent="chatMsgStyle">
+        <item name="android:textColor">?attr/msgLeftTextColor</item>
+    </style>
+
+
+    <style name="favMsgTitle">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/ColorPrimaryDark_green</item>
+    </style>
+
+
+    <style name="toolbarExpandTitleStyle">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="GreenTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="GreenTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="FullscreenTheme" parent="GreenTheme">
+        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+    </style>
+
+    <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+</resources>

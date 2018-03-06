@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "907698210788",
+    "firebase_url": "https://wordguess-194411.firebaseio.com",
+    "project_id": "wordguess-194411",
+    "storage_bucket": "wordguess-194411.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:907698210788:android:ab660d2eb6f95bea",
+        "android_client_info": {
+          "package_name": "com.shree.wordguess"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "907698210788-697oit0itupjus1qsfdarqp6ueftbon8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD70v5zwQiX4Pf5zwzig2WZXFkwGY3HI1o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

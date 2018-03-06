@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="listBgColor">#FFFFFF</color>
+    <color name="profileBgColor">#EEEEEE</color>
+
+    <color name="chatListBgColorGreen">#EFE7DE</color>
+    <color name="chatListBgColorDefault">#FAFAFA</color>
+
+    <!-- <color name="favMsgListBgColorDefault">#EFEEEB</color> -->
+    <color name="favMsgListBgColorDefault">#FFFFFF</color>
+
+    <!-- Theme colors -->
+    <color name="ColorPrimary_blue">#0084FF</color>
+    <color name="ColorPrimaryDark_blue">#006ACC</color>
+    <color name="colorChatListDate_blue">#E1FFC7</color>
+    <color name="colorRightMsgBg_blue">@color/ColorPrimary_blue</color>
+    <color name="colorRightMsgTextColor_blue">@android:color/white</color>
+    <color name="colorRightMsgTimeBg_blue">@android:color/white</color>
+    <color name="colorLeftMsgBg_blue">#EAEAEA</color>
+    <color name="colorLeftMsgTextColor_blue">@android:color/black</color>
+
+    <color name="ColorPrimary_purple">#9D00B4</color>
+    <color name="ColorPrimaryDark_purple">#7E0090</color>
+    <color name="colorChatListDate_purple">#E1FFC7</color>
+    <color name="colorRightMsgBg_purple">@color/ColorPrimary_purple</color>
+    <color name="colorRightMsgTextColor_purple">@android:color/white</color>
+    <color name="colorRightMsgTimeBg_purple">@android:color/white</color>
+    <color name="colorLeftMsgBg_purple">#EAEAEA</color>
+    <color name="colorLeftMsgTextColor_purple">@android:color/black</color>
+
+    <color name="ColorPrimary_red">#DB4437</color>
+    <color name="ColorPrimaryDark_red">#B93221</color>
+    <color name="colorChatListDate_red">#E1FFC7</color>
+    <color name="colorRightMsgBg_red">@color/ColorPrimary_red</color>
+    <color name="colorRightMsgTextColor_red">@android:color/white</color>
+    <color name="colorRightMsgTimeBg_red">@android:color/white</color>
+    <color name="colorLeftMsgBg_red">#EAEAEA</color>
+    <color name="colorLeftMsgTextColor_red">@android:color/black</color>
+
+    <color name="ColorPrimary_green">#075E54</color>
+    <color name="ColorPrimaryDark_green">#054D44</color>
+    <color name="colorChatListDate_green">#D4EAF4</color>
+    <color name="colorRightMsgBg_green">#E1FFC7</color>
+    <color name="colorRightMsgTextColor_green">@android:color/black</color>
+    <color name="colorRightMsgTimeBg_green">@android:color/transparent</color>
+    <color name="colorLeftMsgBg_green">@android:color/white</color>
+    <color name="colorLeftMsgTextColor_green">@android:color/black</color>
+
+    <color name="translucent_scrim_top">#26000000</color>
+    <color name="translucent_scrim_top_center">#0C000000</color>
+    <color name="translucent_scrim_bottom">#2A000000</color>
+    <color name="translucent_scrim_bottom_center">#0D000000</color>
+
+
+    <color name="transparent">@android:color/transparent</color>
+    <color name="splashBg">#5A8066</color>
+
+    <color name="selectionBg">#B0DBE3</color>
+
+    <color name="black_overlay">#66000000</color>
+
+
+</resources>

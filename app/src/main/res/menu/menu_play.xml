@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/refresh"
+        android:title="Refresh"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/menu_refresh"/>
+
+    <item
+        android:id="@+id/share"
+        android:title="Share"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/menu_share"/>
+
+    <item
+        android:id="@+id/favourite"
+        android:title="Favourite"
+        app:showAsAction="always"
+        android:icon="@drawable/menu_fav_unsel"/>
+
+    <item
+        android:id="@+id/reveal"
+        android:title="Half Reveal"
+        app:showAsAction="always"
+        android:icon="@drawable/menu_reveal"/>
+
+    <item
+        android:id="@+id/hint"
+        android:title="Show Hint"
+        app:showAsAction="always"
+        android:icon="@drawable/menu_hint"/>
+
+</menu>

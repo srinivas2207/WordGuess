@@ -1,0 +1,905 @@
+[{"words":[{"name":"able"},{"name":"adorable"},{"name":"adventurous"},{"name":"acidic"},{"name":"active"},{"name":"afraid"},{"name":"aged"},{"name":"aggressive"},{"name":"aggrevating"},
+
+  {"name":"agreeable"},{"name":"ajar"},{"name":"alarming"},{"name":"alert"},{"name":"alive"},{"name":"amazing"},{"name":"amused"},{"name":"amusing"},{"name":"ancient"},{"name":"antique"},
+
+  {"name":"ashamed"},{"name":"attractive"},{"name":"average"},{"name":"awesome"},{"name":"awful"},{"name":"babyish"},{"name":"bad"},{"name":"baggy"},{"name":"beautiful"},
+
+  {"name":"beneficial"},{"name":"better"},{"name":"best"},{"name":"big"},{"name":"bite-sized"},{"name":"bitter"},{"name":"black"},{"name":"black-and-white"},{"name":"bland"},
+
+  {"name":"blond"},{"name":"blue"},{"name":"blushing"},{"name":"boiling"},{"name":"bossy"},{"name":"bouncy"},{"name":"brave"},{"name":"breakable"},{"name":"brief"},{"name":"bright"},
+
+  {"name":"broken"},{"name":"bronze"},{"name":"brown"},{"name":"bumpy"},{"name":"bustling"},{"name":"busy"},{"name":"buzzing"},{"name":"calculating"},{"name":"calm"},{"name":"careful"},
+
+  {"name":"careless"},{"name":"caring"},{"name":"cautious"},{"name":"charming"},{"name":"chubby"},{"name":"cheap"},{"name":"cheerful"},{"name":"chilly"},{"name":"clean"},{"name":"clear"},
+
+  {"name":"closed"},{"name":"cloudy"},{"name":"clumsy"},{"name":"cluttered"},{"name":"cold"},{"name":"colorful"},{"name":"comfortable"},{"name":"concerned"},{"name":"cool"},
+
+  {"name":"cooperative"},{"name":"coordinated"},{"name":"courageous"},{"name":"crazy"},{"name":"creepy"},{"name":"crooked"},{"name":"crowded"},{"name":"cuddly"},{"name":"cumbersome"},
+
+  {"name":"curly"},{"name":"curvy"},{"name":"cute"},{"name":"damaged"},{"name":"damp"},{"name":"dangerous"},{"name":"dark"},{"name":"dazzling"},{"name":"dead"},{"name":"deep"},
+
+  {"name":"defiant"},{"name":"delicious"},{"name":"delightful"},{"name":"delirious"},{"name":"descriptive"},{"name":"deserted"},{"name":"disastrous"},{"name":"disgusting"},{"name":"dreary"},
+
+  {"name":"different"},{"name":"difficult"},{"name":"dirty"},{"name":"distinct"},{"name":"dizzy"},{"name":"dopey"},{"name":"drab"},{"name":"drafty"},{"name":"dreary"},{"name":"dry"},
+
+  {"name":"dull"},{"name":"Eeager"},{"name":"earnest"},{"name":"early"},{"name":"easy"},{"name":"elated"},{"name":"elderly"},{"name":"elegant"},{"name":"embarrassed"},{"name":"empty"},
+
+  {"name":"enchanted"},{"name":"enchanting"},{"name":"energetic"},{"name":"envious"},{"name":"equal"},{"name":"even"},{"name":"evil"},{"name":"excellent"},{"name":"excited"},
+
+  {"name":"exciting"},{"name":"expensive"},{"name":"extra-large"},{"name":"extra-small"},{"name":"failing"},{"name":"fair"},{"name":"familiar"},{"name":"famous"},{"name":"fancy"},
+
+  {"name":"far"},{"name":"far-flung"},{"name":"fast"},{"name":"fat"},{"name":"fearful"},{"name":"fearless"},{"name":"filthy"},{"name":"fine"},{"name":"first"},{"name":"flaky"},
+
+  {"name":"flat"},{"name":"flimsy"},{"name":"fluffy"},{"name":"foolish"},{"name":"frail"},{"name":"free"},{"name":"fresh"},{"name":"friendly"},{"name":"frightened"},{"name":"frightening"},
+
+  {"name":"frosty"},{"name":"full"},{"name":"fumbling"},{"name":"funny"},{"name":"fuzzy"},{"name":"giant"},{"name":"gigantic"},{"name":"gifted"},{"name":"glamorous"},{"name":"gleaming"},
+
+  {"name":"glistening"},{"name":"glorious"},{"name":"glum"},{"name":"good"},{"name":"gorgeous"},{"name":"graceful"},{"name":"gracious"},{"name":"grateful"},{"name":"gray"},{"name":"great"},
+
+  {"name":"greedy"},{"name":"green"},{"name":"grotesque"},{"name":"grown"},{"name":"grubby"},{"name":"gruesome"},{"name":"grumpy"},{"name":"gullible"},{"name":"handy"},{"name":"happy"},
+
+  {"name":"hard"},{"name":"hard-to-find"},{"name":"hateful"},{"name":"healthy"},{"name":"heavenly"},{"name":"heavy"},{"name":"helpful"},{"name":"helpless"},{"name":"hideous"},
+
+  {"name":"high"},{"name":"homely"},{"name":"horrible"},{"name":"hot"},{"name":"humming"},{"name":"hungry"},{"name":"hurtful"},{"name":"husky"},{"name":"icky"},{"name":"icy"},
+
+  {"name":"ignorant"},{"name":"ill-fated"},{"name":"ill-informed"},{"name":"impolite"},{"name":"important"},{"name":"incredible"},{"name":"infamous"},{"name":"infantile"},
+
+  {"name":"insidious"},{"name":"intelligent"},{"name":"interesting"},{"name":"irritating"},{"name":"itchy"},{"name":"jealous"},{"name":"jittery"},{"name":"jolly"},{"name":"joyous"},
+
+  {"name":"juicy"},{"name":"jumpy"},{"name":"keen"},{"name":"kind"},{"name":"kindly"},{"name":"klutzy"},{"name":"lame"},{"name":"large"},{"name":"last"},{"name":"late"},{"name":"lazy"},
+
+  {"name":"lean"},{"name":"light"},{"name":"likable"},{"name":"likely"},{"name":"limp"},{"name":"limping"},{"name":"little"},{"name":"long"},{"name":"long-term"},{"name":"loose"},
+
+  {"name":"lopsided"},{"name":"lost"},{"name":"loud"},{"name":"lovely"},{"name":"loving"},{"name":"low"},{"name":"lucky"},{"name":"lumpy"},{"name":"made-up"},{"name":"magnificent"},
+
+  {"name":"marvelous"},{"name":"mammoth"},{"name":"massive"},{"name":"mealy"},{"name":"meaty"},{"name":"medium"},{"name":"meek"},{"name":"mellow"},{"name":"melodic"},{"name":"messy"},
+
+  {"name":"milky"},{"name":"miniature"},{"name":"minty"},{"name":"misty"},{"name":"modern"},{"name":"motionless"},{"name":"mountainous"},{"name":"muddy"},{"name":"mundane"},{"name":"murky"},
+
+  {"name":"mushy"},{"name":"mysterious"},{"name":"narrow"},{"name":"nasty"},{"name":"natural"},{"name":"naughty"},{"name":"near"},{"name":"neat"},{"name":"nervous"},{"name":"new"},
+
+  {"name":"next"},{"name":"nice"},{"name":"nimble"},{"name":"nippy"},{"name":"noisy"},{"name":"normal"},{"name":"numb"},{"name":"nutritious"},{"name":"nutty"},{"name":"obedient"},
+
+  {"name":"obese"},{"name":"odd"},{"name":"old"},{"name":"old-fashioned"},{"name":"open"},{"name":"optomistic"},{"name":"orange"},{"name":"ornery"},{"name":"ordinary"},{"name":"outgoing"},
+
+  {"name":"outrageous"},{"name":"outstanding"},{"name":"pale"},{"name":"paltry"},{"name":"perfect"},{"name":"pessimistic"},{"name":"plain"},{"name":"plastic"},{"name":"pleasant"},
+
+  {"name":"polite"},{"name":"poised"},{"name":"poor"},{"name":"powerful"},{"name":"precious"},{"name":"pretty"},{"name":"precious"},{"name":"previous"},{"name":"pricey"},{"name":"prickly"},
+
+  {"name":"proud"},{"name":"puny"},{"name":"purple"},{"name":"pushy"},{"name":"puzzled"},{"name":"puzzling"},{"name":"Qquaint"},{"name":"quick"},{"name":"quiet"},{"name":"quirky"},
+
+  {"name":"rapid"},{"name":"rare"},{"name":"real"},{"name":"red"},{"name":"remarkable"},{"name":"rich"},{"name":"rigid"},{"name":"right"},{"name":"ripe"},{"name":"roasted"},
+
+  {"name":"robust"},{"name":"rotten"},{"name":"rough"},{"name":"round"},{"name":"rude"},{"name":"sad"},{"name":"safe"},{"name":"scared"},{"name":"scary"},{"name":"scrawny"},
+
+  {"name":"second"},{"name":"second-hand"},{"name":"selfish"},{"name":"serious"},{"name":"sharp"},{"name":"shiny"},{"name":"short"},{"name":"short-term"},{"name":"shrill"},{"name":"shy"},
+
+  {"name":"sick"},{"name":"silent"},{"name":"silky"},{"name":"silly"},{"name":"simple"},{"name":"simplistic"},{"name":"skinny"},{"name":"sleepy"},{"name":"slim"},{"name":"slimy"},
+
+  {"name":"slippery"},{"name":"slow"},{"name":"small"},{"name":"smart"},{"name":"smoggy"},{"name":"smooth"},{"name":"soft"},{"name":"solid"},{"name":"sophisticated"},{"name":"sore"},
+
+  {"name":"sour"},{"name":"sparkling"},{"name":"spicy"},{"name":"spiffy"},{"name":"spiteful"},{"name":"spotless"},{"name":"spotted"},{"name":"square"},{"name":"stale"},{"name":"steep"},
+
+  {"name":"sticky"},{"name":"stingy"},{"name":"stormy"},{"name":"strange"},{"name":"straight"},{"name":"striped"},{"name":"strong"},{"name":"stupendous"},{"name":"stupid"},{"name":"sturdy"},
+
+  {"name":"substantial"},{"name":"super"},{"name":"superb"},{"name":"superficial"},{"name":"sweet"},{"name":"tall"},{"name":"tame"},{"name":"tan"},{"name":"tart"},{"name":"tasty"},
+
+  {"name":"tedious"},{"name":"tender"},{"name":"tense"},{"name":"terrific"},{"name":"testy"},{"name":"thankful"},{"name":"thin"},{"name":"third"},{"name":"thirsty"},{"name":"thoughtful"},
+
+  {"name":"tidy"},{"name":"tight"},{"name":"tiny"},{"name":"tired"},{"name":"tough"},{"name":"tremendous"},{"name":"tricky"},{"name":"troubled"},{"name":"truthful"},{"name":"ugly"},
+
+  {"name":"unequal"},{"name":"uneven"},{"name":"unhealthy"},{"name":"unique"},{"name":"unkempt"},{"name":"unknown"},{"name":"unlucky"},{"name":"unnatural"},{"name":"unruly"},
+
+  {"name":"unsightly"},{"name":"untidy"},{"name":"unused"},{"name":"unusual"},{"name":"unwieldy"},{"name":"unwilling"},{"name":"unwritten"},{"name":"upset"},{"name":"used"},
+
+  {"name":"useful"},{"name":"useless"},{"name":"utilized"},{"name":"valuable"},{"name":"vast"},{"name":"victorious"},{"name":"vigorous"},{"name":"violet"},{"name":"vivacious"},
+
+  {"name":"wan"},{"name":"warm"},{"name":"watery"},{"name":"wealthy"},{"name":"weak"},{"name":"weary"},{"name":"weepy"},{"name":"weird"},{"name":"well-groomed"},{"name":"well-made"},
+
+  {"name":"well-off"},{"name":"well-to-do"},{"name":"wet"},{"name":"white"},{"name":"whole"},{"name":"wicked"},{"name":"wide"},{"name":"wide-eyed"},{"name":"wiggly"},{"name":"wild"},
+
+  {"name":"willing"},{"name":"wilted"},{"name":"windy"},{"name":"winged"},{"name":"witty"},{"name":"wonderful"},{"name":"wooden"},{"name":"worried"},{"name":"worrisome"},{"name":"wrong"},
+
+  {"name":"Xanthic"},{"name":"Xanthous"},{"name":"yellow"},{"name":"young"},{"name":"yummy"},{"name":"zany"},{"name":"zealous"},{"name":"zesty"}],"category":1},{"words":
+
+[{"name":"abnormally"},{"name":"absentmindedly"},{"name":"accidentally"},{"name":"actually"},{"name":"after"},{"name":"afterwards"},{"name":"almost"},{"name":"already"},{"name":"always"},
+
+  {"name":"angrily"},{"name":"annually"},{"name":"anxiously"},{"name":"arrogantly"},{"name":"awkwardly"},{"name":"badly"},{"name":"bashfully"},{"name":"beautifully"},{"name":"bitterly"},
+
+  {"name":"bleakly"},{"name":"blindly"},{"name":"blissfully"},{"name":"boldly"},{"name":"boastfully"},{"name":"boldly"},{"name":"bravely"},{"name":"briefly"},{"name":"brightly"},
+
+  {"name":"briskly"},{"name":"busily"},{"name":"calmly"},{"name":"carefully"},{"name":"carelessly"},{"name":"cautiously"},{"name":"certainly"},{"name":"cheerfully"},{"name":"clearly"},
+
+  {"name":"cleverly"},{"name":"closely"},{"name":"coaxingly"},{"name":"coldly"},{"name":"colorfully"},{"name":"commonly"},{"name":"continually"},{"name":"coolly"},{"name":"correctly"},
+
+  {"name":"courageously"},{"name":"crossly"},{"name":"cruelly"},{"name":"curiously"},{"name":"daily"},{"name":"daintily"},{"name":"daringly"},{"name":"dearly"},{"name":"deeply"},
+
+  {"name":"defiantly"},{"name":"deftly"},{"name":"deliberately"},{"name":"delightfully"},{"name":"diligently"},{"name":"dimly"},{"name":"docilely"},{"name":"doubtfully"},{"name":"dreamily"},
+
+  {"name":"during"},{"name":"eagerly"},{"name":"early"},{"name":"easily"},{"name":"elegantly"},{"name":"energetically"},{"name":"enormously"},{"name":"enthusiastically"},{"name":"equally"},
+
+  {"name":"especially"},{"name":"even"},{"name":"evenly"},{"name":"eventually"},{"name":"every"},{"name":"everywhere"},{"name":"exactly"},{"name":"excitedly"},{"name":"extremely"},
+
+  {"name":"fairly"},{"name":"faithfully"},{"name":"famously"},{"name":"far"},{"name":"fast"},{"name":"fatally"},{"name":"ferociously"},{"name":"fervently"},{"name":"fiercely"},
+
+  {"name":"fiery"},{"name":"finally"},{"name":"fondly"},{"name":"foolishly"},{"name":"fortunately"},{"name":"frankly"},{"name":"frantically"},{"name":"freely"},{"name":"frenetically"},
+
+  {"name":"fully"},{"name":"furiously"},{"name":"generally"},{"name":"generously"},{"name":"gently"},{"name":"gladly"},{"name":"gleefully"},{"name":"gracefully"},{"name":"gratefully"},
+
+  {"name":"greatly"},{"name":"greedily"},{"name":"happily"},{"name":"hastily"},{"name":"harmoniously"},{"name":"hastily"},{"name":"healthily"},{"name":"heavily"},{"name":"helpfully"},
+
+  {"name":"highly"},{"name":"honestly"},{"name":"hopelessly"},{"name":"horizontally"},{"name":"hourly"},{"name":"hungrily"},{"name":"hurriedly"},{"name":"icily"},{"name":"immediately"},
+
+  {"name":"impatiently"},{"name":"incorrectly"},{"name":"innocently"},{"name":"inquisitively"},{"name":"instantly"},{"name":"intensely"},{"name":"intently"},{"name":"interestingly"},
+
+  {"name":"inwardly"},{"name":"irritably"},{"name":"jaggedly"},{"name":"jealously"},{"name":"jovially"},{"name":"joyfully"},{"name":"joylessly"},{"name":"joyously"},{"name":"jubilantly"},
+
+  {"name":"judgmentally"},{"name":"just"},{"name":"justly"},{"name":"keenly"},{"name":"kiddingly"},{"name":"kindheartedly"},{"name":"kindly"},{"name":"knavishly"},{"name":"knottily"},
+
+  {"name":"knowingly"},{"name":"knowledgeably"},{"name":"kookily"},{"name":"late"},{"name":"later"},{"name":"lazily"},{"name":"less"},{"name":"lightly"},{"name":"likely"},{"name":"limply"},
+
+  {"name":"lively"},{"name":"loftily"},{"name":"longingly"},{"name":"loosely"},{"name":"loudly"},{"name":"lovingly"},{"name":"loyally"},{"name":"luckily"},{"name":"madly"},
+
+  {"name":"magically"},{"name":"mainly"},{"name":"majestically"},{"name":"meaningfully"},{"name":"mechanically"},{"name":"merrily"},{"name":"miserably"},{"name":"mockingly"},
+
+  {"name":"monthly"},{"name":"more"},{"name":"mortally"},{"name":"mostly"},{"name":"mysteriously"},{"name":"naturally"},{"name":"nearly"},{"name":"neatly"},{"name":"needily"},
+
+  {"name":"nervously"},{"name":"never"},{"name":"next"},{"name":"nicely"},{"name":"noisily"},{"name":"not"},{"name":"now"},{"name":"obediently"},{"name":"obnoxiously"},{"name":"oddly"},
+
+  {"name":"offensively"},{"name":"officially"},{"name":"often"},{"name":"only"},{"name":"openly"},{"name":"optimistically"},{"name":"outrageously"},{"name":"overconfidently"},
+
+  {"name":"painfully"},{"name":"partially"},{"name":"patiently"},{"name":"perfectly"},{"name":"physically"},{"name":"plainly"},{"name":"playfully"},{"name":"politely"},{"name":"poorly"},
+
+  {"name":"positively"},{"name":"potentially"},{"name":"powerfully"},{"name":"promptly"},{"name":"properly"},{"name":"punctually"},{"name":"quaintly"},{"name":"queasily"},
+
+  {"name":"questionably"},{"name":"questioningly"},{"name":"quicker"},{"name":"quickly"},{"name":"quietly"},{"name":"quirkily"},{"name":"quizzically"},{"name":"rapidly"},{"name":"rarely"},
+
+  {"name":"readily"},{"name":"really"},{"name":"reassuringly"},{"name":"recklessly"},{"name":"regularly"},{"name":"reluctantly"},{"name":"repeatedly"},{"name":"reproachfully"},
+
+  {"name":"restfully"},{"name":"richly"},{"name":"righteously"},{"name":"rightfully"},{"name":"rigidly"},{"name":"roughly"},{"name":"rudely"},{"name":"ruthlessly"},{"name":"sadly"},
+
+  {"name":"safely"},{"name":"scarcely"},{"name":"scarily"},{"name":"searchingly"},{"name":"sedately"},{"name":"seemingly"},{"name":"seldom"},{"name":"selfishly"},{"name":"separately"},
+
+  {"name":"seriously"},{"name":"shakily"},{"name":"sharply"},{"name":"sheepishly"},{"name":"shrilly"},{"name":"shyly"},{"name":"silently"},{"name":"sleepily"},{"name":"slowly"},
+
+  {"name":"slyly"},{"name":"smoothly"},{"name":"softly"},{"name":"solemnly"},{"name":"solidly"},{"name":"sometimes"},{"name":"soon"},{"name":"steadily"},{"name":"speedily"},
+
+  {"name":"stealthily"},{"name":"sternly"},{"name":"strenuously"},{"name":"strictly"},{"name":"successfully"},{"name":"suddenly"},{"name":"surely"},{"name":"surprisingly"},
+
+  {"name":"suspiciously"},{"name":"sweetly"},{"name":"swiftly"},{"name":"sympathetically"},{"name":"tenderly"},{"name":"tensely"},{"name":"terribly"},{"name":"thankfully"},
+
+  {"name":"thoroughly"},{"name":"thoughtfully"},{"name":"tightly"},{"name":"today"},{"name":"tomorrow"},{"name":"too"},{"name":"tremendously"},{"name":"truly"},{"name":"truthfully"},
+
+  {"name":"ultimately"},{"name":"unabashedly"},{"name":"unbearably"},{"name":"unethically"},{"name":"unexpectedly"},{"name":"unfortunately"},{"name":"uniformly"},{"name":"unimpressively"},
+
+  {"name":"unnaturally"},{"name":"unnecessarily"},{"name":"upbeat"},{"name":"upliftingly"},{"name":"upright"},{"name":"upside-down"},{"name":"upward"},{"name":"upwardly"},
+
+  {"name":"urgently"},{"name":"usefully"},{"name":"uselessly"},{"name":"usually"},{"name":"utterly"},{"name":"vacantly"},{"name":"vaguely"},{"name":"vainly"},{"name":"valiantly"},
+
+  {"name":"vastly"},{"name":"verbally"},{"name":"vertically"},{"name":"very"},{"name":"viciously"},{"name":"victoriously"},{"name":"violently"},{"name":"vivaciously"},{"name":"voluntarily"},
+
+  {"name":"warmly"},{"name":"weakly"},{"name":"wearily"},{"name":"weekly"},{"name":"well"},{"name":"wetly"},{"name":"while"},{"name":"wholly"},{"name":"wiggly"},{"name":"wildly"},
+
+  {"name":"willfully"},{"name":"wisely"},{"name":"woefully"},{"name":"worriedly"},{"name":"wrongly"},{"name":"yearly"},{"name":"yearningly"},{"name":"yesterday"},{"name":"youthfully"},
+
+  {"name":"zanily"},{"name":"zealously"},{"name":"zestfully"},{"name":"zestily"}],"category":2},{"words":[{"name":"amphibian"},{"name":"amphiuma"},{"name":"army of frogs"},{"name":"barking
+
+  frog"},{"name":"black toad"},{"name":"brook salamander"},{"name":"bullfrog"},{"name":"caecilian"},{"name":"clawed frog"},{"name":"climbing salamander"},{"name":"common frog"},
+
+  {"name":"crested newt"},{"name":"cricket frog"},{"name":"disc-tongued frog"},{"name":"dusky salamander"},{"name":"dwarf siren"},{"name":"eastern newt"},{"name":"ensatina"},{"name":"European
+
+    toad"},{"name":"fire-belly newt"},{"name":"fire salamander"},{"name":"fork-tongued frog"},{"name":"frog"},{"name":"ghost frog"},{"name":"giant salamander"},{"name":"glass frog"},
+
+  {"name":"Goliath frog"},{"name":"gold frog"},{"name":"ground frog"},{"name":"hellbender"},{"name":"horned frog"},{"name":"Indonesian floating frog"},{"name":"Jefferson salamander"},
+
+  {"name":"knobby newt"},{"name":"knot of toads"},{"name":"leopard frog"},{"name":"litter frog"},{"name":"long-toed salamander"},{"name":"mantella frog"},{"name":"Mexican treefrog"},
+
+  {"name":"moss frog"},{"name":"mudpuppy"},{"name":"mud salamander"},{"name":"narrow-mouthed frog"},{"name":"natterjack"},{"name":"newt"},{"name":"ornate horned frog"},{"name":"paddle-tail
+
+    newt"},{"name":"painted frog"},{"name":"poison arrow frog"},{"name":"poison dart frog"},{"name":"pollywog"},{"name":"red-legged frog"},{"name":"red salamander"},{"name":"rice frog"},
+
+  {"name":"saddleback toad"},{"name":"salamander"},{"name":"sedge frog"},{"name":"shovelnose frog"},{"name":"siren"},{"name":"spadefoot"},{"name":"spotted newt"},{"name":"spring
+
+    salamander"},{"name":"tadpole"},{"name":"tailed frog"},{"name":"toad"},{"name":"tongueless frog"},{"name":"torrent salamander"},{"name":"treefrog"},{"name":"true frog"},{"name":"true
+
+    toad"},{"name":"Vietnamese tree frog"},{"name":"warty newt"},{"name":"waterdog"},{"name":"water frog"},{"name":"western toad"},{"name":"wood frog"},{"name":"woodlands salamander"},
+
+  {"name":"yellow-legged frog"}],"category":3},{"words":[{"name":"aardvark"},{"name":"abalone"},{"name":"African wild cat"},{"name":"albatross"},{"name":"algae"},{"name":"agouti"},
+
+  {"name":"alpaca"},{"name":"amoeba"},{"name":"American bison"},{"name":"amphibian"},{"name":"ant"},{"name":"anteater"},{"name":"antelope"},{"name":"ape"},{"name":"aphid"},
+
+  {"name":"arachnid"},{"name":"arctic fox"},{"name":"arctic wolf"},{"name":"armadillo"},{"name":"arthropod"},{"name":"aye-aye"},{"name":"baboon"},{"name":"badger"},{"name":"bandicoot"},
+
+  {"name":"barnacle"},{"name":"barracuda"},{"name":"bass"},{"name":"bat"},{"name":"bear"},{"name":"beaver"},{"name":"bedbug"},{"name":"bee"},{"name":"bilby"},{"name":"bison"},
+
+  {"name":"bivalve"},{"name":"black bear"},{"name":"black bear hamster"},{"name":"blackbird"},{"name":"bluebird"},{"name":"bluejay"},{"name":"blue whale"},{"name":"bobcat"},{"name":"bongo"},
+
+  {"name":"bonobo"},{"name":"bowhead whale"},{"name":"brittle star"},{"name":"brown bear"},{"name":"bug"},{"name":"buffalo"},{"name":"bull"},{"name":"bullfrog"},{"name":"bumblebee"},
+
+  {"name":"bushbaby"},{"name":"butterfly"},{"name":"camel"},{"name":"canary"},{"name":"cape buffalo"},{"name":"capybera"},{"name":"caracal"},{"name":"cardinal"},{"name":"caribou"},
+
+  {"name":"carnivora"},{"name":"carpenter ant"},{"name":"cassowary"},{"name":"cat"},{"name":"caterpillar"},{"name":"cattle"},{"name":"cavy"},{"name":"cheetah"},{"name":"chickadee"},
+
+  {"name":"chicken"},{"name":"chimipanzee"},{"name":"chinchilla"},{"name":"chipmunk"},{"name":"chiton"},{"name":"chrysalis"},{"name":"cicada"},{"name":"clam"},{"name":"coati"},
+
+  {"name":"cockatoo"},{"name":"cod"},{"name":"coelacanth"},{"name":"cockroach"},{"name":"collared peccary"},{"name":"colugo"},{"name":"conch"},{"name":"copepod"},{"name":"coral"},
+
+  {"name":"cougar"},{"name":"cow"},{"name":"coyote"},{"name":"coypu"},{"name":"crab"},{"name":"crane"},{"name":"cricket"},{"name":"crow"},{"name":"crustacean"},{"name":"cuttlefish"},
+
+  {"name":"cutworm"},{"name":"damselfly"},{"name":"deer"},{"name":"dhole"},{"name":"diatom"},{"name":"dingo"},{"name":"dodo"},{"name":"dog"},{"name":"dogfish"},{"name":"dolphin"},
+
+  {"name":"donkey"},{"name":"dove"},{"name":"dragonfly"},{"name":"dromedary"},{"name":"duck"},{"name":"dugong"},{"name":"duck-billed platypus"},{"name":"eagle"},{"name":"earthworm"},
+
+  {"name":"earwig"},{"name":"echidna"},{"name":"eel"},{"name":"egg"},{"name":"egret"},{"name":"ekaltadelta"},{"name":"eland"},{"name":"elephant"},{"name":"elephant seal"},{"name":"elk"},
+
+  {"name":"emu"},{"name":"ermine"},{"name":"falcon"},{"name":"ferret"},{"name":"finch"},{"name":"fin whale"},{"name":"fireant"},{"name":"firefly"},{"name":"fish"},{"name":"flamingo"},
+
+  {"name":"flatworm"},{"name":"flea"},{"name":"flounder"},{"name":"fly"},{"name":"flying fish"},{"name":"flying squirrel"},{"name":"fossa"},{"name":"fowl"},{"name":"fox"},{"name":"frog"},
+
+  {"name":"fruit bat"},{"name":"galagos"},{"name":"gar"},{"name":"gazelle"},{"name":"gerbil"},{"name":"giant squid"},{"name":"gibbon"},{"name":"giraffe"},{"name":"gnat"},{"name":"gnu"},
+
+  {"name":"goat"},{"name":"goldfinch"},{"name":"goose"},{"name":"gopher"},{"name":"gorilla"},{"name":"grasshopper"},{"name":"gray whale"},{"name":"great apes"},{"name":"grizzly bear"},
+
+  {"name":"groundhog"},{"name":"grouper"},{"name":"grouse"},{"name":"grub"},{"name":"guinea pig"},{"name":"gull"},{"name":"hammerhead shark"},{"name":"hamster"},{"name":"hares"},{"name":"harp
+
+    seal"},{"name":"hawk"},{"name":"hedgehog"},{"name":"hen"},{"name":"hermit crab"},{"name":"heron"},{"name":"herring"},{"name":"hippo"},{"name":"hippopotamus"},{"name":"honey bee"},
+
+  {"name":"hornet"},{"name":"horse"},{"name":"horseshoe crab"},{"name":"housefly"},{"name":"howler monkey"},{"name":"human being"},{"name":"hummingbird"},{"name":"humpback whale"},
+
+  {"name":"hyena"},{"name":"hyrax"},{"name":"ibis"},{"name":"imago"},{"name":"impala"},{"name":"insect"},{"name":"insectivores"},{"name":"isopod"},{"name":"jaguar"},{"name":"javelina"},
+
+  {"name":"jay"},{"name":"jellyfish"},{"name":"jumping bean"},{"name":"junebug"},{"name":"junco"},{"name":"kakapo"},{"name":"kangaroo"},{"name":"katydid"},{"name":"killer whale"},
+
+  {"name":"kinkajou"},{"name":"kiwi"},{"name":"koala"},{"name":"kookaburra"},{"name":"krill"},{"name":"Kudu"},{"name":"ladybug"},{"name":"lagomorph"},{"name":"larva"},{"name":"lemming"},
+
+  {"name":"lemur"},{"name":"leopard"},{"name":"lice"},{"name":"limpet"},{"name":"lion"},{"name":"llama"},{"name":"lobster"},{"name":"locust"},{"name":"loggerehad turtle"},
+
+  {"name":"longhorn"},{"name":"loon"},{"name":"lorikeet"},{"name":"loris"},{"name":"louse"},{"name":"lynx"},{"name":"macaque"},{"name":"macaw"},{"name":"mackerel"},{"name":"maggot"},
+
+  {"name":"mako shark"},{"name":"mallard duck"},{"name":"mammal"},{"name":"mammoth"},{"name":"manatee"},{"name":"mandrill"},{"name":"man-o'-war"},{"name":"manta ray"},{"name":"mantid"},
+
+  {"name":"marine mammals"},{"name":"marmoset"},{"name":"marmot"},{"name":"marsupial"},{"name":"mastodon"},{"name":"meadowlark"},{"name":"mealworm"},{"name":"meerkat"},{"name":"merganser"},
+
+  {"name":"midge"},{"name":"mink"},{"name":"mice"},{"name":"mockingbird"},{"name":"mole"},{"name":"mollusk"},{"name":"monarch butterfly"},{"name":"mongoose"},{"name":"monkey"},
+
+  {"name":"moose"},{"name":"moray eel"},{"name":"morpho butterfly"},{"name":"mosquito"},{"name":"moth"},{"name":"mouse"},{"name":"mudpuppy"},{"name":"musk ox"},{"name":"muskrat"},
+
+  {"name":"mussels"},{"name":"mustelids"},{"name":"nabarlek"},{"name":"naked mole-rat"},{"name":"nandu"},{"name":"narwhal"},{"name":"nautilus"},{"name":"newt"},{"name":"numbat"},
+
+  {"name":"nuthatch"},{"name":"nutria"},{"name":"nymph"},{"name":"ocelot"},{"name":"octopus"},{"name":"okapi"},{"name":"onager"},{"name":"opossum"},{"name":"orangutan"},{"name":"orca"},
+
+  {"name":"oriole"},{"name":"oryx"},{"name":"ostrich"},{"name":"otter"},{"name":"owl"},{"name":"ox"},{"name":"oxpecker"},{"name":"oyster"},{"name":"panda"},{"name":"pangolin"},
+
+  {"name":"panther"},{"name":"parakeet"},{"name":"parrot"},{"name":"peacock"},{"name":"peafowl"},{"name":"pelican"},{"name":"penguin"},{"name":"petrel"},{"name":"pig"},{"name":"pika"},
+
+  {"name":"pinniped"},{"name":"placental"},{"name":"plankton"},{"name":"platypus"},{"name":"plover"},{"name":"polar bear"},{"name":"polliwog"},{"name":"pompano"},{"name":"porcupine"},
+
+  {"name":"porpoise"},{"name":"primates"},{"name":"pronghorn"},{"name":"protozoan"},{"name":"pufferfish"},{"name":"puffin"},{"name":"puma"},{"name":"pupa"},{"name":"quagga"},
+
+  {"name":"quail"},{"name":"queen conch"},{"name":"quetzal"},{"name":"quokka"},{"name":"quoll"},{"name":"rabbit"},{"name":"raccoon"},{"name":"rat"},{"name":"ray"},{"name":"red kangaroo"},
+
+  {"name":"red panda"},{"name":"reindeer"},{"name":"reptile"},{"name":"rhea"},{"name":"rhino"},{"name":"rhinoceros"},{"name":"right whale"},{"name":"ring-tailed lemur"},{"name":"ringtail
+
+    possum"},{"name":"river otter"},{"name":"roadrunner"},{"name":"roach"},{"name":"robin"},{"name":"rodent"},{"name":"rooster"},{"name":"roundworm"},{"name":"sailfish"},{"name":"salamander"},
+
+  {"name":"salmon"},{"name":"sand dollar"},{"name":"sandpiper"},{"name":"scallop"},{"name":"scorpion"},{"name":"sea anemone"},{"name":"sea cow"},{"name":"seal"},{"name":"sealion"},
+
+  {"name":"sea otter"},{"name":"sea cucumber"},{"name":"sea star"},{"name":"sea turtle"},{"name":"sea urchin"},{"name":"sea worm"},{"name":"serval"},{"name":"sheep"},{"name":"shrew"},
+
+  {"name":"shrimp"},{"name":"siamang"},{"name":"silkworm"},{"name":"silverfish"},{"name":"skipper"},{"name":"skunk"},{"name":"sloth"},{"name":"snail"},{"name":"snapper"},{"name":"sparrow"},
+
+  {"name":"spider"},{"name":"spiny anteater"},{"name":"sponge"},{"name":"springtail"},{"name":"squirrel"},{"name":"starfish"},{"name":"starling"},{"name":"stingray"},{"name":"stonefly"},
+
+  {"name":"stork"},{"name":"sugar glider"},{"name":"sunfish"},{"name":"swallowtail butterfly"},{"name":"swan"},{"name":"swift"},{"name":"swordfish"},{"name":"tadpole"},{"name":"tamarin"},
+
+  {"name":"tanager"},{"name":"tapir"},{"name":"tarantula"},{"name":"tarpon"},{"name":"tarsier"},{"name":"Tasmanian devil"},{"name":"Tasmanian tiger"},{"name":"termite"},{"name":"tern"},
+
+  {"name":"three-toed sloth"},{"name":"thrip"},{"name":"tick"},{"name":"tiger"},{"name":"toad"},{"name":"tortoise"},{"name":"toucan"},{"name":"treefrog"},{"name":"treeshrew"},{"name":"tsetse
+
+    fly"},{"name":"tuna"},{"name":"turkey"},{"name":"turtle"},{"name":"umbrellabird"},{"name":"ungulates"},{"name":"urchin"},{"name":"vampire bat"},{"name":"viceroy butterfly"},
+
+  {"name":"Virginia opossum"},{"name":"vulture"},{"name":"wallaby"},{"name":"walkingstick"},{"name":"walrus"},{"name":"warthog"},{"name":"wasp"},{"name":"waterbug"},{"name":"weasel"},
+
+  {"name":"weddell seal"},{"name":"weevil"},{"name":"whale"},{"name":"whale shark"},{"name":"whelk"},{"name":"wildebeest"},{"name":"wolverine"},{"name":"woodland caribou"},
+
+  {"name":"woodpecker"},{"name":"wolf"},{"name":"wombat"},{"name":"worm"},{"name":"woodcheck"},{"name":"wren"},{"name":"xenops"},{"name":"yak"},{"name":"yellowjacket"},{"name":"zebra"},
+
+  {"name":"zooplankton"},{"name":"zorilla"},{"name":"zorro"}],"category":4},{"words":[{"name":"abstract"},{"name":"acrylic paint"},{"name":"airbrush"},{"name":"animation"},
+
+  {"name":"architecture"},{"name":"art"},{"name":"art gallery"},{"name":"artist"},{"name":"artistic"},{"name":"artist's bridge"},{"name":"assemblage"},{"name":"blending"},{"name":"bridge"},
+
+  {"name":"brightness"},{"name":"brush"},{"name":"canvas"},{"name":"cartoon"},{"name":"carve"},{"name":"ceramics"},{"name":"chalk"},{"name":"charcoal"},{"name":"chisel"},{"name":"clay"},
+
+  {"name":"collage"},{"name":"color"},{"name":"colored pencils"},{"name":"color wheel"},{"name":"compass"},{"name":"composition"},{"name":"contrast"},{"name":"craft"},{"name":"crayon"},
+
+  {"name":"critique"},{"name":"crosshatching"},{"name":"decorative"},{"name":"decoupage"},{"name":"design"},{"name":"draw"},{"name":"drawing"},{"name":"easel"},{"name":"egg tempera"},
+
+  {"name":"enamel"},{"name":"encaustic"},{"name":"etching"},{"name":"exhibit"},{"name":"exhibition"},{"name":"film"},{"name":"form"},{"name":"frame"},{"name":"gallery"},{"name":"gesso"},
+
+  {"name":"gilding"},{"name":"glass"},{"name":"glassblowing"},{"name":"glaze"},{"name":"gold leaf"},{"name":"gouache"},{"name":"graffiti"},{"name":"graphic design"},{"name":"graphite"},
+
+  {"name":"hammer"},{"name":"hatching"},{"name":"hue"},{"name":"illustration"},{"name":"image"},{"name":"ink"},{"name":"installation"},{"name":"kiln"},{"name":"landscape"},{"name":"latex
+
+    paint"},{"name":"line"},{"name":"liner brush"},{"name":"linseed oil"},{"name":"lithograph"},{"name":"lost wax method"},{"name":"mahl stick"},{"name":"maquette"},{"name":"marble"},
+
+  {"name":"marker"},{"name":"masterpiece"},{"name":"mechanical pencil"},{"name":"media"},{"name":"medium"},{"name":"mixed media"},{"name":"model"},{"name":"mosaic"},{"name":"mural"},
+
+  {"name":"museum"},{"name":"oil paint"},{"name":"old master"},{"name":"palette"},{"name":"palette knife"},{"name":"paint"},{"name":"paintbrush"},{"name":"painter"},{"name":"painting"},
+
+  {"name":"paint roller"},{"name":"paper"},{"name":"pastel"},{"name":"pen"},{"name":"pencil"},{"name":"perspective"},{"name":"photo"},{"name":"photograph"},{"name":"pigment"},
+
+  {"name":"porcelain"},{"name":"portfolio"},{"name":"portrait"},{"name":"poster"},{"name":"pottery"},{"name":"pounce"},{"name":"print"},{"name":"printing"},{"name":"proportion"},
+
+  {"name":"quill"},{"name":"quilting"},{"name":"realism"},{"name":"ruler"},{"name":"scale"},{"name":"screen printing"},{"name":"sculptor"},{"name":"sculpture"},{"name":"shade"},{"name":"silk
+
+    screen"},{"name":"sketch"},{"name":"sketchbook"},{"name":"solvent"},{"name":"stained glass"},{"name":"stencil"},{"name":"still life"},{"name":"stippling"},{"name":"stone"},
+
+  {"name":"style"},{"name":"tempera"},{"name":"template"},{"name":"textile arts"},{"name":"tole painting"},{"name":"tools"},{"name":"t-square"},{"name":"tube"},{"name":"turpentine"},
+
+  {"name":"varnish"},{"name":"vellum"},{"name":"video"},{"name":"visual"},{"name":"watercolor"},{"name":"wax"},{"name":"wheel"},{"name":"wood"},{"name":"woodcut"},{"name":"woodcut
+
+    print"}],"category":5},{"words":[{"name":"albedo"},{"name":"Alpha Centauri"},{"name":"apogee"},{"name":"asteroid"},{"name":"astronaut"},{"name":"astronomer"},{"name":"astronomy"},
+
+  {"name":"background radiation"},{"name":"binary star"},{"name":"black hole"},{"name":"cluster"},{"name":"comet"},{"name":"conjunction"},{"name":"constellation"},{"name":"corona"},
+
+  {"name":"cosmonaut"},{"name":"crater"},{"name":"dark matter"},{"name":"day"},{"name":"dwarf planet"},{"name":"Earth"},{"name":"eclipse"},{"name":"ecliptic"},{"name":"escape velocity"},
+
+  {"name":"flare"},{"name":"galaxy"},{"name":"geosynchronous"},{"name":"gibbous"},{"name":"hydrogen"},{"name":"helium"},{"name":"Hubble"},{"name":"ionosphere"},{"name":"Jupiter"},
+
+  {"name":"Kepler"},{"name":"Kuiper"},{"name":"light-year"},{"name":"local group"},{"name":"lunar"},{"name":"magnitude"},{"name":"Mars"},{"name":"mass"},{"name":"Mercury"},{"name":"meteor"},
+
+  {"name":"meteor shower"},{"name":"meteorite"},{"name":"meteoroid"},{"name":"Milky Way"},{"name":"moon"},{"name":"nadir"},{"name":"NASA"},{"name":"nebula"},{"name":"Neptune"},
+
+  {"name":"neutron star"},{"name":"nova"},{"name":"observatory"},{"name":"Oort"},{"name":"opposition"},{"name":"orbit"},{"name":"parallax"},{"name":"parsec"},{"name":"penumbra"},
+
+  {"name":"perigee"},{"name":"perihelion"},{"name":"perturbation"},{"name":"phase"},{"name":"planet"},{"name":"planetary nebula"},{"name":"planetoid"},{"name":"Pluto"},{"name":"pulsar"},
+
+  {"name":"quasar"},{"name":"radiant"},{"name":"radiation"},{"name":"revolve"},{"name":"rocket"},{"name":"satellite"},{"name":"shooting star"},{"name":"solar"},{"name":"solar system"},
+
+  {"name":"solar wind"},{"name":"solstice"},{"name":"space"},{"name":"space station"},{"name":"star"},{"name":"sun"},{"name":"sunspot"},{"name":"supernova"},{"name":"telemetry"},
+
+  {"name":"telescope"},{"name":"umbra"},{"name":"Uranus"},{"name":"vacuum"},{"name":"Van Allen belt"},{"name":"Venus"},{"name":"zenith"}],"category":6},
+  {"words":[{"name":"Appliqué","desc":" cut-out decorative design sewn on a cloth"},{"name":"Batik","desc":" hand-dyed patterns on fabric"},{"name":"Calligraphy","desc":" highly decorative
+
+    hand-writing"},{"name":"Cartoon","desc":" humorous sketch or drawing"},{"name":"Collage","desc":" artwork using various materials"},{"name":"Ceramics","desc":" manufacturing of work of arts
+
+    by firing of earth ware, porcelain or brick"},{"name":"Chase ","type":"v","desc":" to decorate metal by engraving"},{"name":"China","desc":" delicate porcelain ware such as cups and
+
+    plates"},{"name":"Crocheting","desc":" knitting with a hooked needle"},{"name":"Crockery","desc":" earth ware plates, cups etc."},{"name":"Damascening","desc":" craft of making gold
+
+    inlays"},{"name":"Daguerreotype","desc":" early form of silver plate photography which is now obsolete"},{"name":"Decoupage","desc":" decorating surfaces with paper cut outs"},
+
+    {"name":"Embossing","desc":" decorating surfaces with raised ornamentation"},{"name":"Engraving","desc":" cutting of designs into hard surface"},{"name":"Etching","desc":" making designs on
+
+      a metal plate or glass by the corrosive action of acid"},{"name":"Filigree","desc":" ornamental work of delicate, intricate design with thin metal wire"},{"name":"Firing","desc":" baking
+
+      ceramic objects in hot oven"},{"name":"Gild ","type":"v","desc":" to cover a surface with a thin layer of gold"},{"name":"Holography","desc":" three-dimensional photography using split
+
+      laser beam"},{"name":"Ikebana","desc":" Japanese art of arranging flowers in artistic designs"},{"name":"Intaglio","desc":" Engraved design on a plate surface"},{"name":"Lapidary","desc":"
+
+      gem cutting"},{"name":"Lace","desc":" a delicate fabric made of yarn: gold or silver ornamental braid"},{"name":"Logo","desc":" a name, symbol or a trademark"},{"name":"Montage","desc":" a
+
+      single pictorial composition made by juxtaposing many pictures or designs"},{"name":"Origami","desc":" Japanese decorative art of creating shapes by folding paper"},{"name":"Papier-
+
+      Mâché","desc":" decorative object made from pulped paper"},{"name":"Parquet","desc":" art work on floor made with an inlay of wood of different colors"},{"name":"Pottery","desc":" clay
+
+      objects hardened by heat"},{"name":"Rebus","desc":" a representation of words in the form of pictures"},{"name":"Refractory","desc":" having high heat resistance"},
+
+    {"name":"Sampler","desc":" cloth with decorative embroidery"},{"name":"Serigraphy","desc":" screen printing on silks"},{"name":"Silhouette","desc":" an out line that appears dark against a
+
+      light back ground"},{"name":"Still-life","desc":" photo graph of inanimate objects"},{"name":"Stone ware","desc":" high fired clay pottery"},{"name":"Tapestry","desc":" heavy decorative
+
+      cloth hung on a wall"},{"name":"Terra cotta","desc":" hard, brown-red unglazed earthen ware"},{"name":"Veneer","desc":" a thin layer of finely grained wood over another
+
+      surface"}],"category":7},
+    {"words":[{"name":"Arcade","desc":" a series of arches resting on columns"},{"name":"Atrium","desc":" a sky lighted center area in a building"},{"name":"Attic","desc":" space between
+
+      ceiling and rafters"},{"name":"Banister","desc":" handrail along the staircase"},{"name":"Basilica","desc":" church"},{"name":"Belfry","desc":" bell tower"},{"name":"Belvedere","desc":"
+
+      open, roofed gallery commanding a view"},{"name":"Buttress","desc":" masonry work supporting an arch"},{"name":"Capital","desc":" upper portion of a column"},{"name":"Canopy","desc":"
+
+      decorative roof covering an altar or tomb"},{"name":"Capstone","desc":" key stone of an arch"},{"name":"Colonnade","desc":" a series of columns"},{"name":"Cornice","desc":" projecting top
+
+      level of building"},{"name":"Cupola","desc":" a small, rounded structure above a roof"},{"name":"Dormer","desc":" an upright window on a sloping roof"},{"name":"Frieze","desc":" a
+
+      decorative horizontal band on the upper part of a wall"},{"name":"Gazebo","desc":" belvedere"},{"name":"Gargoyle","desc":" waterspout projecting from the gutter in the form of an elaborate
+
+      carving"},{"name":"Keystone","desc":" center stone of an arch"},{"name":"Kiln","desc":" oven for firing pottery"},{"name":"Lintel","desc":" horizontal beam over a door or a window"},
+
+      {"name":"Mansard","desc":" a roof with an almost horizontal slope"},{"name":"Mosaic","desc":" a decorative design made with small colored pieces of stone or tile on a surface"},
+
+      {"name":"Niche","desc":" a recessed area in a wall"},{"name":"Pedestal","desc":" support at the bottom of a column"},{"name":"Pylon","desc":" monumental temple gateway: a steel tower
+
+        supporting high tension electric wires"},{"name":"Shingles","desc":" a thin oblong piece of material, such as wood or slate that is laid to cover the roof"},{"name":"Spire","desc":" a tall,
+
+        tapering tower"},{"name":"Steeple","desc":" a tall, narrow, conical tower"},{"name":"Tabernacle","desc":" a highly decorated niche"},{"name":"Tomb","desc":" a structure housing a
+
+        grave"}],"category":8},
+
+      {"words":[{"name":"Acclivity","desc":" upward slope of ground"},{"name":"Declivity","desc":" downward slope of ground"},{"name":"Doldrums","desc":" region with low atmospheric pressure
+
+        near equator"},{"name":"Equinox","desc":" date in spring and autumn on which the day and night of equal length"},{"name":"Estuary","desc":" the part where the waves of the river meet the
+
+        tides of the sea"},{"name":"Fallow","desc":" relating to the cultivable land left unsown"},{"name":"Littoral","desc":" relating to coastal area"},{"name":"Maritime","desc":" near the
+
+        sea"},{"name":"Peninsula","desc":" land area surrounded by the sea on three sides"},{"name":"Ridge","desc":" long, narrow crest of elevated land"},{"name":"Solstice","desc":" one of the two
+
+        days when the sun is at the longest distance from the equator (June-21 & Dec.21)"},{"name":"Tributary","desc":" a stream feeding a main river"},{"name":"Watershed","desc":" a ridge
+
+        separating the runoff of rain water to two different river basins"}],"category":9},
+
+        {"words":[{"name":"assist"},{"name":"at bat"},{"name":"athlete"},{"name":"ball"},{"name":"base"},{"name":"baseball"},{"name":"baserunning"},{"name":"bases loaded"},{"name":"bat"},
+
+          {"name":"batboy"},{"name":"batter"},{"name":"batting team"},{"name":"bullpen"},{"name":"bunt"},{"name":"card"},{"name":"catch"},{"name":"catcher"},{"name":"center field"},{"name":"center
+
+            fielder"},{"name":"champion"},{"name":"club"},{"name":"clutch hitter"},{"name":"curveball"},{"name":"deck"},{"name":"defense"},{"name":"designated hitter"},{"name":"diamond"},
+
+          {"name":"double header"},{"name":"equipment"},{"name":"farm team"},{"name":"fastball"},{"name":"field"},{"name":"fielder"},{"name":"fielding team"},{"name":"first"},{"name":"foul"},
+
+          {"name":"game"},{"name":"gear"},{"name":"ground ball"},{"name":"hardball"},{"name":"helmet"},{"name":"hits"},{"name":"home"},{"name":"home plate"},{"name":"home team"},{"name":"infield"},
+
+          {"name":"inning"},{"name":"knuckleball"},{"name":"league"},{"name":"left field"},{"name":"left hander"},{"name":"line drive"},{"name":"lineup"},{"name":"lose"},{"name":"Major League"},
+
+          {"name":"Minor League"},{"name":"mitt"},{"name":"mound"},{"name":"MVP"},{"name":"National League"},{"name":"nine"},{"name":"ho-hitter"},{"name":"offense"},{"name":"out"},
+
+          {"name":"outfield"},{"name":"park"},{"name":"pinch hitter"},{"name":"pitch"},{"name":"pitcher"},{"name":"pitcher's mound"},{"name":"RBI"},{"name":"relief pitcher"},{"name":"right field"},
+
+          {"name":"run"},{"name":"saves"},{"name":"score"},{"name":"scoreboard"},{"name":"second"},{"name":"shortstop"},{"name":"slide"},{"name":"slugger"},{"name":"softball"},{"name":"spitball"},
+
+          {"name":"sport"},{"name":"sportsmanship"},{"name":"spring training"},{"name":"stadium"},{"name":"starting pitcher"},{"name":"steal"},{"name":"stolen"},{"name":"strike"},{"name":"sweet
+
+            spot"},{"name":"switch hitter"},{"name":"tag"},{"name":"team"},{"name":"teammate"},{"name":"third"},{"name":"throw"},{"name":"triple play"},{"name":"umpire"},{"name":"uniform"},
+
+          {"name":"vault"},{"name":"visiting team"},{"name":"walk"},{"name":"win"}],"category":10},
+        {"words":[{"name":"antiseptic"},{"name":"aspirin"},{"name":"bandages"},{"name":"basin"},{"name":"bath"},{"name":"bath mat"},{"name":"bath robe"},{"name":"bath towel"},{"name":"bathtub"},
+
+          {"name":"bidet"},{"name":"brush"},{"name":"bubble bath"},{"name":"bubbles"},{"name":"cleaning"},{"name":"cologne"},{"name":"comb"},{"name":"conditioner"},{"name":"cotton balls"},
+
+          {"name":"curlers"},{"name":"dental floss"},{"name":"disinfectant"},{"name":"droppers"},{"name":"dry"},{"name":"eyedropper"},{"name":"face cloth"},{"name":"faucet"},{"name":"floss"},
+
+          {"name":"flush"},{"name":"garbage can"},{"name":"hairbrush"},{"name":"hair dryer"},{"name":"hamper"},{"name":"hand towel"},{"name":"laundry hamper"},{"name":"lavatory"},{"name":"loofah"},
+
+          {"name":"lotion"},{"name":"make-up"},{"name":"medications"},{"name":"medicine"},{"name":"medicine cabinet"},{"name":"mirror"},{"name":"moisturizer"},{"name":"mouthwash"},{"name":"nail
+
+            clippers"},{"name":"nail file"},{"name":"nail scissors"},{"name":"paper towel"},{"name":"perfume"},{"name":"plumbing"},{"name":"plunger"},{"name":"powder"},{"name":"Q-tips"},
+
+          {"name":"razor"},{"name":"razor blade"},{"name":"restroom"},{"name":"rug"},{"name":"scale"},{"name":"scissors"},{"name":"shampoo"},{"name":"shave"},{"name":"shaver"},{"name":"shaving
+
+            cream"},{"name":"shower"},{"name":"shower curtain"},{"name":"shower stall"},{"name":"sink"},{"name":"soap"},{"name":"soap dish"},{"name":"soap dispenser"},{"name":"sponge"},
+
+          {"name":"swabs"},{"name":"talcum power"},{"name":"tissues"},{"name":"toilet"},{"name":"toilet paper"},{"name":"toilet seat"},{"name":"toothbrush"},{"name":"toothpaste"},{"name":"towel"},
+
+          {"name":"towel rack"},{"name":"trash can"},{"name":"tub"},{"name":"tweezers"},{"name":"urinal"},{"name":"wash"},{"name":"wash basin"},{"name":"washroom"},{"name":"waste basket"},
+
+          {"name":"water"},{"name":"water closet"},{"name":"WC"},{"name":"whirlpool"},{"name":"wipe"}],"category":11},
+        {"words":[{"name":"barnacle"},{"name":"bathing suit"},{"name":"bay"},{"name":"beach"},{"name":"beachball"},{"name":"bikini"},{"name":"boardwalk"},{"name":"boat"},{"name":"boogie board"},
+
+          {"name":"cape"},{"name":"catamaran"},{"name":"clam"},{"name":"coast"},{"name":"conch"},{"name":"cooler"},{"name":"coral"},{"name":"cove"},{"name":"crab"},{"name":"currents"},
+
+          {"name":"dive"},{"name":"dock"},{"name":"dune"},{"name":"dune buggy"},{"name":"ebb tide"},{"name":"family"},{"name":"fins"},{"name":"fish"},{"name":"fishing"},{"name":"Frisbee"},
+
+          {"name":"gull"},{"name":"hang five"},{"name":"hat"},{"name":"hermit crab"},{"name":"high tide"},{"name":"ice cream"},{"name":"intertidal zone"},{"name":"island"},{"name":"jellyfish"},
+
+          {"name":"kayak"},{"name":"lagoon"},{"name":"lake"},{"name":"lakeshore"},{"name":"lifeguard"},{"name":"life jacket"},{"name":"life preserver"},{"name":"longboard"},{"name":"low tide"},
+
+          {"name":"mangrove"},{"name":"mussels"},{"name":"neap tide"},{"name":"ocean"},{"name":"paddleboat"},{"name":"palm tree"},{"name":"pelican"},{"name":"pier"},{"name":"popsicle"},
+
+          {"name":"reef"},{"name":"relax"},{"name":"rest"},{"name":"rip current"},{"name":"sail"},{"name":"sailboat"},{"name":"salt water"},{"name":"salt water taffy"},{"name":"sand"},
+
+          {"name":"sandals"},{"name":"sandbar"},{"name":"sandcastle"},{"name":"sand dollar"},{"name":"scuba"},{"name":"sea"},{"name":"seagull"},{"name":"seashell"},{"name":"seashore"},{"name":"sea
+
+            star"},{"name":"shark"},{"name":"shell"},{"name":"ship"},{"name":"shore"},{"name":"shorebirds"},{"name":"snacks"},{"name":"snorkel"},{"name":"spray"},{"name":"starfish"},{"name":"sun"},
+
+          {"name":"sunbathe"},{"name":"sunburn"},{"name":"sunglasses"},{"name":"S cont."},{"name":"sun hat"},{"name":"sunscreen"},{"name":"suntan"},{"name":"surf"},{"name":"surfboard"},
+
+          {"name":"swim"},{"name":"swim fins"},{"name":"swimming cap"},{"name":"taffy"},{"name":"tan"},{"name":"tide"},{"name":"tide pool"},{"name":"towel"},{"name":"trip"},{"name":"trunks"},
+
+          {"name":"tsunami"},{"name":"umbrella"},{"name":"undertow"},{"name":"underwater"},{"name":"vacation"},{"name":"volleyball"},{"name":"water"},{"name":"water bottle"},{"name":"waves"},
+
+          {"name":"weekend"},{"name":"wet"},{"name":"wharf"},{"name":"whitecaps"},{"name":"yacht"},{"name":"zoris"}],"category":12},
+        {"words":[{"name":"albatross"},{"name":"archaeopteryx"},{"name":"beak"},{"name":"bill"},{"name":"blackbird"},{"name":"bluebird"},{"name":"bluejay"},{"name":"bunting"},{"name":"canary"},
+
+          {"name":"cardinal"},{"name":"cassowary"},{"name":"chick"},{"name":"chickadee"},{"name":"chicken"},{"name":"cockatoo"},{"name":"cowbird"},{"name":"crane"},{"name":"crow"},{"name":"dodo"},
+
+          {"name":"dove"},{"name":"duck"},{"name":"eagle"},{"name":"egg"},{"name":"egret"},{"name":"emu"},{"name":"falcon"},{"name":"feather"},{"name":"finch"},{"name":"flamingo"},{"name":"fowl"},
+
+          {"name":"goldfinch"},{"name":"goose"},{"name":"grebe"},{"name":"grouse"},{"name":"gull"},{"name":"hawk"},{"name":"hen"},{"name":"heron"},{"name":"hummingbird"},{"name":"ibis"},
+
+          {"name":"jay"},{"name":"junco"},{"name":"kakapo"},{"name":"kildeer"},{"name":"kingfisher"},{"name":"kiwi"},{"name":"kookaberra"},{"name":"loon"},{"name":"lorikeet"},{"name":"macaw"},
+
+          {"name":"mallard duck"},{"name":"meadowlark"},{"name":"merganser"},{"name":"mockingbird"},{"name":"nandu"},{"name":"nest"},{"name":"nuthatch"},{"name":"oriole"},{"name":"oropendola"},
+
+          {"name":"ostrich"},{"name":"owl"},{"name":"oxpecker"},{"name":"parakeet"},{"name":"parrot"},{"name":"peacock"},{"name":"peafowl"},{"name":"pelican"},{"name":"penguin"},{"name":"petrel"},
+
+          {"name":"pigeon"},{"name":"plover"},{"name":"puffin"},{"name":"quail"},{"name":"quetzal"},{"name":"rhea"},{"name":"roadrunner"},{"name":"robin"},{"name":"rooster"},{"name":"sandpiper"},
+
+          {"name":"snowbirds"},{"name":"sparrow"},{"name":"starling"},{"name":"stork"},{"name":"swallow"},{"name":"swan"},{"name":"swift"},{"name":"tail"},{"name":"tanager"},{"name":"tern"},
+
+          {"name":"toucan"},{"name":"turkey"},{"name":"umbrellabird"},{"name":"vulture"},{"name":"wing"},{"name":"woodpecker"},{"name":"wren"},{"name":"xenops"}],"category":13},
+        {"words":[{"name":"age"},{"name":"anniversary of birth"},{"name":"balloon"},{"name":"banner"},{"name":"bash"},{"name":"birth"},{"name":"birth date"},{"name":"birthday"},{"name":"birthday
+
+          cake"},{"name":"blow out"},{"name":"born"},{"name":"bow"},{"name":"cake"},{"name":"candle"},{"name":"candy"},{"name":"card"},{"name":"celebrate"},{"name":"celebration"},{"name":"child"},
+
+          {"name":"children"},{"name":"chocolate"},{"name":"clown"},{"name":"confetti"},{"name":"cookie"},{"name":"cupcake"},{"name":"day"},{"name":"entertain"},{"name":"event"},{"name":"festive"},
+
+          {"name":"food"},{"name":"friends"},{"name":"frosting"},{"name":"fun"},{"name":"games"},{"name":"gathering"},{"name":"get"},{"name":"gift"},{"name":"gift wrap"},{"name":"give"},
+
+          {"name":"goodie bags"},{"name":"greeting card"},{"name":"guests"},{"name":"happy"},{"name":"happy birthday"},{"name":"hat"},{"name":"ice cream"},{"name":"icing"},{"name":"invite"},
+
+          {"name":"invitation"},{"name":"jubilee"},{"name":"juice"},{"name":"lollipop"},{"name":"noise maker"},{"name":"package"},{"name":"paper plate"},{"name":"party"},{"name":"party favors"},
+
+          {"name":"party hat"},{"name":"play"},{"name":"pinata"},{"name":"pizza"},{"name":"popsicle"},{"name":"present"},{"name":"receive"},{"name":"ribbon"},{"name":"RSVP"},{"name":"sparkler"},
+
+          {"name":"sweets"},{"name":"thank you"},{"name":"thank you note"},{"name":"throw a party"},{"name":"toys"},{"name":"treat bags"},{"name":"treats"},{"name":"wingding"},{"name":"wish"},
+
+          {"name":"wrapped"},{"name":"wrapping paper"},{"name":"year"}],"category":14},
+        {"words":[{"name":"abeam"},{"name":"aft"},{"name":"aground"},{"name":"aircraft carrier"},{"name":"aloft"},{"name":"amphibious vehicle"},{"name":"anchor"},{"name":"astern"},{"name":"bail"},
+
+          {"name":"ballast"},{"name":"barge"},{"name":"barque"},{"name":"bathyscaphe"},{"name":"battlecruiser"},{"name":"battleship"},{"name":"beam"},{"name":"bearing"},{"name":"bilge"},
+
+          {"name":"boat"},{"name":"boater"},{"name":"boating"},{"name":"boat lift"},{"name":"boatswain"},{"name":"boom"},{"name":"bow"},{"name":"bowsprit"},{"name":"bulkhead"},{"name":"buoy"},
+
+          {"name":"cabin cruiser"},{"name":"canoe"},{"name":"capsize"},{"name":"caravel"},{"name":"cargo ship"},{"name":"carrier"},{"name":"cast off"},{"name":"catamarin"},{"name":"clipper"},
+
+          {"name":"cockpit"},{"name":"container ship"},{"name":"convoy"},{"name":"crew"},{"name":"crow's nest"},{"name":"cruise"},{"name":"cruiser"},{"name":"cruise ship"},{"name":"current"},
+
+          {"name":"cutter"},{"name":"Davy Jones' locker"},{"name":"deck"},{"name":"deackhands"},{"name":"destroyer"},{"name":"dinghy"},{"name":"displacement"},{"name":"dock"},{"name":"docking"},
+
+          {"name":"dory"},{"name":"draft"},{"name":"dreadnought"},{"name":"drift"},{"name":"drydock"},{"name":"dugout"},{"name":"engine"},{"name":"engine room"},{"name":"escort ship"},
+
+          {"name":"fathom"},{"name":"ferry"},{"name":"figurehead"},{"name":"fireboat"},{"name":"fishing boat"},{"name":"flat-bottom boat"},{"name":"foremast"},{"name":"foresail"},
+
+          {"name":"freighter"},{"name":"frigate"},{"name":"funnel"},{"name":"furl"},{"name":"galleon"},{"name":"galley"},{"name":"gangway"},{"name":"gondola"},{"name":"gunboat"},{"name":"gunwale"},
+
+          {"name":"halyard"},{"name":"headsail"},{"name":"helm"},{"name":"helmsman"},{"name":"hoist"},{"name":"hoovercraft"},{"name":"houseboat"},{"name":"hull"},{"name":"hydrofoil"},
+
+          {"name":"hydroplane"},{"name":"ice breaker"},{"name":"inboard motor"},{"name":"jet boat"},{"name":"jib"},{"name":"junk"},{"name":"kayak"},{"name":"keel"},{"name":"keelboat"},
+
+          {"name":"ketch"},{"name":"knot"},{"name":"landing craft"},{"name":"lanyard"},{"name":"larboard"},{"name":"launch"},{"name":"league"},{"name":"leeward"},{"name":"lifeboat"},
+
+          {"name":"lifeline"},{"name":"limey"},{"name":"lines"},{"name":"listing"},{"name":"log"},{"name":"mainmast"},{"name":"marine"},{"name":"mariner"},{"name":"maritime"},{"name":"mast"},
+
+          {"name":"mizzen"},{"name":"mizzenmast"},{"name":"mooring"},{"name":"motorboat"},{"name":"motor launch"},{"name":"narrowboat"},{"name":"nautical"},{"name":"nautical mile"},{"name":"naval"},
+
+          {"name":"navigate"},{"name":"navy"},{"name":"nun"},{"name":"oar"},{"name":"ocean going"},{"name":"ocean liner"},{"name":"offshore"},{"name":"oil tanker"},{"name":"onboard"},
+
+          {"name":"outboard motor"},{"name":"outrigger canoe"},{"name":"overboard"},{"name":"paddle"},{"name":"passage"},{"name":"passenger"},{"name":"pedal boat"},{"name":"pennant"},
+
+          {"name":"personal flotation device"},{"name":"PFD"},{"name":"pirate"},{"name":"police boat"},{"name":"port"},{"name":"porthole"},{"name":"powerboat"},{"name":"propeller"},{"name":"PT
+
+            boat"},{"name":"punt"},{"name":"raft"},{"name":"rigging"},{"name":"riverboat"},{"name":"rocket boat"},{"name":"rope"},{"name":"rowboat"},{"name":"rudder"},{"name":"runabout"},
+
+          {"name":"sail"},{"name":"sailboat"},{"name":"sailor"},{"name":"schooner"},{"name":"scull"},{"name":"seafarer"},{"name":"seasick"},{"name":"ship"},{"name":"ski boat"},{"name":"skipjack"},
+
+          {"name":"sloop"},{"name":"S cont."},{"name":"speedboat"},{"name":"spinnaker"},{"name":"starboard"},{"name":"steamboat"},{"name":"steamship"},{"name":"stern"},{"name":"stow"},
+
+          {"name":"submarine"},{"name":"submersible"},{"name":"swift boat"},{"name":"tack"},{"name":"tanker"},{"name":"tender"},{"name":"tide"},{"name":"tiller"},{"name":"topsail"},
+
+          {"name":"towboat"},{"name":"transom"},{"name":"trawler"},{"name":"tugboat"},{"name":"u-boat"},{"name":"undocking"},{"name":"vessel"},{"name":"voyage"},{"name":"wake"},{"name":"warship"},
+
+          {"name":"water-borne"},{"name":"watercraft"},{"name":"waterline"},{"name":"water taxi"},{"name":"whaler"},{"name":"wheel"},{"name":"wheelhouse"},{"name":"winch"},{"name":"windjammer"},
+
+          {"name":"windward"},{"name":"yacht"}],"category":15},
+        {"words":[{"name":"adventure"},{"name":"animals"},{"name":"backpack"},{"name":"boots"},{"name":"cabin"},{"name":"camp"},{"name":"camper"},{"name":"campfire"},{"name":"campground"},
+
+          {"name":"canoe"},{"name":"canteen"},{"name":"cap"},{"name":"caravan"},{"name":"climb"},{"name":"compass"},{"name":"day pack"},{"name":"dehydrated food"},{"name":"dugout"},
+
+          {"name":"equipment"},{"name":"evergreen"},{"name":"fishing"},{"name":"flashlight"},{"name":"forest"},{"name":"gear"},{"name":"gorp"},{"name":"hammock"},{"name":"hat"},{"name":"hike"},
+
+          {"name":"hiking boots"},{"name":"hunting"},{"name":"hut"},{"name":"insect"},{"name":"insect repellent"},{"name":"kayak"},{"name":"knapsack"},{"name":"lake"},{"name":"lantern"},
+
+          {"name":"map"},{"name":"moon"},{"name":"mountain"},{"name":"national park"},{"name":"natural"},{"name":"nature"},{"name":"oar"},{"name":"outdoors"},{"name":"outside"},{"name":"paddle"},
+
+          {"name":"park"},{"name":"path"},{"name":"pup tent"},{"name":"rope"},{"name":"scenery"},{"name":"sleeping bag"},{"name":"stars"},{"name":"state park"},{"name":"sun"},{"name":"sunscreen"},
+
+          {"name":"tarp"},{"name":"tent"},{"name":"trail"},{"name":"trail mix"},{"name":"trailer"},{"name":"trees"},{"name":"trip"},{"name":"vest"},{"name":"walking"},{"name":"water bottle"},
+
+          {"name":"waterfall"},{"name":"wildlife"},{"name":"woods"}],"category":16},
+        {"words":[{"name":"accelerator"},{"name":"air bags"},{"name":"air conditioner"},{"name":"air filter"},{"name":"air vent"},{"name":"alarm"},{"name":"antenna"},{"name":"anti-lock brakes"},
+
+          {"name":"armrest"},{"name":"auto"},{"name":"automatic transmission"},{"name":"automobile"},{"name":"baby seat"},{"name":"back-up lights"},{"name":"battery"},{"name":"brake light"},
+
+          {"name":"brakes"},{"name":"bumper"},{"name":"camshaft"},{"name":"car"},{"name":"carburetor"},{"name":"chassis"},{"name":"chrome trim"},{"name":"clutch"},{"name":"cooling system"},
+
+          {"name":"crankshaft"},{"name":"cruise control"},{"name":"dashboard"},{"name":"defroster"},{"name":"diesel engine"},{"name":"differential"},{"name":"dimmer switch"},{"name":"door"},
+
+          {"name":"door handle"},{"name":"drive shaft"},{"name":"emergency brake"},{"name":"emergency lights"},{"name":"emissions"},{"name":"engine"},{"name":"exhaust system"},{"name":"fan belt"},
+
+          {"name":"fender"},{"name":"floor mats"},{"name":"frame"},{"name":"fuel"},{"name":"fuel gauge"},{"name":"fuse"},{"name":"gas"},{"name":"gas cap"},{"name":"gasket"},{"name":"gasoline"},
+
+          {"name":"gasoline engine"},{"name":"gearbox"},{"name":"gearshift"},{"name":"gear stick"},{"name":"glove compartment"},{"name":"gps"},{"name":"grille"},{"name":"hand brake"},
+
+          {"name":"headlight"},{"name":"heater"},{"name":"high-beam headlight"},{"name":"hood"},{"name":"horn"},{"name":"hubcaps"},{"name":"hybrid"},{"name":"ignition"},{"name":"interior light"},
+
+          {"name":"internal combustion engine"},{"name":"jack"},{"name":"key"},{"name":"license plates"},{"name":"lock"},{"name":"low-beam headlight"},{"name":"lugs"},{"name":"manifold"},
+
+          {"name":"manual transmission"},{"name":"mat"},{"name":"mirror"},{"name":"motor"},{"name":"mud flap"},{"name":"muffler"},{"name":"odometer"},{"name":"oil"},{"name":"oil filter"},
+
+          {"name":"parking lights"},{"name":"passenger seat"},{"name":"piston"},{"name":"power brakes"},{"name":"power steering"},{"name":"radiator"},{"name":"radio"},{"name":"rear-view mirror"},
+
+          {"name":"rear window defroster"},{"name":"rims"},{"name":"roof"},{"name":"rotary engine"},{"name":"seat"},{"name":"seat bags"},{"name":"shock absorber"},{"name":"side mirrors"},
+
+          {"name":"spare tire"},{"name":"spark plug"},{"name":"speedometer"},{"name":"steering wheel"},{"name":"suspension"},{"name":"tachometer"},{"name":"tailgate"},{"name":"thermometer"},
+
+          {"name":"tire"},{"name":"trailer hitch"},{"name":"trip computer"},{"name":"trunk"},{"name":"turbocharger"},{"name":"turn signal"},{"name":"unleaded gas"},{"name":"vents"},{"name":"visor"},
+
+          {"name":"wheel"},{"name":"wheel well"},{"name":"windshield"},{"name":"windshield wiper"}],"category":17},
+        {"words":[{"name":"archer"},{"name":"aristocracy"},{"name":"armor"},{"name":"ballista"},{"name":"baron"},{"name":"baroness"},{"name":"baronet"},{"name":"bastion"},{"name":"battering ram"},
+
+          {"name":"battle axe"},{"name":"birthright"},{"name":"castle"},{"name":"catapult"},{"name":"chain mail"},{"name":"chateau"},{"name":"chieftain"},{"name":"chivalry"},{"name":"count"},
+
+          {"name":"countess"},{"name":"court jester"},{"name":"crenelations"},{"name":"crest"},{"name":"crossbow"},{"name":"crown"},{"name":"crown jewels"},{"name":"curtain wall"},{"name":"donjon"},
+
+          {"name":"dragon"},{"name":"drawbridge"},{"name":"duke"},{"name":"duchess"},{"name":"dungeon"},{"name":"dynasty"},{"name":"earl"},{"name":"empire"},{"name":"feudal"},{"name":"fort"},
+
+          {"name":"fortress"},{"name":"gatehouse"},{"name":"grand duke"},{"name":"great hall"},{"name":"heraldry"},{"name":"hereditary"},{"name":"highness"},{"name":"honor"},{"name":"imperial"},
+
+          {"name":"jester"},{"name":"jousting"},{"name":"keep"},{"name":"king"},{"name":"kingdom"},{"name":"knight"},{"name":"lady"},{"name":"lady-in-waiting"},{"name":"lance"},{"name":"lord"},
+
+          {"name":"maid"},{"name":"maiden"},{"name":"mangonel"},{"name":"manor"},{"name":"manor house"},{"name":"marquis"},{"name":"Middle Ages"},{"name":"moat"},{"name":"monarch"},{"name":"noble"},
+
+          {"name":"nobility"},{"name":"onager"},{"name":"palace"},{"name":"peel tower"},{"name":"peer"},{"name":"prince"},{"name":"princess"},{"name":"queen"},{"name":"realm"},{"name":"reign"},
+
+          {"name":"Renaissance"},{"name":"royal"},{"name":"royalty"},{"name":"scepter"},{"name":"serf"},{"name":"shield"},{"name":"siege"},{"name":"sovereign"},{"name":"sword"},{"name":"titles"},
+
+          {"name":"tower"},{"name":"trebuchet"},{"name":"turret"},{"name":"unicorn"},{"name":"viscount"},{"name":"wall"},{"name":"watchtower"}],"category":18},
+        {"words":[{"name":"acrobat"},{"name":"admission"},{"name":"amusement park"},{"name":"animals"},{"name":"applaud"},{"name":"attractions"},{"name":"audience"},{"name":"balancing act"},
+
+          {"name":"balloons"},{"name":"band"},{"name":"banner"},{"name":"bear"},{"name":"bicycle"},{"name":"big top"},{"name":"booth"},{"name":"bow"},{"name":"bumper cars"},{"name":"cage"},
+
+          {"name":"calliope"},{"name":"candy"},{"name":"cannon"},{"name":"cape"},{"name":"carnival"},{"name":"carousel"},{"name":"cashier"},{"name":"clown"},{"name":"corn dog"},{"name":"costume"},
+
+          {"name":"cotton candy"},{"name":"county fair"},{"name":"dog"},{"name":"elephant"},{"name":"entertain"},{"name":"entertainer"},{"name":"exhibition"},{"name":"fair"},{"name":"fairground"},
+
+          {"name":"feat"},{"name":"ferris wheel"},{"name":"festival"},{"name":"festive"},{"name":"fire breather"},{"name":"fire eater"},{"name":"fun"},{"name":"fun house"},{"name":"games"},
+
+          {"name":"giant"},{"name":"grandstand"},{"name":"gymnast"},{"name":"hoop"},{"name":"horse"},{"name":"house of mirrors"},{"name":"human cannonball"},{"name":"juggler"},{"name":"knife
+
+            thrower"},{"name":"leotard"},{"name":"lion"},{"name":"lion tamer"},{"name":"livestock"},{"name":"log flume"},{"name":"magic"},{"name":"magician"},{"name":"maze"},{"name":"merry-go-round"},
+
+          {"name":"monkey"},{"name":"music"},{"name":"net"},{"name":"parade"},{"name":"performer"},{"name":"petting zoo"},{"name":"popcorn"},{"name":"poster"},{"name":"prizes"},{"name":"ride"},
+
+          {"name":"ring"},{"name":"ring toss"},{"name":"ringmaster"},{"name":"roller coaster"},{"name":"seal"},{"name":"show"},{"name":"side show"},{"name":"somersalt"},{"name":"spectator"},
+
+          {"name":"spinning plates"},{"name":"star"},{"name":"state fair"},{"name":"stagehand"},{"name":"stilts"},{"name":"strong man"},{"name":"stuffed animals"},{"name":"swag"},{"name":"swing"},
+
+          {"name":"sword swallower"},{"name":"tent"},{"name":"thrill ride"},{"name":"ticket"},{"name":"tiger"},{"name":"tightrope"},{"name":"tightrope walker"},{"name":"top hat"},{"name":"train"},
+
+          {"name":"trainer"},{"name":"trampoline"},{"name":"trapeze"},{"name":"trapeze artist"},{"name":"trick"},{"name":"troupe"},{"name":"trunk"},{"name":"unicycle"},{"name":"vanishing act"},
+
+          {"name":"water park"},{"name":"whip"}],"category":19},
+        {"words":[{"name":"anorak"},{"name":"apron"},{"name":"ascot tie"},{"name":"balaclava"},{"name":"ball gown"},{"name":"bandanna"},{"name":"baseball cap"},{"name":"bathing suit"},
+
+          {"name":"beanie"},{"name":"bell-bottoms"},{"name":"belt"},{"name":"beret"},{"name":"bib"},{"name":"bikini"},{"name":"blazer"},{"name":"bloomers"},{"name":"blouse"},{"name":"boa"},
+
+          {"name":"bonnet"},{"name":"boot"},{"name":"bow"},{"name":"bow tie"},{"name":"boxer shorts"},{"name":"boxers"},{"name":"bra"},{"name":"bracelet"},{"name":"briefs"},{"name":"buckle"},
+
+          {"name":"button"},{"name":"button-down shirt"},{"name":"camisole"},{"name":"cap"},{"name":"cap and gown"},{"name":"cape"},{"name":"capris"},{"name":"cardigan"},{"name":"cloak"},
+
+          {"name":"clogs"},{"name":"coat"},{"name":"collar"},{"name":"costume"},{"name":"cowboy boots"},{"name":"cowboy hat"},{"name":"crown"},{"name":"cuff"},{"name":"cuff links"},
+
+          {"name":"culottes"},{"name":"diaper"},{"name":"dinner jacket"},{"name":"dirndl"},{"name":"dress"},{"name":"earmuffs"},{"name":"earrings"},{"name":"evening gown"},{"name":"fashion"},
+
+          {"name":"fedora"},{"name":"fez"},{"name":"flak jacket"},{"name":"flannel nightgown"},{"name":"flannel shirt"},{"name":"flip-flops"},{"name":"formal wear"},{"name":"frock"},{"name":"fur"},
+
+          {"name":"fur coat"},{"name":"galoshes"},{"name":"garment"},{"name":"garters"},{"name":"glasses"},{"name":"gloves"},{"name":"gown"},{"name":"halter top"},{"name":"handbag"},
+
+          {"name":"handkerchief"},{"name":"hat"},{"name":"Hawaiian shirt"},{"name":"hazmat suit"},{"name":"helmet"},{"name":"hem"},{"name":"high heels"},{"name":"hoodie"},{"name":"hook and eye"},
+
+          {"name":"hosiery"},{"name":"hospital gown"},{"name":"housecoat"},{"name":"jacket"},{"name":"jeans"},{"name":"jewelry"},{"name":"jumper"},{"name":"jumpsuit"},{"name":"kerchief"},
+
+          {"name":"khakis"},{"name":"kilt"},{"name":"kimono"},{"name":"lab coat"},{"name":"lapels"},{"name":"leather jacket"},{"name":"leggings"},{"name":"leotard"},{"name":"life jacket"},
+
+          {"name":"loafers"},{"name":"longjohns"},{"name":"miniskirt"},{"name":"mittens"},{"name":"moccasins"},{"name":"muffler"},{"name":"neckerchief"},{"name":"necklace"},{"name":"nightgown"},
+
+          {"name":"nightshirt"},{"name":"outerwear"},{"name":"overalls"},{"name":"overcoat"},{"name":"pajamas"},{"name":"panama hat"},{"name":"pants"},{"name":"pantsuit"},{"name":"pantyhose"},
+
+          {"name":"parka"},{"name":"pea coat"},{"name":"petticoat"},{"name":"P cont."},{"name":"pinafore"},{"name":"pleat"},{"name":"pocket"},{"name":"pocketbook"},{"name":"polo shirt"},
+
+          {"name":"poncho"},{"name":"porkpie hat"},{"name":"pullover"},{"name":"pumps"},{"name":"purse"},{"name":"raincoat"},{"name":"ring"},{"name":"robe"},{"name":"rugby shirt"},
+
+          {"name":"sandals"},{"name":"sari"},{"name":"sarong"},{"name":"scarf"},{"name":"school uniform"},{"name":"sheath dress"},{"name":"shift"},{"name":"shirt"},{"name":"shoe"},{"name":"shorts"},
+
+          {"name":"skirt"},{"name":"slacks"},{"name":"slip"},{"name":"slippers"},{"name":"smock"},{"name":"snaps"},{"name":"sneakers"},{"name":"sock"},{"name":"spacesuit"},{"name":"Stetson hat"},
+
+          {"name":"stockings"},{"name":"suit"},{"name":"sunbonnet"},{"name":"sundress"},{"name":"sunglasses"},{"name":"sun hat"},{"name":"suspenders"},{"name":"sweater"},{"name":"sweats"},
+
+          {"name":"swimsuit"},{"name":"t-shirt"},{"name":"tam"},{"name":"tank top"},{"name":"tiara"},{"name":"tie"},{"name":"tie clip"},{"name":"tights"},{"name":"toga"},{"name":"top hat"},
+
+          {"name":"train"},{"name":"trunks"},{"name":"turtleneck"},{"name":"tutu"},{"name":"trench coat"},{"name":"trousers"},{"name":"trunks"},{"name":"tube top"},{"name":"tunic"},
+
+          {"name":"turban"},{"name":"turtle neck shirt"},{"name":"tux"},{"name":"tuxedo"},{"name":"tweed jacket"},{"name":"undershirt"},{"name":"underwear"},{"name":"uniform"},{"name":"veil"},
+
+          {"name":"Velcro"},{"name":"vest"},{"name":"vestments"},{"name":"visor"},{"name":"waders"},{"name":"waistcoat"},{"name":"wedding gown"},{"name":"Wellingtons"},{"name":"wetsuit"},
+
+          {"name":"windbreaker"},{"name":"yoke"},{"name":"zipper"},{"name":"zoris"}],"category":20},
+        {"words":[{"name":"amber"},{"name":"amethyst"},{"name":"apricot"},{"name":"aqua"},{"name":"aquamarine"},{"name":"auburn"},{"name":"azure"},{"name":"beige"},{"name":"black"},
+
+          {"name":"blue"},{"name":"bronze"},{"name":"brown"},{"name":"buff"},{"name":"burnt umber"},{"name":"cardinal"},{"name":"carmine"},{"name":"celadon"},{"name":"cerise"},{"name":"cerulean"},
+
+          {"name":"charcoal"},{"name":"chartreuse"},{"name":"chocolate"},{"name":"cinnamon"},{"name":"color"},{"name":"copper"},{"name":"coral"},{"name":"cream"},{"name":"crimson"},{"name":"cyan"},
+
+          {"name":"dark"},{"name":"denim"},{"name":"desert sand"},{"name":"ecru"},{"name":"eggplant"},{"name":"emerald"},{"name":"forest green"},{"name":"fuchsia"},{"name":"gold"},
+
+          {"name":"goldenrod"},{"name":"gray"},{"name":"green"},{"name":"grey"},{"name":"hot pink"},{"name":"indigo"},{"name":"ivory"},{"name":"jade"},{"name":"jet"},{"name":"jungle green"},
+
+          {"name":"kelly green"},{"name":"khaki"},{"name":"lavender"},{"name":"lemon"},{"name":"lilac"},{"name":"lime"},{"name":"magenta"},{"name":"mahogany"},{"name":"maroon"},{"name":"mauve"},
+
+          {"name":"mustard"},{"name":"navy blue"},{"name":"ocher"},{"name":"olive"},{"name":"orange"},{"name":"orchid"},{"name":"pale"},{"name":"pastel"},{"name":"peach"},{"name":"periwinkle"},
+
+          {"name":"persimmon"},{"name":"pewter"},{"name":"pink"},{"name":"puce"},{"name":"pumpkin"},{"name":"purple"},{"name":"rainbow"},{"name":"red"},{"name":"rose"},{"name":"ruby"},
+
+          {"name":"russet"},{"name":"rust"},{"name":"saffron"},{"name":"salmon"},{"name":"sapphire"},{"name":"scarlet"},{"name":"sea green"},{"name":"sepia"},{"name":"shamrock"},{"name":"sienna"},
+
+          {"name":"silver"},{"name":"slate"},{"name":"steel blue"},{"name":"tan"},{"name":"tangerine"},{"name":"taupe"},{"name":"teal"},{"name":"terracotta"},{"name":"thistle"},{"name":"tint"},
+
+          {"name":"tomato"},{"name":"topaz"},{"name":"turquoise"},{"name":"ultramarine"},{"name":"umber"},{"name":"vermilion"},{"name":"violet"},{"name":"viridian"},{"name":"wheat"},
+
+          {"name":"white"},{"name":"wisteria"},{"name":"yellow"}],"category":21},
+        {"words":[{"name":"admiral"},{"name":"America"},{"name":"Asia"},{"name":"astrolabe"},{"name":"Atlantic Ocean"},{"name":"Azores"},{"name":"Bahamas"},{"name":"Canary Islands"},
+
+          {"name":"captain"},{"name":"captain's log"},{"name":"capture"},{"name":"caravel"},{"name":"Caribbean"},{"name":"carrack"},{"name":"cartographer"},{"name":"celestial navigation"},
+
+          {"name":"Christopher"},{"name":"Columbus"},{"name":"compass"},{"name":"crew"},{"name":"crow's nest"},{"name":"Cuba"},{"name":"current"},{"name":"dead reckoning"},{"name":"discover"},
+
+          {"name":"easterly"},{"name":"empire"},{"name":"Europe"},{"name":"expedition"},{"name":"explore"},{"name":"Ferdinand"},{"name":"Fourteen hundred ninety-two"},{"name":"Gallega"},
+
+          {"name":"gold"},{"name":"governor"},{"name":"Haiti"},{"name":"Hispanola"},{"name":"Iberia"},{"name":"India"},{"name":"Indians"},{"name":"Indies"},{"name":"indigenous"},{"name":"Isabella"},
+
+          {"name":"island"},{"name":"Italian"},{"name":"Italy"},{"name":"Jamaica"},{"name":"journey"},{"name":"King Ferdinand"},{"name":"land"},{"name":"landfall"},{"name":"latitude"},
+
+          {"name":"league"},{"name":"Lisbon"},{"name":"log"},{"name":"longitude"},{"name":"map"},{"name":"mast"},{"name":"native"},{"name":"navigate"},{"name":"navigation"},{"name":"New World"},
+
+          {"name":"Niña"},{"name":"North America"},{"name":"ocean"},{"name":"October"},{"name":"Pinta"},{"name":"Pinzón"},{"name":"Portugal"},{"name":"provisions"},{"name":"quadrant"},{"name":"Queen
+
+            Isabella"},{"name":"return"},{"name":"rigging"},{"name":"route"},{"name":"sail"},{"name":"sailing ship"},{"name":"sailor"},{"name":"sand glass"},{"name":"San Salvadore"},{"name":"Santa
+
+            Clara"},{"name":"Santa Maria"},{"name":"set sail"},{"name":"sea"},{"name":"seafaring"},{"name":"seamen"},{"name":"ship"},{"name":"slave"},{"name":"Spain"},{"name":"spices"},
+
+          {"name":"storm"},{"name":"Taino Indians"},{"name":"trade route"},{"name":"trade winds"},{"name":"transatlantic"},{"name":"travel"},{"name":"trip"},{"name":"venture"},{"name":"voyage"},
+
+          {"name":"West Indies"},{"name":"world"}],"category":22},
+        {"words":[{"name":"amphora"},{"name":"attaché case"},{"name":"backpack"},{"name":"bag"},{"name":"baggage"},{"name":"barrel"},{"name":"basin"},{"name":"basket"},{"name":"beaker"},
+
+          {"name":"bin"},{"name":"bottle"},{"name":"bowl"},{"name":"box"},{"name":"briefcase"},{"name":"bucket"},{"name":"cabinet"},{"name":"can"},{"name":"canister"},{"name":"canteen"},
+
+          {"name":"carafe"},{"name":"carrier"},{"name":"carryall"},{"name":"carton"},{"name":"case"},{"name":"cask"},{"name":"casket"},{"name":"chest"},{"name":"coffer"},{"name":"cone"},
+
+          {"name":"container"},{"name":"compote"},{"name":"cooler"},{"name":"crate"},{"name":"crock"},{"name":"cruet"},{"name":"cube"},{"name":"depository"},{"name":"dish"},{"name":"drawer"},
+
+          {"name":"drum"},{"name":"enclosure"},{"name":"envelope"},{"name":"ewer"},{"name":"file folder"},{"name":"flask"},{"name":"folder"},{"name":"garbage can"},{"name":"glass"},
+
+          {"name":"goblet"},{"name":"grocery bag"},{"name":"hamper"},{"name":"handbag"},{"name":"holder"},{"name":"hopper"},{"name":"hutch"},{"name":"ice bucket"},{"name":"jar"},{"name":"jug"},
+
+          {"name":"knapsack"},{"name":"locker"},{"name":"luggage"},{"name":"lunchbox"},{"name":"milk crate"},{"name":"packet"},{"name":"pail"},{"name":"pan"},{"name":"paper bag"},{"name":"plastic
+
+            bag"},{"name":"plate"},{"name":"pocket"},{"name":"pod"},{"name":"pot"},{"name":"pouch"},{"name":"purse"},{"name":"rack"},{"name":"receptacle"},{"name":"sack"},{"name":"saddlebag"},
+
+          {"name":"satchel"},{"name":"saucer"},{"name":"stein"},{"name":"suitcase"},{"name":"tin"},{"name":"tote"},{"name":"trash bin"},{"name":"trunk"},{"name":"tray"},{"name":"tub"},
+
+          {"name":"tube"},{"name":"tun"},{"name":"tureen"},{"name":"test tube"},{"name":"urn"},{"name":"vase"},{"name":"vat"},{"name":"vault"},{"name":"vesicle"},{"name":"vessel"},{"name":"vial"},
+
+          {"name":"wastebasket"},{"name":"water bottle"}],"category":23},
+        {"words":[{"name":"aerate"},{"name":"age"},{"name":"bake"},{"name":"barbecue"},{"name":"baste"},{"name":"batter"},{"name":"beat"},{"name":"bind"},{"name":"blacken"},{"name":"blanche"},
+
+          {"name":"blend"},{"name":"boil"},{"name":"bone"},{"name":"braise"},{"name":"bread"},{"name":"brew"},{"name":"broil"},{"name":"brown"},{"name":"brush"},{"name":"burn"},{"name":"butterfly"},
+
+          {"name":"can"},{"name":"caramelize"},{"name":"char"},{"name":"char-broil"},{"name":"chill"},{"name":"chop"},{"name":"chunk"},{"name":"churn"},{"name":"clarify"},{"name":"coddle"},
+
+          {"name":"combine"},{"name":"cool"},{"name":"congeal"},{"name":"core"},{"name":"cream"},{"name":"cured"},{"name":"cut"},{"name":"debone"},{"name":"decorate"},{"name":"deep fry"},
+
+          {"name":"deglaze"},{"name":"descale"},{"name":"devil"},{"name":"dice"},{"name":"dip"},{"name":"dough"},{"name":"drain"},{"name":"drizzle"},{"name":"dry"},{"name":"escallop"},
+
+          {"name":"ferment"},{"name":"fillet"},{"name":"filter"},{"name":"flambe"},{"name":"flavor"},{"name":"flip"},{"name":"fold"},{"name":"freeze"},{"name":"French fry"},{"name":"fricassee"},
+
+          {"name":"frost"},{"name":"froth"},{"name":"fry"},{"name":"garnish"},{"name":"gel"},{"name":"glaze"},{"name":"grate"},{"name":"gratin"},{"name":"grease"},{"name":"grill"},{"name":"grind"},
+
+          {"name":"hard boil"},{"name":"hash"},{"name":"heat"},{"name":"hull"},{"name":"ice"},{"name":"infuse"},{"name":"jell"},{"name":"juice"},{"name":"julienne"},{"name":"knead"},
+
+          {"name":"layer"},{"name":"leaven"},{"name":"macerate"},{"name":"marinate"},{"name":"mash"},{"name":"measure"},{"name":"melt"},{"name":"microwave"},{"name":"mix"},{"name":"mold"},
+
+          {"name":"oil"},{"name":"oven fry"},{"name":"overcook"},{"name":"pan fry"},{"name":"parboil"},{"name":"pare"},{"name":"peel"},{"name":"percolate"},{"name":"pickle"},{"name":"pit"},
+
+          {"name":"poach"},{"name":"pop"},{"name":"pour"},{"name":"precook"},{"name":"prepare"},{"name":"preserve"},{"name":"press"},{"name":"P cont."},{"name":"pressure-cook"},{"name":"process"},
+
+          {"name":"pulp"},{"name":"puree"},{"name":"quarter"},{"name":"raw"},{"name":"reduce"},{"name":"refrigerate"},{"name":"render"},{"name":"rise"},{"name":"roast"},{"name":"roll"},
+
+          {"name":"rub"},{"name":"salt"},{"name":"saute"},{"name":"scald"},{"name":"scallop"},{"name":"schirr"},{"name":"scoop"},{"name":"score"},{"name":"scramble"},{"name":"sear"},
+
+          {"name":"season"},{"name":"separate"},{"name":"serve"},{"name":"shell"},{"name":"shred"},{"name":"shuck"},{"name":"sieve"},{"name":"sift"},{"name":"simmer"},{"name":"skewer"},
+
+          {"name":"skim"},{"name":"skin"},{"name":"slice"},{"name":"sliver"},{"name":"slow cook"},{"name":"smoke"},{"name":"S cont."},{"name":"snip"},{"name":"soak"},{"name":"soft boil"},
+
+          {"name":"souse"},{"name":"sprinkle"},{"name":"steam"},{"name":"steep"},{"name":"stew"},{"name":"stir"},{"name":"stir fry"},{"name":"strain"},{"name":"stuff"},{"name":"sweat"},
+
+          {"name":"sweeten"},{"name":"temper"},{"name":"tenderize"},{"name":"thicken"},{"name":"thin"},{"name":"toast"},{"name":"top"},{"name":"toss"},{"name":"trim"},{"name":"truss"},
+
+          {"name":"turn"},{"name":"uncured"},{"name":"unmold"},{"name":"warm"},{"name":"wash"},{"name":"wedge"},{"name":"whip"},{"name":"whisk"},{"name":"zap"},{"name":"zest"}],"category":24},
+        {"words":[{"name":"Afghanistan"},{"name":"Albania"},{"name":"Algeria"},{"name":"Andorra"},{"name":"Angola"},{"name":"Antigua and Barbuda"},{"name":"Argentina"},{"name":"Armenia"},
+
+          {"name":"Australia"},{"name":"Austria"},{"name":"Azerbaijan"},{"name":"Bahamas"},{"name":"Bahrain"},{"name":"Bangladesh"},{"name":"Barbados"},{"name":"Belarus"},{"name":"Belgium"},
+
+          {"name":"Belize"},{"name":"Benin"},{"name":"Bhutan"},{"name":"Bolivia"},{"name":"Bosnia and Herzegovina"},{"name":"Botswana"},{"name":"Brazil"},{"name":"Brunei"},{"name":"Bulgaria"},
+
+          {"name":"Burkina Faso"},{"name":"Burma"},{"name":"Burundi"},{"name":"Cambodia"},{"name":"Cameroon"},{"name":"Canada"},{"name":"Cape Verde"},{"name":"Central African Republic"},
+
+          {"name":"Chad"},{"name":"Chile"},{"name":"China"},{"name":"Cambodia"},{"name":"Comoros"},{"name":"Congo"},{"name":"Dem. Rep. of the"},{"name":"Congo"},{"name":"Rep of the"},{"name":"Costa
+
+            Rica"},{"name":"Côte d'Ivoire"},{"name":"Croatia"},{"name":"Cuba"},{"name":"Cyprus"},{"name":"Czech Republic"},{"name":"Denmark"},{"name":"Djibouti"},{"name":"Dominica"},{"name":"Dominican
+
+            Republic"},{"name":"East Timor"},{"name":"Ecuador"},{"name":"Egypt"},{"name":"El Salvador"},{"name":"Equatorial Guinea"},{"name":"Eritrea"},{"name":"Estonia"},{"name":"Ethiopia"},
+
+          {"name":"Fiji"},{"name":"Finland"},{"name":"France"},{"name":"Gabon"},{"name":"The Gambia"},{"name":"Georgia"},{"name":"Germany"},{"name":"Ghana"},{"name":"Greece"},{"name":"Grenada"},
+
+          {"name":"Guatemala"},{"name":"Guinea"},{"name":"Guinea-Bissau"},{"name":"Guyana"},{"name":"Haiti"},{"name":"Honduras"},{"name":"Hungary"},{"name":"Iceland"},{"name":"India"},
+
+          {"name":"Indonesia"},{"name":"Iran"},{"name":"Iraq"},{"name":"Ireland"},{"name":"Israel"},{"name":"Italy"},{"name":"Jamaica"},{"name":"Japan"},{"name":"Jordan"},{"name":"Kazakhstan"},
+
+          {"name":"Kenya"},{"name":"Kiribati"},{"name":"Korea"},{"name":"North"},{"name":"Korea"},{"name":"South"},{"name":"Kuwait"},{"name":"Kyrgyzstan"},{"name":"Laos"},{"name":"Latvia"},
+
+          {"name":"Lebanon"},{"name":"Lesotho"},{"name":"Liberia"},{"name":"Libya"},{"name":"Liechtenstein"},{"name":"Lithuania"},{"name":"Luxembourg"},{"name":"Macedonia"},{"name":"Madagascar"},
+
+          {"name":"Malawi"},{"name":"Malaysia"},{"name":"Maldives"},{"name":"Mali"},{"name":"Malta"},{"name":"Marshall Islands"},{"name":"Mauritania"},{"name":"Mauritius"},{"name":"Mexico"},
+
+          {"name":"Micronesia"},{"name":"Moldova"},{"name":"Monaco"},{"name":"Mongolia"},{"name":"Montenegro"},{"name":"Morocco"},{"name":"Mozambique"},{"name":"Namibia"},{"name":"Nauru"},
+
+          {"name":"Nepal"},{"name":"Netherlands"},{"name":"New Zealand"},{"name":"Nicaragua"},{"name":"Niger"},{"name":"Nigeria"},{"name":"Norway"},{"name":"Oman"},{"name":"Pakistan"},
+
+          {"name":"Palau"},{"name":"Panama"},{"name":"Papua New Guinea"},{"name":"Paraguay"},{"name":"Peru"},{"name":"Philippines"},{"name":"Poland"},{"name":"Portugal"},{"name":"Qatar"},
+
+          {"name":"Romania"},{"name":"Russia"},{"name":"Rwanda"},{"name":"Saint Kitts and Nevis"},{"name":"Saint Lucia"},{"name":"Saint Vincent and the Grenadines"},{"name":"Samoa"},{"name":"San
+
+            Marino"},{"name":"São Tomé and Príncipe"},{"name":"Saudi Arabia"},{"name":"Senegal"},{"name":"Serbia"},{"name":"Seychelles"},{"name":"Sierra Leone"},{"name":"Singapore"},
+
+          {"name":"Slovakia"},{"name":"Slovenia"},{"name":"Solomon Islands"},{"name":"Somalia"},{"name":"South Africa"},{"name":"Spain"},{"name":"Sri Lanka"},{"name":"Sudan"},{"name":"Suriname"},
+
+          {"name":"Swaziland"},{"name":"Sweden"},{"name":"Switzerland"},{"name":"Syria"},{"name":"Tajikistan"},{"name":"Tanzania"},{"name":"Thailand"},{"name":"Togo"},{"name":"Tonga"},
+
+          {"name":"Trinidad and Tobago"},{"name":"Tunisia"},{"name":"Turkey"},{"name":"Turkmenistan"},{"name":"Tuvalu"},{"name":"Uganda"},{"name":"Ukraine"},{"name":"United Arab Emirates"},
+
+          {"name":"United Kingdom"},{"name":"United States of America"},{"name":"Uruguay"},{"name":"Uzbekistan"},{"name":"Vanuatu"},{"name":"Vatican City"},{"name":"Venezuela"},{"name":"Vietnam"},
+
+          {"name":"Yemen"},{"name":"Zambia"},{"name":"Zimbabwe"}],"category":25},
+        {"words":[{"name":"Appliqué","desc":" cut-out decorative design sewn on a cloth"},{"name":"Batik","desc":" hand-dyed patterns on fabric"},{"name":"Calligraphy","desc":" highly decorative
+
+          hand-writing"},{"name":"Cartoon","desc":" humorous sketch or drawing"},{"name":"Collage","desc":" artwork using various materials"},{"name":"Ceramics","desc":" manufacturing of work of arts
+
+          by firing of earth ware, porcelain or brick"},{"name":"Chase ","type":"v","desc":" to decorate metal by engraving"},{"name":"China","desc":" delicate porcelain ware such as cups and
+
+          plates"},{"name":"Crocheting","desc":" knitting with a hooked needle"},{"name":"Crockery","desc":" earth ware plates, cups etc."},{"name":"Damascening","desc":" craft of making gold
+
+          inlays"},{"name":"Daguerreotype","desc":" early form of silver plate photography which is now obsolete"},{"name":"Decoupage","desc":" decorating surfaces with paper cut outs"},
+
+          {"name":"Embossing","desc":" decorating surfaces with raised ornamentation"},{"name":"Engraving","desc":" cutting of designs into hard surface"},{"name":"Etching","desc":" making designs on
+
+            a metal plate or glass by the corrosive action of acid"},{"name":"Filigree","desc":" ornamental work of delicate, intricate design with thin metal wire"},{"name":"Firing","desc":" baking
+
+            ceramic objects in hot oven"},{"name":"Gild ","type":"v","desc":" to cover a surface with a thin layer of gold"},{"name":"Holography","desc":" three-dimensional photography using split
+
+            laser beam"},{"name":"Ikebana","desc":" Japanese art of arranging flowers in artistic designs"},{"name":"Intaglio","desc":" Engraved design on a plate surface"},{"name":"Lapidary","desc":"
+
+            gem cutting"},{"name":"Lace","desc":" a delicate fabric made of yarn: gold or silver ornamental braid"},{"name":"Logo","desc":" a name, symbol or a trademark"},{"name":"Montage","desc":" a
+
+            single pictorial composition made by juxtaposing many pictures or designs"},{"name":"Origami","desc":" Japanese decorative art of creating shapes by folding paper"},{"name":"Papier-
+
+            Mâché","desc":" decorative object made from pulped paper"},{"name":"Parquet","desc":" art work on floor made with an inlay of wood of different colors"},{"name":"Pottery","desc":" clay
+
+            objects hardened by heat"},{"name":"Rebus","desc":" a representation of words in the form of pictures"},{"name":"Refractory","desc":" having high heat resistance"},
+
+          {"name":"Sampler","desc":" cloth with decorative embroidery"},{"name":"Serigraphy","desc":" screen printing on silks"},{"name":"Silhouette","desc":" an out line that appears dark against a
+
+            light back ground"},{"name":"Still-life","desc":" photo graph of inanimate objects"},{"name":"Stone ware","desc":" high fired clay pottery"},{"name":"Tapestry","desc":" heavy decorative
+
+            cloth hung on a wall"},{"name":"Terra cotta","desc":" hard, brown-red unglazed earthen ware"},{"name":"Veneer","desc":" a thin layer of finely grained wood over another
+
+            surface"}],"category":26},
+          {"words":[{"name":"abstract dance"},{"name":"acro"},{"name":"allemande"},{"name":"ballet"},{"name":"ballroom dance"},{"name":"barn dance"},{"name":"beguine"},{"name":"belly dance"},{"name":"bolero"},{"name":"bop"},{"name":"bossa nova"},{"name":"bourrée"},{"name":"breakdance"},{"name":"bunny hop"},{"name":"Cajun dance"},{"name":"cakewalk"},{"name":"can-can"},{"name":"carioca"},{"name":"cha-cha"},{"name":"Charleston"},{"name":"classical dance"},{"name":"clogging"},{"name":"conga"},{"name":"contra dance"},{"name":"country-western"},{"name":"courante"},{"name":"dance"},{"name":"disco"},{"name":"fandango"},{"name":"flamenco"},{"name":"folk dance"},{"name":"foxtrot"},{"name":"frug"},{"name":"gavote"},{"name":"gigue"},{"name":"habanera"},{"name":"Highland fling"},{"name":"hip hop"},{"name":"hoedown"},{"name":"hokey-pokey"},{"name":"hop"},{"name":"hula"},{"name":"hustle"},{"name":"ice dancing"},{"name":"interpretive dance"},{"name":"Irish dance"},{"name":"jazz dance"},{"name":"jig"},{"name":"jitterbug"},{"name":"jive"},{"name":"koftos"},{"name":"krumping"},{"name":"lambada"},{"name":"Latin dance"},{"name":"limbo"},{"name":"lindy"},{"name":"line dance"},{"name":"macarena"},{"name":"malaguena"},{"name":"mambo"},{"name":"maypole dance"},{"name":"mazurka"},{"name":"merengue"},{"name":"Mexican hat dance"},{"name":"minuet"},{"name":"modern dance"},{"name":"one-step"},{"name":"pas de deux"},{"name":"pasodoble"},{"name":"pavane"},{"name":"polka"},{"name":"pop"},{"name":"quadrille"},{"name":"quickstep"},{"name":"reel"},{"name":"reggae"},{"name":"rumba"},{"name":"salsa"},{"name":"Scottish dance"},{"name":"slow dance"},{"name":"soft shoe"},{"name":"sousta"},{"name":"square dance"},{"name":"step dance"},{"name":"stomp"},{"name":"swing"},{"name":"tango"},{"name":"tap dance"},{"name":"tarantella"},{"name":"time warp"},{"name":"toe dance"},{"name":"troika"},{"name":"twist"},{"name":"two step"},{"name":"Ukrainian dance"},{"name":"Viennese waltz"},{"name":"waltz"},{"name":"watusi"},{"name":"zydeco"}],"category":27},
+          {"words":[{"name":"almond cookie"},{"name":"ambrosia"},{"name":"angelfood cake"},{"name":"apple brown Betty"},{"name":"apple crisp"},{"name":"apple pie"},{"name":"baked Alaska"},{"name":"baked apple"},{"name":"baklava"},{"name":"banana split"},{"name":"Belgian waffle"},{"name":"biscotti"},{"name":"black forest cake"},{"name":"blueberry muffin"},{"name":"bombe"},{"name":"Boston cream pie"},{"name":"bread pudding"},{"name":"brownie"},{"name":"buttercream frosting"},{"name":"butterscotch"},{"name":"cake"},{"name":"cannoli"},{"name":"caramel apple"},{"name":"carrot cake"},{"name":"cheesecake"},{"name":"cherry pie"},{"name":"chocolate bar"},{"name":"chocolate cake"},{"name":"chocolate mousse"},{"name":"churro"},{"name":"cinnamon roll"},{"name":"cobbler"},{"name":"coconut cake"},{"name":"coconut cream pie"},{"name":"coffee cake"},{"name":"cookie"},{"name":"crepe Suzette"},{"name":"cupcake"},{"name":"custard"},{"name":"Danish pastry"},{"name":"dessert"},{"name":"devil's food cake"},{"name":"doughnut"},{"name":"dumplings"},{"name":"eclair"},{"name":"flan"},{"name":"fortune cookie"},{"name":"fritter"},{"name":"frosting"},{"name":"frozen yogurt"},{"name":"fruit cake"},{"name":"fruit cocktail"},{"name":"fruit salad"},{"name":"fudge"},{"name":"gelatine"},{"name":"gelato"},{"name":"gingersnaps"},{"name":"gingerbread"},{"name":"hot-fudge sundae"},{"name":"ice cream"},{"name":"icing"},{"name":"jellyroll"},{"name":"Key lime pie"},{"name":"ladyfingers"},{"name":"lemon bars"},{"name":"lemon meringue pie"},{"name":"macaroon"},{"name":"marshmallow"},{"name":"meringue"},{"name":"milkshake"},{"name":"mousse"},{"name":"muffin"},{"name":"neapolitan ice cream"},{"name":"nougat"},{"name":"oatmeal cookie"},{"name":"panna cotta"},{"name":"parfait"},{"name":"pastry"},{"name":"peanut brittle"},{"name":"peanutbutter cookie"},{"name":"pecan pie"},{"name":"pie"},{"name":"poached pears"},{"name":"popcicle"},{"name":"popover"},{"name":"pound cake"},{"name":"praline"},{"name":"pudding"},{"name":"pumpkin pie"},{"name":"quick bread"},{"name":"red velvet cake"},{"name":"rhubarb pie"},{"name":"raisin bread"},{"name":"rice pudding"},{"name":"scone"},{"name":"sherbet"},{"name":"shortbread"},{"name":"s'mores"},{"name":"snickerdoodle"},{"name":"sorbet"},{"name":"souffle"},{"name":"sponge cake"},{"name":"spumoni"},{"name":"strawberry shortcake"},{"name":"strudel"},{"name":"sugar cookie"},{"name":"sundae"},{"name":"sweet potato pie"},{"name":"sweet roll"},{"name":"sweets"},{"name":"tapioca pudding"},{"name":"tart"},{"name":"toasted marshmallow"},{"name":"toffee"},{"name":"torte"},{"name":"trifle"},{"name":"truffle"},{"name":"turnover"},{"name":"upside-down cake"},{"name":"vanilla cream pie"},{"name":"vanilla pudding"},{"name":"watermelon ice"},{"name":"yellow cake"},{"name":"zabiglone"}],"category":28},
+          {"words":[{"name":"abscess"},{"name":"ache"},{"name":"acute"},{"name":"ailing"},{"name":"ailment"},{"name":"allergy"},{"name":"ambulance"},{"name":"antibiotic"},{"name":"appointment"},{"name":"artery"},{"name":"bacteria"},{"name":"bandage"},{"name":"benign"},{"name":"biopsy"},{"name":"birth"},{"name":"black-and-blue"},{"name":"bleed"},{"name":"blister"},{"name":"blood"},{"name":"blood pressure"},{"name":"blood type"},{"name":"blurred vision"},{"name":"bone"},{"name":"braces"},{"name":"breathe"},{"name":"breathing"},{"name":"broken bone"},{"name":"bruise"},{"name":"burn"},{"name":"cancer"},{"name":"care"},{"name":"cartilage"},{"name":"cast"},{"name":"cavity"},{"name":"chart"},{"name":"chills"},{"name":"chronic"},{"name":"circulatory system"},{"name":"clinic"},{"name":"clot"},{"name":"coma"},{"name":"concussion"},{"name":"contagious"},{"name":"contusion"},{"name":"cough"},{"name":"culture"},{"name":"cut"},{"name":"cyst"},{"name":"death"},{"name":"deficiency"},{"name":"delivery"},{"name":"dentist"},{"name":"dental"},{"name":"dentures"},{"name":"diabetes"},{"name":"diagnose"},{"name":"diagnosis"},{"name":"diarrhea"},{"name":"diet"},{"name":"digestive system"},{"name":"disease"},{"name":"disinfect"},{"name":"disorder"},{"name":"doctor"},{"name":"dose"},{"name":"dosage"},{"name":"dose"},{"name":"drug"},{"name":"emergency room"},{"name":"exam"},{"name":"examination"},{"name":"eye test"},{"name":"faint"},{"name":"fever"},{"name":"filling"},{"name":"first aid"},{"name":"flu"},{"name":"fracture"},{"name":"gland"},{"name":"growth"},{"name":"headache"},{"name":"heal"},{"name":"health"},{"name":"healthy"},{"name":"hearing test"},{"name":"heart"},{"name":"heartbeat"},{"name":"height"},{"name":"hygienist"},{"name":"hypodermic needle"},{"name":"ill"},{"name":"illness"},{"name":"immune"},{"name":"immune system"},{"name":"immunization"},{"name":"infection"},{"name":"inflammation"},{"name":"injury"},{"name":"inoculation"},{"name":"intensive care"},{"name":"jaundice"},{"name":"jaw"},{"name":"joints"},{"name":"kidney"},{"name":"laparoscope"},{"name":"laryngitis"},{"name":"lotion"},{"name":"lungs"},{"name":"malignant"},{"name":"medic"},{"name":"medical"},{"name":"medication"},{"name":"medicine"},{"name":"minerals"},{"name":"mucus"},{"name":"muscle"},{"name":"needle"},{"name":"nerves"},{"name":"nurse"},{"name":"nutrition"},{"name":"ointment"},{"name":"operate"},{"name":"operation"},{"name":"opthalmologist"},{"name":"optometrist"},{"name":"orderly"},{"name":"pain"},{"name":"painful"},{"name":"pediatrician"},{"name":"physical"},{"name":"physical therapy"},{"name":"physician"},{"name":"pill"},{"name":"placebo"},{"name":"plasma"},{"name":"pneumonia"},{"name":"poison"},{"name":"practitioner"},{"name":"prescription"},{"name":"pressure"},{"name":"procedure"},{"name":"pulse"},{"name":"pus"},{"name":"quarantine"},{"name":"rash"},{"name":"reaction"},{"name":"recover"},{"name":"recovery"},{"name":"reflex"},{"name":"respiratory system"},{"name":"runny nose"},{"name":"scab"},{"name":"scale"},{"name":"scalpel"},{"name":"scan"},{"name":"second opinion"},{"name":"seizure"},{"name":"shock"},{"name":"shot"},{"name":"sick"},{"name":"sickness"},{"name":"skeleton"},{"name":"skull"},{"name":"sling"},{"name":"sore"},{"name":"specialist"},{"name":"spinal"},{"name":"splinter"},{"name":"sprain"},{"name":"sterilized"},{"name":"sting"},{"name":"S cont."},{"name":"stitches"},{"name":"stomach"},{"name":"stomach ache"},{"name":"stretcher"},{"name":"surgery"},{"name":"survive"},{"name":"swab"},{"name":"swollen"},{"name":"symptom"},{"name":"syndrome"},{"name":"temperature"},{"name":"tendon"},{"name":"test"},{"name":"therapy"},{"name":"therapeutic"},{"name":"toxic"},{"name":"transfusion"},{"name":"treat"},{"name":"treatment"},{"name":"tumor"},{"name":"tweezers"},{"name":"ultrasound"},{"name":"urine"},{"name":"vaccination"},{"name":"vaccine"},{"name":"vector"},{"name":"vein"},{"name":"venom"},{"name":"virus"},{"name":"vitamins"},{"name":"vomit"},{"name":"wart"},{"name":"weight"},{"name":"weakness"},{"name":"wheezing"},{"name":"wound"},{"name":"x-ray"}],"category":29},
+          {"words":[{"name":"Afghan hound"},{"name":"African wild dog"},{"name":"airedale terrier"},{"name":"akita"},{"name":"Alaskan malamute"},{"name":"American cocker spaniel"},{"name":"Australian cattle dog"},{"name":"basenji"},{"name":"basset hound"},{"name":"beagle"},{"name":"bergamasco"},{"name":"bichon frise"},{"name":"bird dog"},{"name":"bloodhound"},{"name":"border collie"},{"name":"borzoi"},{"name":"Boston terrier"},{"name":"boxer"},{"name":"briard"},{"name":"Brittany"},{"name":"bulldog"},{"name":"bullmastiff"},{"name":"bull terrier"},{"name":"cairn terrier"},{"name":"Cape hunting dog"},{"name":"chihuahua"},{"name":"Chinese crested dog"},{"name":"chow chow"},{"name":"cocker spaniel"},{"name":"collie"},{"name":"companion dog"},{"name":"coon hound"},{"name":"corgi"},{"name":"cur"},{"name":"dachshund"},{"name":"Dalmatian"},{"name":"Doberman pinscher"},{"name":"dhole"},{"name":"dingo"},{"name":"dog"},{"name":"elkhound"},{"name":"feist"},{"name":"fighting dog"},{"name":"fox hound"},{"name":"fox terrier"},{"name":"German shepherd"},{"name":"golden retriever"},{"name":"great Dane"},{"name":"great Pyrenees"},{"name":"greyhound"},{"name":"guard dog"},{"name":"gun dogs"},{"name":"harrier"},{"name":"herding dog"},{"name":"hound"},{"name":"hunting dog"},{"name":"husky"},{"name":"Irish setter"},{"name":"Jack Russell terrier"},{"name":"keeshond"},{"name":"kerry blue terrier"},{"name":"King Charles spaniel"},{"name":"Labrador retriever"},{"name":"lap dog"},{"name":"Lhasa apso"},{"name":"malamute"},{"name":"Maltese"},{"name":"mastiff"},{"name":"Mexican hairless"},{"name":"miniature schnauser"},{"name":"Newfoundland"},{"name":"Norfolk terrier"},{"name":"old English sheepdog"},{"name":"papillon"},{"name":"pekingese"},{"name":"pinscher"},{"name":"pit bull"},{"name":"pointer"},{"name":"police dog"},{"name":"pomeranian"},{"name":"poodle"},{"name":"Portuguese water dog"},{"name":"pug"},{"name":"pup"},{"name":"puppy"},{"name":"purebred"},{"name":"rat terrier"},{"name":"retriever"},{"name":"Rhodesian ridgeback"},{"name":"rottweiler"},{"name":"Saluki"},{"name":"samoyed"},{"name":"scent hound"},{"name":"schnauser"},{"name":"Scottish terrier"},{"name":"search-and-rescue dog"},{"name":"sled dog"},{"name":"service dog"},{"name":"setter"},{"name":"Siberian husky"},{"name":"sighthound"},{"name":"spaniel"},{"name":"spitz"},{"name":"springer spaniel"},{"name":"St. Bernard"},{"name":"terrier"},{"name":"toy dog"},{"name":"utonagen"},{"name":"vizsla"},{"name":"water dog"},{"name":"weimaraner"},{"name":"Welsh corgi"},{"name":"west highland white terrier"},{"name":"westie"},{"name":"wheaten terrier"},{"name":"whippet"},{"name":"working dog"},{"name":"Yorkshire terrier"}],"category":30},
+          {"words":[{"name":"about"},{"name":"after"},{"name":"again"},{"name":"all"},{"name":"always"},{"name":"am"},{"name":"an"},{"name":"and"},{"name":"any"},{"name":"are"},{"name":"around"},{"name":"as"},{"name":"ask"},{"name":"at"},{"name":"ate"},{"name":"away"},{"name":"be"},{"name":"because"},{"name":"been"},{"name":"before"},{"name":"best"},{"name":"better"},{"name":"big"},{"name":"black"},{"name":"blue"},{"name":"both"},{"name":"bring"},{"name":"brown"},{"name":"but"},{"name":"buy"},{"name":"by"},{"name":"call"},{"name":"came"},{"name":"can"},{"name":"carry"},{"name":"clean"},{"name":"cold"},{"name":"come"},{"name":"could"},{"name":"cut"},{"name":"did"},{"name":"do"},{"name":"does"},{"name":"don't"},{"name":"done"},{"name":"down"},{"name":"draw"},{"name":"drink"},{"name":"eat"},{"name":"eight"},{"name":"every"},{"name":"fall"},{"name":"far"},{"name":"fast"},{"name":"find"},{"name":"first"},{"name":"five"},{"name":"fly"},{"name":"for"},{"name":"found"},{"name":"from"},{"name":"funny"},{"name":"gave"},{"name":"get"},{"name":"give"},{"name":"go"},{"name":"goes"},{"name":"going"},{"name":"good"},{"name":"got"},{"name":"green"},{"name":"grow"},{"name":"had"},{"name":"has"},{"name":"have"},{"name":"he"},{"name":"her"},{"name":"H cont."},{"name":"here"},{"name":"him"},{"name":"his"},{"name":"hold"},{"name":"hot"},{"name":"how"},{"name":"hurt"},{"name":"if"},{"name":"in"},{"name":"into"},{"name":"is"},{"name":"it"},{"name":"its"},{"name":"jump"},{"name":"just"},{"name":"keep"},{"name":"kind"},{"name":"know"},{"name":"laugh"},{"name":"let"},{"name":"light"},{"name":"like"},{"name":"little"},{"name":"live"},{"name":"long"},{"name":"look"},{"name":"made"},{"name":"make"},{"name":"many"},{"name":"may"},{"name":"me"},{"name":"much"},{"name":"must"},{"name":"my"},{"name":"myself"},{"name":"never"},{"name":"new"},{"name":"no"},{"name":"not"},{"name":"now"},{"name":"of"},{"name":"off"},{"name":"old"},{"name":"on"},{"name":"once"},{"name":"one"},{"name":"only"},{"name":"open"},{"name":"or"},{"name":"our"},{"name":"out"},{"name":"over"},{"name":"own"},{"name":"pick"},{"name":"play"},{"name":"please"},{"name":"pretty"},{"name":"pull"},{"name":"put"},{"name":"ran"},{"name":"read"},{"name":"red"},{"name":"ride"},{"name":"right"},{"name":"round"},{"name":"run"},{"name":"said"},{"name":"saw"},{"name":"say"},{"name":"see"},{"name":"seven"},{"name":"shall"},{"name":"see"},{"name":"sing"},{"name":"sit"},{"name":"six"},{"name":"sleep"},{"name":"slow"},{"name":"small"},{"name":"so"},{"name":"some"},{"name":"soon"},{"name":"start"},{"name":"stop"},{"name":"take"},{"name":"tell"},{"name":"ten"},{"name":"thank"},{"name":"that"},{"name":"the"},{"name":"their"},{"name":"them"},{"name":"then"},{"name":"there"},{"name":"these"},{"name":"they"},{"name":"think"},{"name":"this"},{"name":"those"},{"name":"three"},{"name":"to"},{"name":"today"},{"name":"together"},{"name":"too"},{"name":"try"},{"name":"two"},{"name":"under"},{"name":"up"},{"name":"upon"},{"name":"us"},{"name":"use"},{"name":"very"},{"name":"walk"},{"name":"want"},{"name":"warm"},{"name":"was"},{"name":"wash"},{"name":"we"},{"name":"well"},{"name":"went"},{"name":"were"},{"name":"what"},{"name":"when"},{"name":"where"},{"name":"which"},{"name":"white"},{"name":"who"},{"name":"why"},{"name":"will"},{"name":"wish"},{"name":"with"},{"name":"work"},{"name":"would"},{"name":"write"},{"name":"yellow"},{"name":"yes"},{"name":"you"},{"name":"yours"}],"category":31},
+          {"words":[{"name":"accelerate"},{"name":"accelerator"},{"name":"accident"},{"name":"airbag"},{"name":"alley"},{"name":"arterial road"},{"name":"asphalt"},{"name":"auto"},{"name":"automatic transmission"},{"name":"automobile"},{"name":"avenue"},{"name":"back-up"},{"name":"back seat"},{"name":"back seat driver"},{"name":"barrier"},{"name":"bicycle"},{"name":"bike"},{"name":"boulevard"},{"name":"brakes"},{"name":"bridge"},{"name":"bus"},{"name":"car"},{"name":"carpool"},{"name":"carpool lane"},{"name":"causeway"},{"name":"caution"},{"name":"chauffeur"},{"name":"circle"},{"name":"cloverleaf"},{"name":"clutch"},{"name":"cobblestone"},{"name":"construction"},{"name":"court"},{"name":"crash"},{"name":"cruise control"},{"name":"cul-de-sac"},{"name":"curve"},{"name":"danger"},{"name":"dead end"},{"name":"defensive driving"},{"name":"dent"},{"name":"detour"},{"name":"diamond lane"},{"name":"dirt road"},{"name":"do not enter sign"},{"name":"double parked"},{"name":"drive"},{"name":"driver"},{"name":"driver's ed"},{"name":"driver's education"},{"name":"driver's license"},{"name":"driveway"},{"name":"electric car"},{"name":"emergency"},{"name":"emission"},{"name":"entrance ramp"},{"name":"exhaust"},{"name":"exit"},{"name":"exit ramp"},{"name":"expressway"},{"name":"fast"},{"name":"fast lane"},{"name":"fender"},{"name":"fill it up"},{"name":"flat-bed truck"},{"name":"flat tire"},{"name":"freeway"},{"name":"fuel"},{"name":"fuel efficiency"},{"name":"fuel tank"},{"name":"garage"},{"name":"gas"},{"name":"gasoline"},{"name":"gas tank"},{"name":"gear"},{"name":"gearshift"},{"name":"global positioning system"},{"name":"go"},{"name":"GPS"},{"name":"gravel road"},{"name":"green light"},{"name":"gridlock"},{"name":"gutter"},{"name":"hairpin curve"},{"name":"headlights"},{"name":"high-beam"},{"name":"high-occupancy vehicle lane"},{"name":"high-octane gas"},{"name":"highway"},{"name":"highway patrol"},{"name":"hill"},{"name":"HOV lane"},{"name":"hybrid"},{"name":"idling"},{"name":"impact"},{"name":"indicator"},{"name":"insurance"},{"name":"interchange"},{"name":"intersection"},{"name":"interstate highway"},{"name":"jackknifing"},{"name":"kilometer"},{"name":"kilometers per hour"},{"name":"kph"},{"name":"lane"},{"name":"learner's permit"},{"name":"left turn"},{"name":"license"},{"name":"lights"},{"name":"loop"},{"name":"low-beam"},{"name":"manual transmission"},{"name":"map"},{"name":"mass transit"},{"name":"merge"},{"name":"mile"},{"name":"mile marker"},{"name":"miles per gallon"},{"name":"miles per hour"},{"name":"motor"},{"name":"motorcycle"},{"name":"motorway"},{"name":"mph"},{"name":"no parking"},{"name":"no stopping"},{"name":"oil"},{"name":"oncoming traffic"},{"name":"one-way"},{"name":"overpass"},{"name":"parallel parking"},{"name":"park"},{"name":"parking lot"},{"name":"parking meter"},{"name":"parking spot"},{"name":"parking ticket"},{"name":"parkway"},{"name":"pass"},{"name":"pavement"},{"name":"pedal"},{"name":"pedestrian"},{"name":"pedestrian crossing"},{"name":"police"},{"name":"pot hole"},{"name":"railroad crossing"},{"name":"ramp"},{"name":"red light"},{"name":"registration"},{"name":"rest area"},{"name":"rest stop"},{"name":"reverse"},{"name":"ride"},{"name":"right turn"},{"name":"road"},{"name":"road closed"},{"name":"road crew"},{"name":"road rage"},{"name":"road trip"},{"name":"roadway"},{"name":"rollover"},{"name":"roundabout"},{"name":"rush hour"},{"name":"safety"},{"name":"scenery"},{"name":"scenic route"},{"name":"school zone"},{"name":"s-curve"},{"name":"seatbelt"},{"name":"semi"},{"name":"shoulder"},{"name":"sidewalk"},{"name":"sign"},{"name":"skid"},{"name":"slow"},{"name":"snow plow"},{"name":"speed"},{"name":"speed bump"},{"name":"speed limit"},{"name":"speeding"},{"name":"speeding ticket"},{"name":"speedometer"},{"name":"state patrol"},{"name":"steer"},{"name":"steering wheel"},{"name":"stop"},{"name":"stop sign"},{"name":"street"},{"name":"street sign"},{"name":"superhighway"},{"name":"SUV"},{"name":"switchbacks"},{"name":"terrace"},{"name":"test drive"},{"name":"ticket"},{"name":"tire"},{"name":"toll"},{"name":"toll road"},{"name":"tow truck"},{"name":"traffic"},{"name":"traffic jam"},{"name":"traffic light"},{"name":"traffic sign"},{"name":"transmission"},{"name":"transportation"},{"name":"truck"},{"name":"truck route"},{"name":"truck stop"},{"name":"tunnel"},{"name":"turn"},{"name":"turn signal"},{"name":"under construction"},{"name":"underpass"},{"name":"u-turn"},{"name":"van pool"},{"name":"vehicle"},{"name":"warning"},{"name":"wide load"},{"name":"yellow light"},{"name":"yield"},{"name":"zebra crossing"}],"category":32},
+          {"words":[{"name":"absentee ballot"},{"name":"ballot"},{"name":"ballot box"},{"name":"campaign"},{"name":"candidate"},{"name":"caucus"},{"name":"choose"},{"name":"congress"},{"name":"constitution"},{"name":"convention"},{"name":"count"},{"name":"delegate"},{"name":"democracy"},{"name":"democrat"},{"name":"elect"},{"name":"election"},{"name":"elector"},{"name":"electoral college"},{"name":"electorate"},{"name":"executive branch"},{"name":"exit poll"},{"name":"front runner"},{"name":"general election"},{"name":"gerrymander"},{"name":"incumbent"},{"name":"independent"},{"name":"issues"},{"name":"legislative branch"},{"name":"lobbyist"},{"name":"lose"},{"name":"loser"},{"name":"majority"},{"name":"mayor"},{"name":"midterm elections"},{"name":"minority"},{"name":"negative ads"},{"name":"officials"},{"name":"open primary"},{"name":"party"},{"name":"platform"},{"name":"plurality"},{"name":"political"},{"name":"politics"},{"name":"politician"},{"name":"poll"},{"name":"popular vote"},{"name":"precinct"},{"name":"promises"},{"name":"president"},{"name":"primary"},{"name":"protest vote"},{"name":"recount"},{"name":"redistricting"},{"name":"referendum"},{"name":"represent"},{"name":"republican"},{"name":"runoff"},{"name":"senator"},{"name":"speeches"},{"name":"stance"},{"name":"straw vote"},{"name":"suffrage"},{"name":"super delegate"},{"name":"super Tuesday"},{"name":"swing vote"},{"name":"tally"},{"name":"term limits"},{"name":"third party"},{"name":"town meeting"},{"name":"US Constitution"},{"name":"vote"},{"name":"voter"},{"name":"voting booth"},{"name":"voting machine"},{"name":"win"},{"name":"winner"}],"category":33},
+          {"words":[{"name":"Actinium ","desc":"Ac"},{"name":"Aluminum Americium ","desc":"Am"},{"name":"Barium ","desc":"Ba"},{"name":"Berkelium ","desc":"Bk"},{"name":"Beryllium ","desc":"Be"},{"name":"Bismuth ","desc":"Bi"},{"name":"Bohrium ","desc":"Bh"},{"name":"Boron ","desc":"B"},{"name":"Bromine ","desc":"Br"},{"name":"Cadmium ","desc":"Cd"},{"name":"Calcium ","desc":"Ca"},{"name":"Californium ","desc":"Cf"},{"name":"Carbon ","desc":"C"},{"name":"Cerium ","desc":"Ce"},{"name":"Cesium ","desc":"Cs"},{"name":"Chlorine ","desc":"Cl"},{"name":"Chromine ","desc":"Cr"},{"name":"Cobalt ","desc":"Co"},{"name":"Copper ","desc":"Cu"},{"name":"Curium ","desc":"Cm"},{"name":"Darmstadtium ","desc":"Ds"},{"name":"Dubnium ","desc":"Db"},{"name":"Dysprosium ","desc":"Dy"},{"name":"Einsteinium ","desc":"Es"},{"name":"Erbium ","desc":"Er"},{"name":"Europium ","desc":"Eu"},{"name":"Fermuim ","desc":"Fm"},{"name":"Fluorine ","desc":"F"},{"name":"Francium ","desc":"Fr"},{"name":"Gadolinium ","desc":"Gd"},{"name":"Gallium ","desc":"Ga"},{"name":"Germanium ","desc":"Ge"},{"name":"Gold ","desc":"Au"},{"name":"Hafnium ","desc":"Hf"},{"name":"Hassium ","desc":"Hs"},{"name":"Helium ","desc":"He"},{"name":"Holmium ","desc":"Ho"},{"name":"Hydrogen ","desc":"H"},{"name":"Indium ","desc":"In"},{"name":"Iodine ","desc":"I"},{"name":"Iridium ","desc":"Ir"},{"name":"Iron ","desc":"Fe"},{"name":"Krypton ","desc":"Kr"},{"name":"Lanthanum ","desc":"La"},{"name":"Lawrencium ","desc":"Lr"},{"name":"Lead ","desc":"Pb"},{"name":"Lithium ","desc":"Li"},{"name":"Lutetium ","desc":"Lu"},{"name":"Magnesium ","desc":"Mg"},{"name":"Manganese ","desc":"Mn"},{"name":"Meitnerium ","desc":"Mt"},{"name":"Mendelevium ","desc":""},{"name":"Mercury ","desc":"Hg"},{"name":"Molybdenum ","desc":"Mo"},{"name":"Neodymium ","desc":"Nd"},{"name":"Neon ","desc":"Ne"},{"name":"Neptunium ","desc":"Np"},{"name":"Nickel ","desc":"Ni"},{"name":"Niobium ","desc":"Nb"},{"name":"Nitrogen ","desc":"N"},{"name":"Nobellium ","desc":"No"},{"name":"Osmium ","desc":"Os"},{"name":"Oxygen ","desc":"O"},{"name":"Palladium ","desc":"Pd"},{"name":"Phosphorus ","desc":"P"},{"name":"Platinum ","desc":"Pt"},{"name":"Plutonium ","desc":"Pu"},{"name":"Polonium ","desc":"Po"},{"name":"Potassium ","desc":"K"},{"name":"Praseodymium ","desc":"Pr"},{"name":"Promethium ","desc":"Pm"},{"name":"Protactinium ","desc":"Pa"},{"name":"Radium ","desc":"Ra"},{"name":"Radon ","desc":"Rn"},{"name":"Rhenium ","desc":"Re"},{"name":"Rhodium ","desc":"Rh"},{"name":"Rubidium ","desc":"Rh"},{"name":"Ruthenium ","desc":"Ru"},{"name":"Rutherfordium ","desc":"Rf"},{"name":"Samarium ","desc":"Sm"},{"name":"Scandium ","desc":"Sc"},{"name":"Seaborgium ","desc":"Sg"},{"name":"Selenium ","desc":"Se"},{"name":"Silicon ","desc":"Si"},{"name":"Silver ","desc":"Ag"},{"name":"Sodium ","desc":"Na"},{"name":"Strontium ","desc":"Sr"},{"name":"Sulfur ","desc":"S"},{"name":"Tantalum ","desc":"Ta"},{"name":"Technetium ","desc":"Tc"},{"name":"Tellurium ","desc":"Te"},{"name":"Terbium ","desc":"Tb"},{"name":"Thallium ","desc":"Tl"},{"name":"Thorium ","desc":"Th"},{"name":"Thulium ","desc":"Tm"},{"name":"Tin ","desc":"Sn"},{"name":"Titanium ","desc":"Ti"},{"name":"Tungsten ","desc":"W"},{"name":"Ununbium ","desc":"Uub"},{"name":"Ununhexium ","desc":"Uuh"},{"name":"Ununoctium ","desc":"Uuo"},{"name":"Ununpentium ","desc":"Uup"},{"name":"Ununquadium ","desc":"Uuq"},{"name":"Ununseptium ","desc":"Uus"},{"name":"Ununtrium ","desc":"Uut"},{"name":"Ununium ","desc":"Uuu"},{"name":"Uranium ","desc":"U"},{"name":"Vanadium ","desc":"V"},{"name":"Xenon ","desc":"Xe"},{"name":"Ytterbium ","desc":"Yb"},{"name":"Yttrium ","desc":"Y"},{"name":"Zinc ","desc":"Zn"},{"name":"Zirconium ","desc":"Zr"}],"category":34}
+
+        ]

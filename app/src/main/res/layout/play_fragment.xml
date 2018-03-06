@@ -1,0 +1,211 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.shree.wordguess.activity.HomeActivity" >
+
+	<RelativeLayout
+		android:id="@+id/messageContainer"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true"
+		android:visibility="gone">
+		<TextView
+			android:id="@+id/message"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			style="@style/welcomeMessageStyle"
+			android:text="@string/noFavouriteWords"
+			android:visibility="visible"
+			android:gravity="center_horizontal"
+			android:layout_marginBottom="20dp"/>
+
+		<ImageView
+			android:id="@+id/refresh"
+			android:layout_width="50dp"
+			android:layout_height="50dp"
+			android:tint="?attr/colorPrimary"
+			android:src="@drawable/menu_refresh"
+			android:layout_centerHorizontal="true"
+			android:layout_below="@id/message"/>
+
+		<ProgressBar
+			android:id="@+id/progressBar"
+			style="?android:attr/progressBarStyleLarge"
+			android:layout_width="50dp"
+			android:layout_height="50dp"
+			android:layout_below="@id/message"
+			android:layout_centerHorizontal="true"
+			android:visibility="visible"/>
+	</RelativeLayout>
+
+	<RelativeLayout
+		android:id="@+id/playContainer"
+		android:layout_height="match_parent"
+		android:layout_width="match_parent">
+    <RelativeLayout
+        android:id="@+id/headerContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:layout_margin="5dp"
+		android:paddingLeft="5dp"
+		android:paddingRight="5dp"
+		android:paddingTop="2dp"
+		android:paddingBottom="2dp">
+
+		<com.shree.wordguess.custom.CustomProgressBar
+			android:id="@+id/currentScore"
+			android:layout_width="45dp"
+			android:layout_height="45dp"
+			android:layout_alignParentRight="true"
+			/>
+
+        
+         <TextView
+            android:id="@+id/scoreLable"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textSize="20sp"
+			 android:layout_alignParentLeft="true"
+        	android:layout_centerVertical="true"
+        	android:textColor="@android:color/black"
+        	android:text="Score : "
+            />
+
+		<TextView
+			android:id="@+id/score"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="20sp"
+			android:layout_toRightOf="@id/scoreLable"
+			android:layout_centerVertical="true"
+			android:textColor="@android:color/black"
+			android:text="---"
+			/>
+
+    </RelativeLayout>
+    
+    <!--  FOOOTER CONTAINER STARTS HERE -->
+	<include
+        android:id="@+id/keyboard_include"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        layout="@layout/keyboard_block"
+        android:visibility="visible" />
+
+    <include
+        android:id="@+id/message_include"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        layout="@layout/message_block"
+        android:visibility="gone" />
+    
+     <!--  FOOOTER CONTAINER ENDS HERE -->
+
+
+    <include
+        android:id="@+id/choice_include"
+        layout="@layout/choice_block"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:layout_above="@id/keyboard_include"/>
+
+		<RelativeLayout
+			android:id="@+id/translatedWordContainer"
+			android:layout_width="match_parent"
+			android:layout_height="100dp"
+			android:layout_below="@id/headerContainer"
+			android:background="@drawable/form_bg"
+			android:padding="5dp"
+			android:layout_marginLeft="10dp"
+			android:layout_marginRight="10dp"
+			android:layout_marginBottom="10dp"
+			android:layout_marginTop="20dp">
+
+			<ImageView
+				android:id="@+id/speakUp"
+				android:layout_width="50dp"
+				android:layout_height="50dp"
+				android:layout_centerInParent="true"
+				android:tint="?attr/colorPrimaryDark"
+				android:visibility="visible"
+				android:src="@drawable/speak_up"/>
+
+			<TextView
+				android:id="@+id/translatedWord"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:textColor="@android:color/black"
+				android:autoSizeTextType="uniform"
+				android:autoSizeMaxTextSize="40sp"
+				android:layout_centerInParent="true"
+				android:gravity="center"
+				android:text="Hello"
+				android:visibility="gone"/>
+
+			<LinearLayout
+				android:id="@+id/toolbarContainer"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				android:layout_centerVertical="true"
+				android:layout_marginRight="2dp"
+				android:layout_alignParentRight="true">
+				<ImageView
+					android:id="@+id/toolbarSpeak"
+					android:layout_width="30dp"
+					android:layout_height="30dp"
+					android:src="@drawable/speak_up"
+					android:layout_marginBottom="8dp"
+					android:visibility="gone"
+					android:tint="@android:color/darker_gray">
+				</ImageView>
+				<ImageView
+					android:id="@+id/toolbarSearch"
+					android:layout_width="30dp"
+					android:layout_height="30dp"
+					android:src="@drawable/menu_search"
+					android:layout_marginBottom="8dp"
+					android:tint="@android:color/darker_gray">
+				</ImageView>
+				<ImageView
+					android:id="@+id/toolbarTranslate"
+					android:layout_width="30dp"
+					android:layout_height="30dp"
+					android:src="@drawable/menu_translate"
+					android:tint="@android:color/darker_gray">
+				</ImageView>
+			</LinearLayout>
+
+		</RelativeLayout>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_above="@id/choice_include"
+	        android:layout_below="@id/translatedWordContainer">
+		<com.shree.wordguess.custom.CustomTextView
+			android:id="@+id/wordBlock"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="#ffffff"
+			android:visibility="visible"/>
+
+
+    </RelativeLayout>
+
+	</RelativeLayout>
+
+	<WebView
+		android:id="@+id/dataLoaderView"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:visibility="gone"
+		/>
+
+</RelativeLayout>

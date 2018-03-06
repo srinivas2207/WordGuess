@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:id="@+id/buttonContainer">
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/spinnerButtonTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Title" />
+
+        <TextView
+            android:id="@+id/content"
+            style="@style/spinnerButtonContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:layout_marginTop="2dp"
+            android:text="Go Green" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/spinner_icon"
+            android:layout_below="@id/title"
+            android:layout_alignParentRight="true"
+            android:layout_margin="5dp"
+            />
+
+    </RelativeLayout>
+
+</merge>

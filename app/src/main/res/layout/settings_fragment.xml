@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:background="@drawable/form_bg"
+        android:layout_centerInParent="true">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioButton android:id="@+id/blueTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/blueTheme"
+                android:checked="true"
+                android:buttonTint="@color/ColorPrimaryDark_blue"
+                android:textColor="@color/ColorPrimaryDark_blue"
+                style="@style/themeRadioBtnStyle"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#CABBBBBB"
+                />
+
+            <RadioButton android:id="@+id/redTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/redTheme"
+                android:checked="false"
+                android:buttonTint="@color/ColorPrimaryDark_red"
+                android:textColor="@color/ColorPrimaryDark_red"
+                style="@style/themeRadioBtnStyle"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#CABBBBBB"
+                />
+
+            <RadioButton android:id="@+id/greenTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/greenTheme"
+                android:checked="true"
+                android:buttonTint="@color/ColorPrimaryDark_green"
+                android:textColor="@color/ColorPrimaryDark_green"
+                style="@style/themeRadioBtnStyle"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#CABBBBBB"
+                />
+
+            <RadioButton android:id="@+id/purpleTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/purpleTheme"
+                android:checked="false"
+                android:buttonTint="@color/ColorPrimaryDark_purple"
+                android:textColor="@color/ColorPrimaryDark_purple"
+                style="@style/themeRadioBtnStyle"/>
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+</RelativeLayout>

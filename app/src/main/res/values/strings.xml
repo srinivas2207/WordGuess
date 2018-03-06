@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">WordGuess</string>
+
+    <string name="search">SEARCH</string>
+
+    <string name="scores">Scores</string>
+    <string name="favourites">Favorites</string>
+    <string name="about">About</string>
+    <string name="settings">Settings</string>
+    <string name="themes">Themes</string>
+
+    <string name="blueTheme">Blue Theme</string>
+    <string name="redTheme">Red Theme</string>
+    <string name="greenTheme">Green Theme</string>
+    <string name="purpleTheme">Purple Theme</string>
+
+    <string name="play">Play</string>
+    <string name="gameType">Game Type</string>
+    <string name="language">Language</string>
+    <string name="category">Category</string>
+    <string name="selectFromList">Select from List</string>
+
+    <string name="spellBee">SpellBee</string>
+    <string name="vocabulary">VocabBee</string>
+
+
+
+    <string name="noFavouriteWords">No favourite words !</string>
+    <string name="noScores">You haven\'t played a game yet !</string>
+
+    <string name="hint">Hint</string>
+    <string name="halfReveal">Reveal</string>
+    <string name="halfRevealDesc">Revealing {0} letters will cost {1} points from your current game !</string>
+
+    <string name="quit">Quit Game</string>
+    <string name="quitDesc">Your current game will be terminated.\nDo you want to proceed ?</string>
+
+    <string name="refresh">Play New Game</string>
+    <string name="refreshBody">Your current game will be terminated.\nDo you want to proceed ?</string>
+
+
+    <string name="proceedBtn">Proceed</string>
+    <string name="cancelBtn">Cancel</string>
+    <string name="okBtn">Ok</string>
+    <string name="yesBtn">Yes</string>
+
+
+    <string name="textCopied">Text Copied !</string>
+
+    <string name="skip">Skip</string>
+    <string name="done">Done</string>
+
+
+    <string name="ADMOB_ID">ca-app-pub-2409977848022050~3216740181</string>
+    <string name="ADMOB_BANNER_ID">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="ADMOB_INTERSTITIAL_ID">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="title_activity_demo">DemoActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <!--
+    <string name="ADMOB_ID">ca-app-pub-2409977848022050~3216740181</string>
+    <string name="ADMOB_BANNER_ID">ca-app-pub-2409977848022050/3516123089</string>
+    <string name="ADMOB_INTERSTITIAL_ID">ca-app-pub-2409977848022050/5775099691</string>
+    -->
+
+
+    <string name="aboutContent"><![CDATA[
+<style>
+div.disclaimer {
+    font-size: 10px;
+}
+ol {
+  line-height:150%;
+}
+</style>
+<div>
+
+    <p>This Game helps in improving English Spelling and Vocabulary by guessing the words.</p>
+
+<br>
+    Play the game in 2 modes
+    <ol>
+      <li>SpellBee :</li>
+      Guess the word using pronunciation.
+      <li>VocabBee :</li>
+      Guess the word using translation.
+    </ol>
+
+    <br>
+
+    <b>How to play:</b>
+    <ol>
+      <li>Select the game type, language and word category.</li>
+      <li>Guess the word by selecting the alphabets.</li>
+      <li>All the occurrences of the selected alphabet will be revealed.</li>
+      <li>Use options Hint, Help, Share and refresh.</li>
+      <li>Finish the game with in allowed mistakes.</li>
+    </ol>
+
+<br>
+<p>Happy Gaming .. Happy Learning ..</p>
+    <hr>
+    <p>
+    Issues or suggestions, please send <a href="mailto:app.wordguess@gmail.com">here.</a>
+      </p>
+
+      </div>
+]]></string>
+
+</resources>

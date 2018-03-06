@@ -1,0 +1,277 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/keyboardContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    
+<View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/shadow_line_up"
+/>
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:background="?attr/colorPrimary"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/keyQ"
+            style="@style/KeysStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="Q" />
+
+        <Button
+            android:id="@+id/keyW"
+            style="@style/KeysStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="W" />
+
+        <Button
+            android:id="@+id/keyE"
+            style="@style/KeysStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="E" />
+
+        <Button
+            android:id="@+id/keyR"
+            style="@style/KeysStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="R" />
+
+        <Button
+            android:id="@+id/keyT"
+            style="@style/KeysStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="T" />
+
+        <Button
+            android:id="@+id/keyY"
+            style="@style/KeysStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="Y" />
+
+        <Button
+            android:id="@+id/keyU"
+            style="@style/KeysStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="U" />
+
+        <Button
+            android:id="@+id/keyI"
+            style="@style/KeysStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="I" />
+
+        <Button
+            android:id="@+id/keyO"
+            style="@style/KeysStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="O" />
+        
+        <Button
+            android:id="@+id/keyP"
+            style="@style/KeysStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="P" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp" >
+
+        <Button
+            android:id="@+id/keyA"
+            style="@style/KeysStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="A" />
+
+        <Button
+            android:id="@+id/keyS"
+            style="@style/KeysStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="S" />
+
+        <Button
+            android:id="@+id/keyD"
+            style="@style/KeysStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="D" />
+
+        <Button
+            android:id="@+id/keyF"
+            style="@style/KeysStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="F" />
+
+        <Button
+            android:id="@+id/keyG"
+            style="@style/KeysStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="G" />
+
+
+        <Button
+            android:id="@+id/keyH"
+            style="@style/KeysStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="H" />
+
+        <Button
+            android:id="@+id/keyJ"
+            style="@style/KeysStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="J" />
+
+        <Button
+            android:id="@+id/keyK"
+            style="@style/KeysStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="K" />
+        
+          <Button
+            android:id="@+id/keyL"
+            style="@style/KeysStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="L" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="38dp"
+        android:layout_marginRight="38dp">
+
+        <Button
+            android:id="@+id/keyZ"
+            style="@style/KeysStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="Z" />
+
+        <Button
+            android:id="@+id/keyX"
+            style="@style/KeysStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="X" />
+
+        <Button
+            android:id="@+id/keyC"
+            style="@style/KeysStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="C" />
+
+        <Button
+            android:id="@+id/keyV"
+            style="@style/KeysStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="V" />
+
+        <Button
+            android:id="@+id/keyB"
+            style="@style/KeysStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="B" />
+
+        <Button
+            android:id="@+id/keyN"
+            style="@style/KeysStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="N" />
+
+        <Button
+            android:id="@+id/keyM"
+            style="@style/KeysStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="M" />
+        
+    </LinearLayout>
+
+</LinearLayout>
+</LinearLayout>
