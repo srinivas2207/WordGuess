@@ -6,6 +6,7 @@ import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.database.DatabaseUtils;
 
+import com.bumptech.glide.util.Util;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.shree.wordguess.WordGuessApplication;
@@ -369,7 +370,6 @@ public class DatabaseUtil {
 
 		if (appData != null && appData.getAdInterval() > 0) {
 			ApplicationConstants.AD_INTERVAL = appData.getAdInterval();
-			System.out.println("AD_INTERVAL " + ApplicationConstants.AD_INTERVAL);
 		}
 
 	}
@@ -466,9 +466,8 @@ public class DatabaseUtil {
 		_dataDatabaseHelper.getWritableDatabase().setTransactionSuccessful();
 		_dataDatabaseHelper.getWritableDatabase().endTransaction();
 
-//		System.out.println("After update  ===== " + new Date().getTime());
-//		long rows =  DatabaseUtils.queryNumEntries(_dataDatabaseHelper.getReadableDatabase(), DBConstants.WORD_TABLE);
-//		System.out.println("Words ===== " + rows);
+		long rows =  DatabaseUtils.queryNumEntries(_dataDatabaseHelper.getReadableDatabase(), DBConstants.WORD_TABLE);
+		Utils.log("Words ===== " + rows);
 	}
 
 	/**
@@ -519,7 +518,7 @@ public class DatabaseUtil {
 	 * @return
 	 */
 	public List<WordData.Word> getRandomWords(int category, List<String> wordsInSession) {
-		System.out.println("Before randome select  ===== " + new Date().getTime());
+		Utils.log("WORDGUESS_LOG :Before randome select  ===== " + new Date().getTime());
 		List<WordData.Word> wordList = new ArrayList<>();
 
 		String wordsCheckQuery = _convertWordsCheckQuery(wordsInSession);
@@ -588,7 +587,7 @@ public class DatabaseUtil {
 		}
 
 
-		System.out.println("after randome select  ===== " + new Date().getTime());
+		Utils.log("after randome select  ===== " + new Date().getTime());
 		return wordList;
 	}
 
@@ -601,7 +600,7 @@ public class DatabaseUtil {
 			return;
 		}
 
-		System.out.println("Before word update  ===== " + new Date().getTime());
+		Utils.log("Before word update  ===== " + new Date().getTime());
 		ContentValues values = new ContentValues();
 
 		values.put(DBConstants.DESC,word.getDesc());
@@ -610,7 +609,7 @@ public class DatabaseUtil {
 		values.put(DBConstants.SOURCE_LANG,word.getSouceLang());
 
 		_updateRow(DBConstants.WORD_TABLE, values, DBConstants._ID +"=" + word.getId());
-		System.out.println("After word update  ===== " + new Date().getTime());
+		Utils.log("After word update  ===== " + new Date().getTime());
 	}
 
 	public List<WordData.Word> getFavouriteList() {

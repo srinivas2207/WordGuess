@@ -12,8 +12,11 @@ import com.shree.wordguess.fragment.HomeFragment;
 import com.shree.wordguess.fragment.PlayFragment;
 import com.shree.wordguess.fragment.ScoresFragment;
 import com.shree.wordguess.fragment.SettingsFragment;
+import com.shree.wordguess.network.NetworkOperations;
 import com.shree.wordguess.network.UINotificationListener;
 import com.shree.wordguess.util.ApplicationConstants;
+import com.shree.wordguess.util.DatabaseUtil;
+import com.shree.wordguess.util.FileOperations;
 
 /**
  * Home activity of the application<br/>
@@ -41,6 +44,11 @@ public class HomeActivity extends ParentActivity {
         if (isFromThemeChange) {
             SettingsFragment settingsFragment = new SettingsFragment();
             launchFragment(settingsFragment, false, true);
+        }
+
+        // Checking app updates
+        if (DatabaseUtil.getInstance().isAppDataParsed() && NetworkOperations.getInstance().checkNetworkConnection()) {
+            NetworkOperations.getInstance().checkAppDataUpdate();
         }
     }
 

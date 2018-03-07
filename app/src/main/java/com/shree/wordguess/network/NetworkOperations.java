@@ -15,6 +15,7 @@ import com.shree.wordguess.util.ApplicationConstants;
 import com.shree.wordguess.util.BroadcastUtil;
 import com.shree.wordguess.util.DatabaseUtil;
 import com.shree.wordguess.util.JsonConstants;
+import com.shree.wordguess.util.Utils;
 import com.shree.wordguess.util.WordData;
 
 import org.json.JSONArray;
@@ -247,7 +248,7 @@ public class NetworkOperations {
 					newWords.toString(), new TypeToken<List<WordData>>() {}.getType()
 			);
 
-			System.out.println("Inserting new words =======> " + wordList.size());
+			Utils.log(" Inserting new words =======> " + wordList.size());
 			DatabaseUtil.getInstance().insertWords(wordList);
 		}
 
@@ -385,6 +386,7 @@ public class NetworkOperations {
 				conn.setUseCaches(false);
 				conn.setRequestMethod(httpMethod);
 				conn.setRequestProperty("Content-Type", "application/json; charset=utf8");
+				conn.setRequestProperty("Cache-Control", "no-cache");
 
 				// adding header params
 				if (headers != null) {
@@ -454,7 +456,7 @@ public class NetworkOperations {
 		} finally {
 			closeConnection(conn);
 		}
-		System.out.println("REST RESPONSE ==== > " + restCallResponse);
+		Utils.log("REST RESPONSE ==== > " + reqUrl + " : " + restCallResponse);
 		return restCallResponse;
 	}
 

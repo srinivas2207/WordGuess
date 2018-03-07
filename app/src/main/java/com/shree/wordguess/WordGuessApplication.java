@@ -77,10 +77,6 @@ public class WordGuessApplication extends Application {
 			}
 
 			protected void onPostExecute(Boolean result) {
-				// Checking if there's any update on app's data
-				if (NetworkOperations.getInstance().checkNetworkConnection()) {
-					NetworkOperations.getInstance().checkAppDataUpdate();
-				}
 			}
 
 		}.execute(null, null, null);

@@ -421,7 +421,7 @@ public class PlayFragment extends Fragment implements FragmentInterface {
         translateUrl = translateUrl.replace("{word}", word);
         translateWebview.loadUrl(translateUrl);
         translateTrials ++;
-        System.out.println("Loading word ===== > " + word);
+        Utils.log("Loading word ===== > " + word);
     }
 
     /**

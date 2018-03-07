@@ -2,10 +2,10 @@ package com.shree.wordguess.util;
 
 public class ApplicationConstants {
 	// App's meta data url to check app and data version
-	public static final String APP_META_DATA_URL = "https://raw.githubusercontent.com/srinivas2207/WordGuess/master/meta_data.json";
+	public static final String APP_META_DATA_URL = "https://raw.githubusercontent.com/srinivas2207/WordGuess/master/server/meta_data.json";
 
 	// App's data url
-	public static final String APP_UPDATE_DATA_URL = "https://raw.githubusercontent.com/srinivas2207/WordGuess/master/app_data.json";
+	public static final String APP_UPDATE_DATA_URL = "https://raw.githubusercontent.com/srinivas2207/WordGuess/master/server/app_data.json";
 
 	// App's default settings
 	public static int APP_DATA_VERSION = 1;

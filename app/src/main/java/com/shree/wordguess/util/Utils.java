@@ -8,6 +8,7 @@ import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.os.Build;
 import android.support.v4.app.TaskStackBuilder;
+import android.util.Log;
 import android.util.TypedValue;
 
 import com.shree.wordguess.R;
@@ -117,7 +118,6 @@ public class Utils {
 				int score = obj.getInt(JsonConstants.SCORE);
 				int games = obj.getInt(JsonConstants.GAMES);
 				arr[i] = Float.valueOf(score + 1/games);
-				System.out.println("sorttttt" + arr[i]);
 				indexMap.put(arr[i], i);
 			} catch (JSONException e) {
 				e.printStackTrace();
@@ -137,5 +137,13 @@ public class Utils {
 			}
 		}
 		return sortedList;
+	}
+
+	private static final boolean showLogs = true;
+	private static String TAG = "WordGuessLogs";
+	public static void log(String message) {
+		if (showLogs) {
+			Log.i(TAG, message);
+		}
 	}
 }

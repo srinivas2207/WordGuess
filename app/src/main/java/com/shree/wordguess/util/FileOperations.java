@@ -20,6 +20,7 @@ import java.util.List;
 public class FileOperations {
 
     private static final String appDataFile = "appData.json";
+    private static final String wordDataFile = "words.json";
 
     private static FileOperations fileOperations;
 
@@ -35,7 +36,7 @@ public class FileOperations {
      */
     public void parseResourceFiles() {
         parseAppData();
-        parseWordFiles();
+        parseWordFile();
         DatabaseUtil.getInstance().setAppDataParsed(true);
         DatabaseUtil.getInstance().setLastUpdatedTime();
     }
@@ -66,24 +67,19 @@ public class FileOperations {
         }
     }
 
-    private void parseWordFiles() {
+    private void parseWordFile() {
         try {
-            AppData appData = DatabaseUtil.getInstance().getAppData();
-            List<AppData.WordFile> files = appData.getFiles();
+            List<WordData> wordData = null;
+            InputStream is =  WordGuessApplication.getInstance().getAssets().open(wordDataFile);
+            if(is != null) {
+                Reader reader = new InputStreamReader(is, "UTF-8");
+                wordData = new Gson().fromJson(
+                        reader, new TypeToken<List<WordData>>() {}.getType()
+                );
+            }
 
-            for(AppData.WordFile file : files) {
-                List<WordData> wordData = null;
-                InputStream is =  WordGuessApplication.getInstance().getAssets().open(file.getName());
-                if(is != null) {
-                    Reader reader = new InputStreamReader(is, "UTF-8");
-                    wordData = new Gson().fromJson(
-                            reader, new TypeToken<List<WordData>>() {}.getType()
-                    );
-                }
-
-                if (wordData != null) {
-                    DatabaseUtil.getInstance().insertWordsFromAssets(wordData);
-                }
+            if (wordData != null) {
+                DatabaseUtil.getInstance().insertWordsFromAssets(wordData);
             }
         } catch (Exception e) {
             e.printStackTrace();

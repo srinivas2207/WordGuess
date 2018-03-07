@@ -280,7 +280,6 @@ public class HomeFragment extends Fragment implements FragmentInterface {
 
 
     private void initAd() {
-        System.out.println("AD_INTERVAL " + ApplicationConstants.AD_INTERVAL);
         AdView bannerAd = content_layout.findViewById(R.id.bannerAd);
         if (ApplicationConstants.AD_INTERVAL > 20) {
             bannerAd.setVisibility(View.GONE);
