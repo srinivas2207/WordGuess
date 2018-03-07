@@ -196,7 +196,7 @@
   
   {
    "name" : "words2.json",
-   "url" : "https://raw.githubusercontent.com/srinivas2207/WordGuess/master/server/words1.json",
+   "url" : "https://raw.githubusercontent.com/srinivas2207/WordGuess/master/server/words2.json",
    "version" : 1
   }
  ]
