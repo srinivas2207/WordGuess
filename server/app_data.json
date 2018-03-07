@@ -171,33 +171,10 @@
    "name" : "Atmosphere",
    "desc" : ""
   },
-  
-  {
-   "id" : 200,
-   "name" : "cat200",
-   "desc" : ""
-  },
-  
-  {
-   "id" : 201,
-   "name" : "cat201",
-   "desc" : ""
-  },
 
   {"name":"Baseball","id":10,"desc":""},{"name":"Bathroom","id":11,"desc":""},{"name":"Beach","id":12,"desc":""},{"name":"Bird","id":13,"desc":""},{"name":"Birthday","id":14,"desc":""},{"name":"Boat","id":15,"desc":""},{"name":"Camping","id":16,"desc":""},{"name":"Car Parts","id":17,"desc":""},{"name":"Castles","id":18,"desc":""},{"name":"Circus and Fairs","id":19,"desc":""},{"name":"Clothes","id":20,"desc":""},{"name":"Colors","id":21,"desc":""},{"name":"Columbus Day","id":22,"desc":""},{"name":"Container","id":23,"desc":""},{"name":"Cooking Terms","id":24,"desc":""},{"name":"Country Names","id":25,"desc":""},{"name":"Crafts","id":26,"desc":""},{"name":"Types of Dances","id":27,"desc":""},{"name":"Desserts and Sweets","id":28,"desc":""},{"name":"Doctor or Dentist","id":29,"desc":""},{"name":"Dog and Dog Breeds","id":30,"desc":""},{"name":"Dolch Words","id":31,"desc":""},{"name":"Driving","id":32,"desc":""},{"name":"Election","id":33,"desc":""},{"name":"Elements","id":34,"desc":""},{"name":"Fall and Autumn","id":35,"desc":""},{"name":"Family","id":36,"desc":""},{"name":"Feelings and Emotions","id":37,"desc":""},{"name":"Farm","id":38,"desc":""},{"name":"Firefighting","id":39,"desc":""},{"name":"Fish","id":40,"desc":""},{"name":"Flowers","id":41,"desc":""},{"name":"Food and Eating","id":42,"desc":""},{"name":"Fruit","id":43,"desc":""},{"name":"Furniture","id":44,"desc":""},{"name":"Geography","id":45,"desc":""},{"name":"Groundhog Day","id":47,"desc":""},{"name":"Halloween","id":48,"desc":""},{"name":"House-Related","id":49,"desc":""},{"name":"Housing and Dwellings","id":50,"desc":""},{"name":"Human Body","id":51,"desc":""},{"name":"Insect and Bug","id":52,"desc":""},{"name":"Irregular Verbs","id":53,"desc":""},{"name":"Job and Occupation","id":54,"desc":""},{"name":"Kings","id":55,"desc":""},{"name":"Kitchen","id":56,"desc":""},{"name":"Landforms","id":57,"desc":""},{"name":"Landscape","id":58,"desc":""},{"name":"Legal Terms","id":59,"desc":""},{"name":"Maps","id":60,"desc":""},{"name":"Mammal","id":61,"desc":""},{"name":"Math and Numbers","id":62,"desc":""},{"name":"Military","id":63,"desc":""},{"name":"Money","id":64,"desc":""},{"name":"Music","id":65,"desc":""},{"name":"Music Theory","id":66,"desc":""},{"name":"Musical Instruments","id":67,"desc":""},{"name":"Ocean","id":69,"desc":""},{"name":"Pirate","id":70,"desc":""},{"name":"Plants","id":71,"desc":""},{"name":"Post Office","id":72,"desc":""},{"name":"Prehistoric Creatures","id":73,"desc":""},{"name":"The Presidents of The USA","id":74,"desc":""},{"name":"Prepositions","id":75,"desc":""},{"name":"Pronouns","id":76,"desc":""},{"name":"Queens","id":77,"desc":""},{"name":"Reptiles, Turtles and Tortoises","id":78,"desc":""},{"name":"Restaurant","id":79,"desc":""},{"name":"Rocks and Minerals","id":80,"desc":""},{"name":"School","id":81,"desc":""},{"name":"Science","id":82,"desc":""},{"name":"Sciences","id":83,"desc":""},{"name":"Sewing","id":84,"desc":""},{"name":"Shapes","id":85,"desc":""},{"name":"Types of Shoes","id":86,"desc":""},{"name":"Sports","id":87,"desc":""},{"name":"Spring","id":88,"desc":""},{"name":"St. Patrick's Day","id":89,"desc":""},{"name":"Stores and Public Buildings","id":90,"desc":""},{"name":"Summer","id":91,"desc":""},{"name":"Template","id":92,"desc":""},{"name":"Thanksgiving","id":93,"desc":""},{"name":"Theater","id":94,"desc":""},{"name":"Time","id":95,"desc":""},{"name":"Tools","id":96,"desc":""},{"name":"Tree","id":97,"desc":""},{"name":"US Flag Day","id":98,"desc":""},{"name":"US States","id":99,"desc":""},{"name":"Vehicles and Transportation","id":100,"desc":""},{"name":"Vacation","id":101,"desc":""},{"name":"Valentine's Day","id":102,"desc":""},{"name":"Vegetables and Legumes","id":103,"desc":""},{"name":"Visual Arts","id":104,"desc":""},{"name":"Weather","id":105,"desc":""},{"name":"Winter","id":107,"desc":""}
  ],
 
  "files" : [
-  {
-   "name" : "words1.json",
-   "url" : "https://raw.githubusercontent.com/srinivas2207/WordGuess/master/server/words1.json",
-   "version" : 1
-  },
-  
-  {
-   "name" : "words2.json",
-   "url" : "https://raw.githubusercontent.com/srinivas2207/WordGuess/master/server/words2.json",
-   "version" : 1
-  }
  ]
 }
