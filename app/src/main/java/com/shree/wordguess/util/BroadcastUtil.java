@@ -5,7 +5,7 @@ import android.content.Intent;
 import com.shree.wordguess.WordGuessApplication;
 
 /**
- * Created by SrinivasDonapati on 12/19/2017.
+ * App level broadcast util for broadcasting UI notifications to activities and fragments
  */
 
 public class BroadcastUtil  {

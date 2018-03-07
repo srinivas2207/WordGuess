@@ -1,7 +1,7 @@
 package com.shree.wordguess.util;
 
 /**
- * Created by SrinivasDonapati on 1/24/2018.
+ * JSON Constants to be used across app
  */
 
 public class JsonConstants {

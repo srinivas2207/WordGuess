@@ -10,6 +10,9 @@ import android.widget.TextView;
 
 import com.shree.wordguess.R;
 
+/**
+ * Custom progressbar with Rounded circle and percentage inside
+ */
 public class CustomProgressBar extends LinearLayout {
 	private ProgressBar progressBar;
 	private TextView progressNumber;

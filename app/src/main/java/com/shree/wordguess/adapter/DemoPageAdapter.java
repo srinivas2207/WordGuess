@@ -14,7 +14,7 @@ import com.shree.wordguess.R;
 import com.shree.wordguess.custom.RoundedCornersTransformation;
 
 /**
- * Created by SrinivasDonapati on 3/1/2018.
+ * Adapter to display demo screenshots used by view pager
  */
 
 public class DemoPageAdapter extends  PagerAdapter {

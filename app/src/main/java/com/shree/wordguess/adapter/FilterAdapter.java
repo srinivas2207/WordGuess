@@ -11,15 +11,13 @@ import android.widget.TextView;
 
 import com.shree.wordguess.R;
 import com.shree.wordguess.util.AppData;
-import com.shree.wordguess.util.JsonConstants;
-
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Adapter to display list of items, which can be filterable/searchable
+ */
 public class FilterAdapter extends RecyclerView.Adapter<FilterAdapter.MyViewHolder> implements Filterable{
 
     private List data = null;
@@ -102,6 +100,9 @@ public class FilterAdapter extends RecyclerView.Adapter<FilterAdapter.MyViewHold
                 for (Object dataObj : data) {
                     String name = null;
                     String desc = null;
+
+                    // Handling twos different filtered implementations used
+                    // Language and Category
                     if (dataObj instanceof AppData.Language) {
                         name = ((AppData.Language) dataObj).getName();
                         desc = ((AppData.Language) dataObj).getCode();

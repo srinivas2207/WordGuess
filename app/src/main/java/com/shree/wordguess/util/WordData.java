@@ -1,11 +1,7 @@
 package com.shree.wordguess.util;
 
-import java.security.Principal;
 import java.util.List;
 
-/**
- * Created by SrinivasDonapati on 2/8/2018.
- */
 
 public class WordData {
     private int category;

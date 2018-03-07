@@ -9,35 +9,28 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.webkit.JavascriptInterface;
-import android.webkit.WebView;
-import android.webkit.WebViewClient;
 import android.widget.Button;
 import android.widget.PopupMenu;
 
+import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.shree.wordguess.R;
 import com.shree.wordguess.activity.ParentActivity;
 import com.shree.wordguess.custom.SearchListDialog;
 import com.shree.wordguess.custom.SpinnerButton;
-import com.shree.wordguess.network.NetworkOperations;
 import com.shree.wordguess.util.AppData;
 import com.shree.wordguess.util.ApplicationConstants;
 import com.shree.wordguess.util.DatabaseUtil;
 import com.shree.wordguess.util.JsonConstants;
-import com.shree.wordguess.util.Utils;
-import com.shree.wordguess.util.WordData;
 
-import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.lang.annotation.Annotation;
-import java.util.Date;
 import java.util.List;
-import com.google.android.gms.ads.AdRequest;
 
-
+/**
+ * Home screen to show logo and form
+ */
 public class HomeFragment extends Fragment implements FragmentInterface {
 
     private String langCode = null;

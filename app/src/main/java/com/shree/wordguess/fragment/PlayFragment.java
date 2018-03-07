@@ -1,7 +1,5 @@
 package com.shree.wordguess.fragment;
 
-import android.app.DialogFragment;
-import android.app.FragmentManager;
 import android.content.ClipData;
 import android.content.ClipboardManager;
 import android.content.Context;
@@ -43,14 +41,12 @@ import com.shree.wordguess.R;
 import com.shree.wordguess.activity.ParentActivity;
 import com.shree.wordguess.custom.CustomAlertDialog;
 import com.shree.wordguess.custom.CustomProgressBar;
-import com.shree.wordguess.custom.CustomTextView;
+import com.shree.wordguess.custom.WordBoxTextView;
 import com.shree.wordguess.network.NetworkOperations;
 import com.shree.wordguess.util.ApplicationConstants;
 import com.shree.wordguess.util.DatabaseUtil;
 import com.shree.wordguess.util.Utils;
 import com.shree.wordguess.util.WordData;
-
-import org.json.JSONObject;
 
 import java.lang.annotation.Annotation;
 import java.util.ArrayList;
@@ -60,7 +56,7 @@ import java.util.List;
 import java.util.Locale;
 
 /**
- * Created by SrinivasDonapati on 2/9/2018.
+ * Fragment to show game UI
  */
 
 public class PlayFragment extends Fragment implements FragmentInterface {
@@ -77,7 +73,7 @@ public class PlayFragment extends Fragment implements FragmentInterface {
     private boolean onWindowFocusChanged = false;
 
     private View content_layout = null;
-    private CustomTextView wordBlockView = null;
+    private WordBoxTextView wordBlockView = null;
     private TextView translatedView = null;
     private View speakUpView = null;
 
@@ -272,6 +268,9 @@ public class PlayFragment extends Fragment implements FragmentInterface {
         return content_layout;
     }
 
+    /**
+     * Starting a new game session
+     */
     public void initNewGame() {
         gameId = new Date().getTime();
 
@@ -284,6 +283,9 @@ public class PlayFragment extends Fragment implements FragmentInterface {
         fetchWords();
     }
 
+    /**
+     * Showing loading screen
+     */
     private void showLoadingPage() {
         loadingWaitCounter.cancel();
         loadingWaitCounter.start();
@@ -298,6 +300,9 @@ public class PlayFragment extends Fragment implements FragmentInterface {
         // show ad if loading takes more time
     }
 
+    /**
+     * Showing network error screen
+     */
     private void showConnectionFailure() {
         loadingWaitCounter.cancel();
 
@@ -308,6 +313,9 @@ public class PlayFragment extends Fragment implements FragmentInterface {
         messageView.setText("You are not connected");
     }
 
+    /**
+     * Showing error screen
+     */
     private void showErrorPage() {
         loadingWaitCounter.cancel();
 
@@ -318,6 +326,9 @@ public class PlayFragment extends Fragment implements FragmentInterface {
         messageView.setText("Some thing broken");
     }
 
+    /**
+     * Showing app level error screen
+     */
     private void showNoWordError() {
         loadingWaitCounter.cancel();
 
@@ -328,6 +339,9 @@ public class PlayFragment extends Fragment implements FragmentInterface {
         messageView.setText("No words to play, try with other categories !");
     }
 
+    /**
+     * Starting a new game | showing a new word
+     */
     public void startGame() {
         checkAd();
         ((ParentActivity)getActivity()).addAnalyticData( isVocabBee ? ApplicationConstants.VOCAB_BEE_UP : ApplicationConstants.SPELL_BEE_UP, category + "");
@@ -358,7 +372,9 @@ public class PlayFragment extends Fragment implements FragmentInterface {
         }
     }
 
-
+    /**
+     * Intializing background webview, used for translating words
+     */
     private void _initTranslateWebview() {
         translateWebview = content_layout.findViewById(R.id.dataLoaderView);
         translateWebview.getSettings().setUseWideViewPort(true);
@@ -374,6 +390,9 @@ public class PlayFragment extends Fragment implements FragmentInterface {
         });
     }
 
+    /**
+     * Triggering word translation
+     */
     private void _runTranslation() {
         isTranslationOn = true;
         translateTrials = 0;
@@ -392,6 +411,10 @@ public class PlayFragment extends Fragment implements FragmentInterface {
         }
     }
 
+    /**
+     * Loading translate webview with the translate URL
+     * @param word
+     */
     private void _loadTranslateView(String word) {
         String translateUrl  = ApplicationConstants.TRANSLATE_URL_TEMPLATE;
         translateUrl = translateUrl.replace("{code}", langCode);
@@ -401,6 +424,10 @@ public class PlayFragment extends Fragment implements FragmentInterface {
         System.out.println("Loading word ===== > " + word);
     }
 
+    /**
+     * Fetching non-translated word from word list
+     * @return
+     */
     private String _fetchNonTranslatedWord() {
         for (WordData.Word word : randomWords) {
             if (word.getSouceLang() != null && word.getSouceLang().equalsIgnoreCase(langCode) && word.getTranslatedValue() != null) {
@@ -412,6 +439,10 @@ public class PlayFragment extends Fragment implements FragmentInterface {
         return null;
     }
 
+    /**
+     * Fetching translated word from word list
+     * @return
+     */
     private WordData.Word _fetchTranslatedWord() {
         WordData.Word translatedWord = null;
         for (WordData.Word word : randomWords) {
@@ -423,6 +454,9 @@ public class PlayFragment extends Fragment implements FragmentInterface {
         return translatedWord;
     }
 
+    /**
+     * JS Translator class to be used by webview to notify the results
+     */
     private class TranslateLoader implements JavascriptInterface {
         @Override
         public Class<? extends Annotation> annotationType() {
@@ -432,7 +466,6 @@ public class PlayFragment extends Fragment implements FragmentInterface {
         @JavascriptInterface
         public void setResult(final String source, String result) {
 
-            System.out.println("Resultt word ===== > " + source);
             // Allowing maximum trials of 10
             if (translateTrials >= 10 ) {
                 isTranslationOn = false;
@@ -465,6 +498,7 @@ public class PlayFragment extends Fragment implements FragmentInterface {
                 }
             }
 
+            // If the game is in waiting state, resuming the game
             if (isLoading && _fetchTranslatedWord() != null) {
                 translateWebview.post(new Runnable() {
                     public void run() {
@@ -484,6 +518,10 @@ public class PlayFragment extends Fragment implements FragmentInterface {
             isTranslationOn = false;
         }
     }
+
+    /**
+     * Fetching game words from database
+     */
     public void fetchWords() {
         new AsyncTask<Void, Void, Boolean>() {
             @Override
@@ -504,6 +542,9 @@ public class PlayFragment extends Fragment implements FragmentInterface {
         }.execute(null, null, null);
     }
 
+    /**
+     * Initializing the game and it's details
+     */
     public void initializeData() {
         wordsInSession.add(currentGameWord.getName());
 
@@ -525,6 +566,9 @@ public class PlayFragment extends Fragment implements FragmentInterface {
         adGameCount++;
     }
 
+    /**
+     * Displaying game UI
+     */
     public void showPlayUI() {
         loadingWaitCounter.cancel();
 
@@ -559,6 +603,9 @@ public class PlayFragment extends Fragment implements FragmentInterface {
 
     }
 
+    /**
+     * Drawing word using custom wordbox view
+     */
     private void drawWordBlocks() {
         wordBlockView.drawWordBlocks(currentGameWord.getName(), userSelectionChars, shallReveal);
     }
@@ -577,8 +624,12 @@ public class PlayFragment extends Fragment implements FragmentInterface {
         super.onPause();
     }
 
-
-    public void applyWrongSelection(int index, String character) {
+    /**
+     * Applying changes to the chances UI, on wrong character selection
+     * @param index
+     * @param character
+     */
+    private void applyWrongSelection(int index, String character) {
         TextView chance = (TextView) chancesContainer.getChildAt(index);
         GradientDrawable drawable  = (GradientDrawable)  chance.getBackground();
 
@@ -589,15 +640,17 @@ public class PlayFragment extends Fragment implements FragmentInterface {
             chance.setText(character);
             drawable.setColor(Color.DKGRAY);
         } else {
-//            chance.setText((ApplicationConstants.GUESS_CHANCES - index )+ "");
             chance.setText("");
-            if (Utils.primayColorDark != 0) {
-                drawable.setColor(Utils.primayColorDark);
+            if (Utils.primaryColorDark != 0) {
+                drawable.setColor(Utils.primaryColorDark);
             }
         }
     }
 
-    public void enableKeyBoardButtons() {
+    /**
+     * Handling custom keyboard buttons based on game state
+     */
+    private void enableKeyBoardButtons() {
         Button key = null;
         for(int i=0;i<keyBoardIds.length;i++) {
             key = (Button) content_layout.findViewById(keyBoardIds[i]);
@@ -614,7 +667,10 @@ public class PlayFragment extends Fragment implements FragmentInterface {
         }
     }
 
-    public void disableKeyBoardButtons() {
+    /**
+     * Disabling all the keyboard buttons
+     */
+    private void disableKeyBoardButtons() {
         Button key = null;
         for(int i=0;i<keyBoardIds.length;i++) {
             key = (Button) content_layout.findViewById(keyBoardIds[i]);;
@@ -622,6 +678,9 @@ public class PlayFragment extends Fragment implements FragmentInterface {
         }
     }
 
+    /**
+     * Displaying keyboard or bottom result panel
+     */
     public void showKeyboardOrMessage() {
         if(shallReveal) {
             handleGameResult(false, false);
@@ -633,6 +692,11 @@ public class PlayFragment extends Fragment implements FragmentInterface {
         }
     }
 
+    /**
+     * Fetching non repetitive chars from string
+     * @param str
+     * @return
+     */
     private String removeDuplicatesAndSpaces(String str) {
         str = str.toUpperCase();
         StringBuilder noDupes = new StringBuilder();
@@ -645,6 +709,11 @@ public class PlayFragment extends Fragment implements FragmentInterface {
         return noDupes.toString().replaceAll(" ", "");
     }
 
+    /**
+     * Fetching non-enlish chars from the word
+     * @param uniqueChars
+     * @return
+     */
     private String getNonEnglishChars(String uniqueChars) {
         String nonEnglishChars = "";
         for (int i = 0; i < uniqueChars.length(); i++) {
@@ -656,6 +725,9 @@ public class PlayFragment extends Fragment implements FragmentInterface {
         return nonEnglishChars;
     }
 
+    /**
+     * Click event listener of the keyboard keys
+     */
     private View.OnClickListener onKeyClickListener = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
@@ -672,7 +744,7 @@ public class PlayFragment extends Fragment implements FragmentInterface {
         public void onClick(View view) {
             switch (view.getId()) {
                 case R.id.toolbarSearch:
-                    String url = ApplicationConstants.GOOLE_SEARCH_PREFIX + currentGameWord.getName() + " meaning";
+                    String url = ApplicationConstants.GOOGLE_SEARCH_PREFIX + currentGameWord.getName() + " meaning";
                     Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
                     startActivity(browserIntent);
                     break;
@@ -716,6 +788,10 @@ public class PlayFragment extends Fragment implements FragmentInterface {
         }
     };
 
+    /**
+     * Responding to the character selection and changing the game state
+     * @param key
+     */
     public void validateResult(View key) {
         ((Button) key).setEnabled(false);
         ((Button) key).setTextColor(Color.WHITE);
@@ -742,6 +818,11 @@ public class PlayFragment extends Fragment implements FragmentInterface {
         }
     }
 
+    /**
+     * Handling game based on game finish state
+     * @param gameResult
+     * @param shouldAnimate
+     */
     public void handleGameResult(boolean gameResult, boolean shouldAnimate) {
         updateToolbar();
 
@@ -800,7 +881,9 @@ public class PlayFragment extends Fragment implements FragmentInterface {
 
     }
 
-
+    /**
+     * Animation listener used in bottom result panel
+     */
     public Animation.AnimationListener animListener = new Animation.AnimationListener() {
 
         @Override
@@ -855,8 +938,9 @@ public class PlayFragment extends Fragment implements FragmentInterface {
         }
     };
 
-
-
+    /**
+     * Showing hint
+     */
     public void showHint() {
         CustomAlertDialog hintDiaglog = new CustomAlertDialog(getActivity(), CustomAlertDialog.HINT_DIALOG);
         String hint = "";
@@ -874,6 +958,9 @@ public class PlayFragment extends Fragment implements FragmentInterface {
                 .show();
     }
 
+    /**
+     * Revealing half of the characters
+     */
     public void reveal() {
         CustomAlertDialog dialog = new CustomAlertDialog(getActivity(), CustomAlertDialog.HALF_REVEAL_DIALOG);
         String body = getResources().getString(R.string.halfRevealDesc);
@@ -894,6 +981,10 @@ public class PlayFragment extends Fragment implements FragmentInterface {
 
     }
 
+    /**
+     * Checking the game status
+     * @return
+     */
     public boolean isGameSuccessful() {
         if(uniqueChars.length() == userSelectionChars.length()) {
             return true;
@@ -901,6 +992,11 @@ public class PlayFragment extends Fragment implements FragmentInterface {
             return false;
         }
     }
+
+    /**
+     * Checking the game status
+     * @return
+     */
     public boolean isGameOver() {
         if(wrongSelection!=null && wrongSelection.length()== ApplicationConstants.GUESS_CHANCES) {
             return true;
@@ -909,6 +1005,9 @@ public class PlayFragment extends Fragment implements FragmentInterface {
         }
     }
 
+    /**
+     * Restarting the game
+     */
     public void refresh() {
         if(! isGameOver()) {
             CustomAlertDialog dialog = new CustomAlertDialog(getActivity(), CustomAlertDialog.GAME_REFRESH_DIALOG);
@@ -923,6 +1022,9 @@ public class PlayFragment extends Fragment implements FragmentInterface {
         }
     }
 
+    /**
+     * Saving the game state
+     */
     public void saveGame() {
         int gameCount = gameNumber;
         if (!isGameOver() && !isGameSuccessful() ){
@@ -934,6 +1036,9 @@ public class PlayFragment extends Fragment implements FragmentInterface {
         }
     }
 
+    /**
+     * Favourite/Unfavouriting the word
+     */
     public void favourite() {
         if (currentGameWord != null) {
             currentGameWord.setFavourite(!currentGameWord.isFavourite());
@@ -952,6 +1057,9 @@ public class PlayFragment extends Fragment implements FragmentInterface {
         }
     }
 
+    /**
+     * Sharing the word
+     */
     public void share() {
         if (currentGameWord == null) {
             return;
@@ -988,6 +1096,9 @@ public class PlayFragment extends Fragment implements FragmentInterface {
         }
     }
 
+    /**
+     * Text to Speech helper
+     */
     public class WordPrononcer implements TextToSpeech.OnInitListener {
 
         private TextToSpeech tts;
@@ -1033,7 +1144,7 @@ public class PlayFragment extends Fragment implements FragmentInterface {
 
     CustomAlertDialog.DialogListener dialogListener = new CustomAlertDialog.DialogListener() {
         @Override
-        public void onPossitiveBtnClick(int dialogType) {
+        public void onPositiveBtnClick(int dialogType) {
             if (dialogType == CustomAlertDialog.HALF_REVEAL_DIALOG) {
                 halfRevealChars();
                 return;

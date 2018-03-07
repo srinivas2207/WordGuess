@@ -1,7 +1,6 @@
 package com.shree.wordguess.adapter;
 
 import android.content.Context;
-import android.graphics.Color;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -13,6 +12,9 @@ import com.shree.wordguess.util.WordData;
 
 import java.util.List;
 
+/**
+ * Adapter to display list of favourite words
+ */
 public class FavouriteAdapter extends RecyclerView.Adapter<FavouriteAdapter.MyViewHolder> {
 
     private List<WordData.Word> data = null;
@@ -29,6 +31,10 @@ public class FavouriteAdapter extends RecyclerView.Adapter<FavouriteAdapter.MyVi
         notifyDataSetChanged();
     }
 
+    /**
+     * Changing the index of selected item
+     * @param selectedIndex
+     */
     public void setSelectedIndex(int selectedIndex) {
         this.selectedIndex = selectedIndex;
         notifyDataSetChanged();
@@ -82,6 +88,7 @@ public class FavouriteAdapter extends RecyclerView.Adapter<FavouriteAdapter.MyVi
             vh.subTitle.setText("");
         }
 
+        //Changing the background of the item, based on selected index
         if (position == selectedIndex) {
             vh.listItemContainer.setBackgroundColor(R.attr.selectableItemBackground);
         } else {

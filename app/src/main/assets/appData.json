@@ -170,11 +170,5 @@
  ],
 
  "files" : [
-  {
-   "name" : "words.json",
-   "url" : "",
-   "version" : 1,
-   "categories" : [1, 2, 3]
-  }
  ]
 }

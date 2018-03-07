@@ -117,7 +117,6 @@ public class AppData {
         private String name;
         private String url;
         private int version;
-        private List<Integer> categories;
 
         public String getName() {
             return name;
@@ -141,14 +140,6 @@ public class AppData {
 
         public void setVersion(int version) {
             this.version = version;
-        }
-
-        public List<Integer> getCategories() {
-            return categories;
-        }
-
-        public void setCategories(List<Integer> categories) {
-            this.categories = categories;
         }
     }
 }

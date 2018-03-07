@@ -30,6 +30,9 @@ public class FileOperations {
         return fileOperations;
     }
 
+    /**
+     * Parsing app's resource files (meta data and word data)
+     */
     public void parseResourceFiles() {
         parseAppData();
         parseWordFiles();
@@ -79,7 +82,7 @@ public class FileOperations {
                 }
 
                 if (wordData != null) {
-                    DatabaseUtil.getInstance().updateWordData(wordData);
+                    DatabaseUtil.getInstance().insertWordsFromAssets(wordData);
                 }
             }
         } catch (Exception e) {

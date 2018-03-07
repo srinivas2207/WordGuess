@@ -7,7 +7,10 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Environment;
 
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
 import com.shree.wordguess.WordGuessApplication;
+import com.shree.wordguess.util.AppData;
 import com.shree.wordguess.util.ApplicationConstants;
 import com.shree.wordguess.util.BroadcastUtil;
 import com.shree.wordguess.util.DatabaseUtil;
@@ -40,9 +43,15 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.TimeZone;
 
+/**
+ * Util class for handling network operations
+ */
 public class NetworkOperations {
 	private static NetworkOperations networkOperations;
+
+	// Map to store active network calls in running thread
 	private Map<String, Object> netWorkCalls = new Hashtable<>();
+
 	public static final String HTTP_GET 	= "GET";
 	public static final String HTTP_POST 	= "POST";
 	public static final String HTTP_PUT 	= "PUT";
@@ -59,6 +68,10 @@ public class NetworkOperations {
 		netWorkCalls.clear();
 	}
 
+	/**
+	 * Checking connection status
+	 * @return
+	 */
 	public boolean checkNetworkConnection() {
 		ConnectivityManager connMgr = (ConnectivityManager) WordGuessApplication.getInstance().getSystemService(Context.CONNECTIVITY_SERVICE);
 		NetworkInfo networkInfo = connMgr.getActiveNetworkInfo();
@@ -69,92 +82,96 @@ public class NetworkOperations {
 		}
 	}
 
-	public boolean translate(List<WordData.Word> wordList, String langCode) {
-		if (!checkNetworkConnection()) {
-			return false;
-		}
+//	public boolean translate(List<WordData.Word> wordList, String langCode) {
+//		if (!checkNetworkConnection()) {
+//			return false;
+//		}
+//
+//		String url = ApplicationConstants.TRANSLATE_URL + ApplicationConstants.API_KEY;
+//		JSONObject formObj = getFormBody(wordList, langCode);
+//		JSONArray wordReqList = null;
+//		try {
+//			wordReqList = formObj.getJSONArray(JsonConstants.QUERY_Q);
+//		} catch (JSONException jse) {
+//			jse.printStackTrace();
+//		}
+//
+//		if (wordReqList == null || wordReqList.length() == 0) {
+//			return true;
+//		}
+//
+//		RestCallResponse restCallResponse = doPost(url, formObj.toString() , null);
+//		if (restCallResponse != null && restCallResponse.getStatus() == 200) {
+//			Map<String, String> resultMap = new HashMap<>();
+//			JSONArray transArr = new JSONArray();
+//			try {
+//				JSONObject translationResp = new JSONObject(restCallResponse.getResponse());
+//				transArr = translationResp.getJSONObject(JsonConstants.DATA).getJSONArray(JsonConstants.TRANSLATIONS);
+//			} catch (JSONException jse) {
+//				jse.printStackTrace();
+//			}
+//			if (transArr != null && transArr.length() == wordReqList.length()) {
+//				List<WordData.Word> noTranslationWords = new ArrayList<>();
+//				for(int i =0; i< wordReqList.length(); i++) {
+//					String word = null;
+//					String translateRes = null;
+//					try {
+//						word = wordReqList.getString(i);
+//						translateRes = transArr.getJSONObject(i).getString(JsonConstants.TRANSLATED_TEXT);
+//					} catch (JSONException jse) {
+//						jse.printStackTrace();
+//					}
+//
+//					for(WordData.Word wordInfo : wordList) {
+//						if (word != null && wordInfo.getName().equalsIgnoreCase(word)){
+//							if (word.toLowerCase().equalsIgnoreCase(translateRes.toLowerCase())) {
+//								noTranslationWords.add(wordInfo);
+//							} else {
+//								wordInfo.setSouceLang(langCode);
+//								wordInfo.setTranslatedValue(translateRes);
+//							}
+//						}
+//					}
+//				}
+//
+//				for(WordData.Word wordInfo : noTranslationWords) {
+//					wordList.remove(wordInfo);
+//				}
+//				DatabaseUtil.getInstance().updateTranslations(wordList);
+//				return true;
+//			}
+//		}
+//		return false;
+//	}
 
-		String url = ApplicationConstants.TRANSLATE_URL + ApplicationConstants.API_KEY;
-		JSONObject formObj = getFormBody(wordList, langCode);
-		JSONArray wordReqList = null;
-		try {
-			wordReqList = formObj.getJSONArray(JsonConstants.QUERY_Q);
-		} catch (JSONException jse) {
-			jse.printStackTrace();
-		}
-
-		if (wordReqList == null || wordReqList.length() == 0) {
-			return true;
-		}
-
-		RestCallResponse restCallResponse = doPost(url, formObj.toString() , null);
-		if (restCallResponse != null && restCallResponse.getStatus() == 200) {
-			Map<String, String> resultMap = new HashMap<>();
-			JSONArray transArr = new JSONArray();
-			try {
-				JSONObject translationResp = new JSONObject(restCallResponse.getResponse());
-				transArr = translationResp.getJSONObject(JsonConstants.DATA).getJSONArray(JsonConstants.TRANSLATIONS);
-			} catch (JSONException jse) {
-				jse.printStackTrace();
-			}
-			if (transArr != null && transArr.length() == wordReqList.length()) {
-				List<WordData.Word> noTranslationWords = new ArrayList<>();
-				for(int i =0; i< wordReqList.length(); i++) {
-					String word = null;
-					String translateRes = null;
-					try {
-						word = wordReqList.getString(i);
-						translateRes = transArr.getJSONObject(i).getString(JsonConstants.TRANSLATED_TEXT);
-					} catch (JSONException jse) {
-						jse.printStackTrace();
-					}
-
-					for(WordData.Word wordInfo : wordList) {
-						if (word != null && wordInfo.getName().equalsIgnoreCase(word)){
-							if (word.toLowerCase().equalsIgnoreCase(translateRes.toLowerCase())) {
-								noTranslationWords.add(wordInfo);
-							} else {
-								wordInfo.setSouceLang(langCode);
-								wordInfo.setTranslatedValue(translateRes);
-							}
-						}
-					}
-				}
-
-				for(WordData.Word wordInfo : noTranslationWords) {
-					wordList.remove(wordInfo);
-				}
-				DatabaseUtil.getInstance().updateTranslations(wordList);
-				return true;
-			}
-		}
-		return false;
-	}
-
-	private static JSONObject getFormBody(List<WordData.Word> wordList, String langCode) {
-		JSONObject formBody = new JSONObject();
-		JSONArray qArray = new JSONArray();
-		for(WordData.Word word : wordList) {
-			if (word.getTranslatedValue() != null
-					&& word.getTranslatedValue().trim().length() > 0
-					&& word.getSouceLang() != null
-					&& word.getSouceLang().equalsIgnoreCase(langCode)) {
-				// skip
-			} else {
-				qArray.put(word.getName().trim());
-			}
-		}
-		try {
-			formBody.put(JsonConstants.SOURCE, JsonConstants.ENGLISH_CODE);
-			formBody.put(JsonConstants.TARGET, langCode);
-			formBody.put(JsonConstants.QUERY_Q, qArray);
-		} catch (JSONException jse) {
-			jse.printStackTrace();
-		}
-		return formBody;
-	}
+//	private static JSONObject getFormBody(List<WordData.Word> wordList, String langCode) {
+//		JSONObject formBody = new JSONObject();
+//		JSONArray qArray = new JSONArray();
+//		for(WordData.Word word : wordList) {
+//			if (word.getTranslatedValue() != null
+//					&& word.getTranslatedValue().trim().length() > 0
+//					&& word.getSouceLang() != null
+//					&& word.getSouceLang().equalsIgnoreCase(langCode)) {
+//				// skip
+//			} else {
+//				qArray.put(word.getName().trim());
+//			}
+//		}
+//		try {
+//			formBody.put(JsonConstants.SOURCE, JsonConstants.ENGLISH_CODE);
+//			formBody.put(JsonConstants.TARGET, langCode);
+//			formBody.put(JsonConstants.QUERY_Q, qArray);
+//		} catch (JSONException jse) {
+//			jse.printStackTrace();
+//		}
+//		return formBody;
+//	}
 
 
+	/**
+	 * Checking available updates from app server
+	 * @return
+	 */
 	public  Runnable checkAppDataUpdate() {
 		final String URL = ApplicationConstants.APP_META_DATA_URL;
 		Runnable runnable = new Runnable() {
@@ -195,23 +212,91 @@ public class NetworkOperations {
 		return runnable;
 	}
 
+	/**
+	 * Updating all the changes
+	 * @throws Exception
+	 */
 	public void updateAppData() throws Exception{
-
-
 		String URL = ApplicationConstants.APP_UPDATE_DATA_URL;
 		RestCallResponse response = sendHttpRequest(HTTP_GET, URL, null, null);
 		if (response == null || response.getStatus() != 200) {
 			throw new Exception("Unable to update app data");
 		}
 
-		String appData = response.getResponse();
+		String newAppData = response.getResponse();
+		JSONObject appDataObj = new JSONObject(newAppData);
+
+		JSONArray newWords = new JSONArray();
+		List<String> newWordFileUrlList = _getUrlsToDownload(appDataObj);
+		if (newWordFileUrlList != null && newWordFileUrlList.size() > 0) {
+			for (String wordFileUrl : newWordFileUrlList) {
+				RestCallResponse resp = sendHttpRequest(HTTP_GET, wordFileUrl, null, null);
+				if (resp.getStatus() == 200) {
+					JSONArray wordArray = new JSONArray(resp.getResponse());
+					newWords = concatJsonArrays(newWords, wordArray);
+				} else {
+					throw new Exception("Error while fetching file data !");
+				}
+			}
+		}
 
 
-		System.out.println("UPDATING DATAAAAAAAAAAAAAAAAAAAAAAAAAA " + appData);
-		JSONObject appDataObj = new JSONObject(appData);
+		// Adding new words to the table
+		if (newWords != null & newWords.length() >0) {
+			List<WordData> wordList = new Gson().fromJson(
+					newWords.toString(), new TypeToken<List<WordData>>() {}.getType()
+			);
+
+			System.out.println("Inserting new words =======> " + wordList.size());
+			DatabaseUtil.getInstance().insertWords(wordList);
+		}
+
 		DatabaseUtil.getInstance().updateAppData(appDataObj);
 	}
 
+	private List<String> _getUrlsToDownload(JSONObject appDataObj) throws Exception{
+		List<String> urlList = new ArrayList<>();
+		AppData currentData = DatabaseUtil.getInstance().getAppData();
+		List<AppData.WordFile> downloadedFiles = currentData.getFiles();
+
+		if (appDataObj != null && appDataObj.has(JsonConstants.FILES)) {
+			JSONArray filesArr = appDataObj.getJSONArray(JsonConstants.FILES);
+			if (filesArr != null && filesArr.length() > 0) {
+				for (int i=0;i < filesArr.length(); i++) {
+					String fileName = filesArr.getJSONObject(i).getString(JsonConstants.NAME);
+					String url = filesArr.getJSONObject(i).getString(JsonConstants.URL);
+					if (downloadedFiles == null || downloadedFiles.size() == 0) {
+						urlList.add(url);
+					} else {
+						boolean isFileDownloaded = false;
+						for (AppData.WordFile wordFile : downloadedFiles) {
+							if (wordFile.getName().equalsIgnoreCase(fileName)) {
+								isFileDownloaded = true;
+								break;
+							}
+						}
+						if (!isFileDownloaded) {
+							urlList.add(url);
+						}
+					}
+				}
+			}
+		}
+		return urlList;
+	}
+
+	private JSONArray concatJsonArrays(JSONArray parentArr, JSONArray newArr) {
+		if(newArr != null && newArr.length() >0) {
+			for (int i=0;i<newArr.length();i++) {
+				try {
+					parentArr.put(newArr.getJSONObject(i));
+				} catch (JSONException e) {
+					e.printStackTrace();
+				}
+			}
+		}
+		return parentArr;
+	}
 
 
 	public String encode(String fileName)

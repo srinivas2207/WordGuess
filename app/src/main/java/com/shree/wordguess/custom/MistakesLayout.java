@@ -10,6 +10,9 @@ import android.widget.TextView;
 
 import com.shree.wordguess.R;
 
+/**
+ * Custom layout for showing mistakes UI
+ */
 public class MistakesLayout extends LinearLayout {
 	private ProgressBar progressBar;
 	private TextView progressNumber;

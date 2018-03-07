@@ -1,14 +1,8 @@
 package com.shree.wordguess.activity;
 
-import android.content.Intent;
-import android.content.res.Configuration;
-import android.graphics.Bitmap;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.Toolbar;
-import android.view.View;
-import android.view.Menu;
 import android.view.MenuItem;
 
 import com.shree.wordguess.R;
@@ -21,19 +15,28 @@ import com.shree.wordguess.fragment.SettingsFragment;
 import com.shree.wordguess.network.UINotificationListener;
 import com.shree.wordguess.util.ApplicationConstants;
 
+/**
+ * Home activity of the application<br/>
+ * It's the placeholder for all the screens(fragments)
+ */
 public class HomeActivity extends ParentActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+
+        //Initializing the coordinatorLayout, which can be used by parent activity for app level snackbar purposes.
         coordinatorLayout = findViewById(R.id.coordinatorLayout);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+
+        Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        // Launching home fragment
         HomeFragment homeFragment = new HomeFragment();
         launchFragment(homeFragment, true, false);
 
+        // Showing settings fragment, If the activity launched from Settings screen by changing theme
         boolean isFromThemeChange = getIntent().getBooleanExtra(ApplicationConstants.IS_THEME_CHANGED, false);
         if (isFromThemeChange) {
             SettingsFragment settingsFragment = new SettingsFragment();
@@ -45,7 +48,7 @@ public class HomeActivity extends ParentActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
-        Fragment fragment = getActivieFragment();
+        Fragment fragment = getActiveFragment();
 
         switch (id) {
             case R.id.themes:
@@ -121,7 +124,8 @@ public class HomeActivity extends ParentActivity {
 
     @Override
     public void onBackPressed() {
-        Object fragment = getActivieFragment();
+        Object fragment = getActiveFragment();
+        //If the current fragment is PlayFragment, handling backpress based on game state.
         if (fragment != null  && fragment instanceof PlayFragment) {
             if (!((PlayFragment) fragment).canExitFromGame()) {
                 ((PlayFragment) fragment).showAppExitDialog();
@@ -129,6 +133,7 @@ public class HomeActivity extends ParentActivity {
             }
         }
 
+        //If the current fragment is Favourites, handling backpress based on list item selection.
         if (fragment != null  && fragment instanceof FavouriteFragment) {
             if (((FavouriteFragment) fragment).isWordSelected()) {
                 ((FavouriteFragment) fragment).handleBackPress();
@@ -140,7 +145,7 @@ public class HomeActivity extends ParentActivity {
 
     @Override
     public void onUiNotification(int type, String data) {
-        UINotificationListener fragment = (UINotificationListener) getActivieFragment();
+        UINotificationListener fragment = (UINotificationListener) getActiveFragment();
         fragment.onUiNotification(type, data);
     }
 
@@ -148,7 +153,7 @@ public class HomeActivity extends ParentActivity {
     public void onWindowFocusChanged(boolean hasFocus) {
         // TODO Auto-generated method stub
         super.onWindowFocusChanged(hasFocus);
-        Object fragment = getActivieFragment();
+        Object fragment = getActiveFragment();
         if(fragment!=null && fragment instanceof  PlayFragment ) {
             ((PlayFragment)fragment).onWindowFocusChanged(hasFocus);
         }

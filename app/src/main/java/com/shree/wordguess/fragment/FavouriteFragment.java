@@ -27,7 +27,9 @@ import com.shree.wordguess.util.WordData;
 
 import java.util.List;
 
-
+/**
+ * Fragment to show favourite words
+ */
 public class FavouriteFragment extends Fragment implements FragmentInterface {
 
     private View content_layout;

@@ -13,7 +13,9 @@ import android.webkit.WebView;
 import com.shree.wordguess.R;
 import com.shree.wordguess.activity.ParentActivity;
 
-
+/**
+ * App's About screen
+ */
 public class AboutFragment extends Fragment implements FragmentInterface {
 
     private View content_layout;

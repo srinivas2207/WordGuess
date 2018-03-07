@@ -19,6 +19,9 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+/**
+ * Util class for database operations
+ */
 public class DatabaseUtil {
 
 	private static DatabaseUtil _dbUtil = null;
@@ -35,11 +38,19 @@ public class DatabaseUtil {
 		return _dbUtil;
 	}
 
+	/**
+	 * Getting demo viewed status
+	 * @return
+	 */
 	public boolean getDemoStatus() {
 		SharedPreferences prefs = WordGuessApplication.getInstance().getSharedPreferences(DBConstants.WORD_GUESS_APP_PREFERENCE, Context.MODE_PRIVATE);
 		return prefs.getBoolean(DBConstants.DEMO_STATUS, false);
 	}
 
+	/**
+	 * Setting demo viewed status
+	 * @param status
+	 */
 	public void setDemoStatus(boolean status) {
 		SharedPreferences prefs = WordGuessApplication.getInstance().getSharedPreferences(DBConstants.WORD_GUESS_APP_PREFERENCE,
 				Context.MODE_PRIVATE);
@@ -48,11 +59,18 @@ public class DatabaseUtil {
 		editor.commit();
 	}
 
+	/**
+	 * Getting app's last update check time
+	 * @return
+	 */
 	public long getLastUpdatedTime(){
 		SharedPreferences prefs = WordGuessApplication.getInstance().getSharedPreferences(DBConstants.WORD_GUESS_APP_PREFERENCE, Context.MODE_PRIVATE);
 		return prefs.getLong(DBConstants.LAST_UPDATED_TIME, 0);
 	}
 
+	/**
+	 * Setting app's last update check time
+	 */
 	public void setLastUpdatedTime() {
 		SharedPreferences prefs = WordGuessApplication.getInstance().getSharedPreferences(DBConstants.WORD_GUESS_APP_PREFERENCE,
 				Context.MODE_PRIVATE);
@@ -61,12 +79,20 @@ public class DatabaseUtil {
 		editor.commit();
 	}
 
+	/**
+	 * Status of app data parsing
+	 * @return
+	 */
 	public boolean isAppDataParsed() {
 		int appVersion = Utils.getAppVersion();
 		SharedPreferences prefs = WordGuessApplication.getInstance().getSharedPreferences(DBConstants.WORD_GUESS_APP_PREFERENCE, Context.MODE_PRIVATE);
 		return prefs.getBoolean(DBConstants.APP_DATA_PARSE_STATE + appVersion, false);
 	}
 
+	/**
+	 * Updated app's data parsing status
+	 * @param isParsed
+	 */
 	public void setAppDataParsed(boolean isParsed) {
 		int appVersion = Utils.getAppVersion();
 		SharedPreferences prefs = WordGuessApplication.getInstance().getSharedPreferences(DBConstants.WORD_GUESS_APP_PREFERENCE,
@@ -76,7 +102,10 @@ public class DatabaseUtil {
 		editor.commit();
 	}
 
-
+	/**
+	 * Updating app data
+	 * @param appData
+	 */
 	public void updateAppData(JSONObject appData) {
 		SharedPreferences prefs = WordGuessApplication.getInstance().getSharedPreferences(DBConstants.WORD_GUESS_APP_PREFERENCE,
 				Context.MODE_PRIVATE);
@@ -85,6 +114,10 @@ public class DatabaseUtil {
 		editor.commit();
 	}
 
+	/**
+	 * Getting app data
+	 * @return
+	 */
 	public AppData getAppData() {
 		SharedPreferences prefs = WordGuessApplication.getInstance().getSharedPreferences(DBConstants.WORD_GUESS_APP_PREFERENCE,
 				Context.MODE_PRIVATE);
@@ -96,12 +129,20 @@ public class DatabaseUtil {
 		return  appData;
 	}
 
+	/**
+	 * Getting app's user chosen theme
+	 * @return
+	 */
 	public int getAppTheme() {
 		SharedPreferences prefs = WordGuessApplication.getInstance().getSharedPreferences(DBConstants.WORD_GUESS_APP_PREFERENCE,
 				Context.MODE_PRIVATE);
 		return  prefs.getInt(DBConstants.APP_THEME, ApplicationConstants.GREEN_THEME);
 	}
 
+	/**
+	 * Updating user selected theme
+	 * @param theme
+	 */
 	public void setAppTheme(int theme) {
 		SharedPreferences prefs = WordGuessApplication.getInstance().getSharedPreferences(DBConstants.WORD_GUESS_APP_PREFERENCE,
 				Context.MODE_PRIVATE);
@@ -110,6 +151,10 @@ public class DatabaseUtil {
 		editor.commit();
 	}
 
+	/**
+	 * Getting home page info, which is updated by user
+	 * @return
+	 */
 	public JSONObject getHomePageInfo() {
 		SharedPreferences prefs = WordGuessApplication.getInstance().getSharedPreferences(DBConstants.WORD_GUESS_APP_PREFERENCE, Context.MODE_PRIVATE);
 		String homeData =  prefs.getString(DBConstants.HOME_PAGE_DATA, null);
@@ -123,6 +168,12 @@ public class DatabaseUtil {
 		return null;
 	}
 
+	/**
+	 * Updating home page info, chosen by user
+	 * @param gameType
+	 * @param langCode
+	 * @param category
+	 */
 	public void updateHomePageInfo(int gameType, String langCode, int category) {
 		JSONObject homeInfo = getHomePageInfo();
 		if (homeInfo == null) {
@@ -146,6 +197,10 @@ public class DatabaseUtil {
 		editor.commit();
 	}
 
+	/**
+	 * Getting user secured scores
+	 * @return
+	 */
 	public JSONObject getScores() {
 		SharedPreferences prefs = WordGuessApplication.getInstance().getSharedPreferences(DBConstants.WORD_GUESS_APP_PREFERENCE, Context.MODE_PRIVATE);
 		String scoresDataStr =  prefs.getString(DBConstants.SCORES_DATA, null);
@@ -168,6 +223,14 @@ public class DatabaseUtil {
 		return scoreData;
 	}
 
+	/**
+	 * Updating current game's scores
+	 * @param gameId
+	 * @param isVocabBee
+	 * @param games
+	 * @param score
+	 * @param category
+	 */
 	public void updateScores(long gameId, boolean isVocabBee, int games, int score, int category) {
 		JSONObject scoresData = getScores();
 		JSONArray list = null;
@@ -238,6 +301,10 @@ public class DatabaseUtil {
 		editor.commit();
 	}
 
+	/**
+	 * Getting app's meta data
+	 * @return
+	 */
 	public JSONObject getMetaData() {
 		SharedPreferences prefs = WordGuessApplication.getInstance().getSharedPreferences(DBConstants.WORD_GUESS_APP_PREFERENCE, Context.MODE_PRIVATE);
 		String metaData =  prefs.getString(DBConstants.APP_META_DATA, null);
@@ -251,6 +318,11 @@ public class DatabaseUtil {
 		return new JSONObject();
 	}
 
+	/**
+	 * Updating app's meta data
+	 * @param appDataVersion
+	 * @param appVersion
+	 */
 	public void setMetaData(int appDataVersion, int appVersion) {
 		JSONObject metaData = getMetaData();
 		try {
@@ -267,6 +339,9 @@ public class DatabaseUtil {
 		editor.commit();
 	}
 
+	/**
+	 * Initializing static variables which uses app's data
+	 */
 	public void initAppData() {
 		JSONObject metaData = getMetaData();
 
@@ -305,14 +380,51 @@ public class DatabaseUtil {
 
 	///////////////////////////////////SQLITE QUERIES AND TRANSACTIONS ////////////////////////////////
 
-	public void updateWordData(List<WordData> wordsList) {
-		System.out.println("Before update  ===== " + new Date().getTime());
-		boolean isUpdate =  DatabaseUtils.queryNumEntries(_dataDatabaseHelper.getReadableDatabase(), DBConstants.WORD_TABLE) != 0;
-		String insertTemplate = "INSERT INTO " + DBConstants.WORD_TABLE + " (" + DBConstants.NAME + "," + DBConstants.CATEGORY + "," + DBConstants.TYPE + "," + DBConstants.DESC + ") VALUES ";
-
+	/**
+	 * Updating/Inserting words
+	 * @param wordsList
+	 */
+	public void insertWordsFromAssets(List<WordData> wordsList) {
 		// FETCHING ALL THE DATA WHICH IS FAVOURITE, TO BE UPDATED IN NEWLY ADDED ROWS
 		List<WordData.Word> favList = getFavouriteList();
 
+		// DELETING ALL ROWS
+		_clearTable();
+
+		insertWords(wordsList);
+
+		// UPDATING DATA
+		if (favList != null && favList.size() > 0) {
+			for(WordData.Word word : favList) {
+				String word_id_query = "Select " +
+						DBConstants._ID +
+						" from "+ DBConstants.WORD_TABLE+
+						" where " + DBConstants.NAME +" = \"" + word.getName() + "\" LIMIT 1" ;
+				Cursor c = _dataDatabaseHelper.getReadableDatabase().rawQuery(word_id_query, null);
+				try {
+					long wordId = -1;
+					if (c != null && c.getCount() > 0) {
+						c.moveToFirst();
+						wordId = c.getLong(c.getColumnIndex(DBConstants._ID));
+						c.close();
+					}
+					if (wordId != -1) {
+						ContentValues values = new ContentValues();
+						values.put(DBConstants.FAVOURITE, true);
+						values.put(DBConstants.TRANS_VALUE,word.getTranslatedValue());
+						values.put(DBConstants.SOURCE_LANG,word.getSouceLang());
+						_updateRow(DBConstants.WORD_TABLE, values, DBConstants._ID +" = \"" + wordId + "\" ");
+					}
+				} catch (Exception e){
+					e.printStackTrace();
+				}
+
+			}
+		}
+
+	}
+
+	public void insertWords(List<WordData> wordsList) {
 		StringBuilder sb = new StringBuilder();
 		boolean firstRow = true;
 		for (WordData wordData : wordsList) {
@@ -345,51 +457,24 @@ public class DatabaseUtil {
 			}
 		}
 
-		// DELETING ALL ROWS
-		_clearTable();
-
 		// INSERTING DATA
+		String insertTemplate = "INSERT INTO " + DBConstants.WORD_TABLE + " (" + DBConstants.NAME + "," + DBConstants.CATEGORY + "," + DBConstants.TYPE + "," + DBConstants.DESC + ") VALUES ";
+
 		String bukInsertQuery = insertTemplate + sb.toString();
 		_dataDatabaseHelper.getWritableDatabase().beginTransaction();
 		_dataDatabaseHelper.getWritableDatabase().execSQL(bukInsertQuery);
 		_dataDatabaseHelper.getWritableDatabase().setTransactionSuccessful();
 		_dataDatabaseHelper.getWritableDatabase().endTransaction();
 
-		// UPDATING DATA
-		if (favList != null && favList.size() > 0) {
-			for(WordData.Word word : favList) {
-				String word_id_query = "Select " +
-						DBConstants._ID +
-						" from "+ DBConstants.WORD_TABLE+
-						" where " + DBConstants.NAME +" = \"" + word.getName() + "\" LIMIT 1" ;
-				Cursor c = _dataDatabaseHelper.getReadableDatabase().rawQuery(word_id_query, null);
-				try {
-					long wordId = -1;
-					if (c != null && c.getCount() > 0) {
-						c.moveToFirst();
-						wordId = c.getLong(c.getColumnIndex(DBConstants._ID));
-						c.close();
-					}
-					if (wordId != -1) {
-						ContentValues values = new ContentValues();
-						values.put(DBConstants.FAVOURITE, true);
-						values.put(DBConstants.TRANS_VALUE,word.getTranslatedValue());
-						values.put(DBConstants.SOURCE_LANG,word.getSouceLang());
-						_updateRow(DBConstants.WORD_TABLE, values, DBConstants._ID +" = \"" + wordId + "\" ");
-					}
-				} catch (Exception e){
-					e.printStackTrace();
-				}
-
-			}
-		}
-
-		System.out.println("After update  ===== " + new Date().getTime());
-		long rows =  DatabaseUtils.queryNumEntries(_dataDatabaseHelper.getReadableDatabase(), DBConstants.WORD_TABLE);
-		System.out.println("Words ===== " + rows);
-
+//		System.out.println("After update  ===== " + new Date().getTime());
+//		long rows =  DatabaseUtils.queryNumEntries(_dataDatabaseHelper.getReadableDatabase(), DBConstants.WORD_TABLE);
+//		System.out.println("Words ===== " + rows);
 	}
 
+	/**
+	 * Updating all the translated words, with translation value
+	 * @param wordList
+	 */
 	public void updateTranslations(List<WordData.Word> wordList) {
 		for (WordData.Word wordInfo : wordList) {
 			ContentValues values = new ContentValues();
@@ -399,7 +484,11 @@ public class DatabaseUtil {
 		}
 	}
 
-
+	/**
+	 * Words not in session words query
+	 * @param wordsInSession
+	 * @return
+	 */
 	private String _convertWordsCheckQuery(List<String> wordsInSession) {
 		if (wordsInSession == null || wordsInSession.size() == 0) {
 			return  "";
@@ -423,6 +512,12 @@ public class DatabaseUtil {
 		return query;
 	}
 
+	/**
+	 * Getting random words, which is not in current game session
+	 * @param category
+	 * @param wordsInSession
+	 * @return
+	 */
 	public List<WordData.Word> getRandomWords(int category, List<String> wordsInSession) {
 		System.out.println("Before randome select  ===== " + new Date().getTime());
 		List<WordData.Word> wordList = new ArrayList<>();
@@ -497,6 +592,10 @@ public class DatabaseUtil {
 		return wordList;
 	}
 
+	/**
+	 * Updating word
+	 * @param word
+	 */
 	public void updateWord(WordData.Word word) {
 		if (word == null) {
 			return;

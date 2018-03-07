@@ -11,7 +11,6 @@ import com.shree.wordguess.R;
 import com.shree.wordguess.util.AppData;
 import com.shree.wordguess.util.DatabaseUtil;
 import com.shree.wordguess.util.JsonConstants;
-import com.shree.wordguess.util.WordData;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -19,6 +18,9 @@ import org.json.JSONObject;
 
 import java.util.List;
 
+/**
+ * Adapter to display List of scores/leader board of the user
+ */
 public class ScoresAdapter extends RecyclerView.Adapter<ScoresAdapter.MyViewHolder> {
 
     private JSONArray scoreList = null;
@@ -104,6 +106,7 @@ public class ScoresAdapter extends RecyclerView.Adapter<ScoresAdapter.MyViewHold
         vh.scoreTV.setText(score);
         vh.gamesTV.setText(games);
 
+        // Showing the list header
         if (position == 0) {
             vh.headerContainer.setVisibility(View.VISIBLE);
         } else {
@@ -112,6 +115,11 @@ public class ScoresAdapter extends RecyclerView.Adapter<ScoresAdapter.MyViewHold
 
     }
 
+    /**
+     * Fetching the category name using id
+     * @param id
+     * @return
+     */
     private String getCategory(int id) {
         if (categories == null) {
             return  "";

@@ -38,7 +38,9 @@ import org.json.JSONObject;
 
 import java.util.List;
 
-
+/**
+ * Scores fragment to show score information
+ */
 public class ScoresFragment extends Fragment implements FragmentInterface {
 
     private View content_layout;

@@ -10,7 +10,8 @@ import android.widget.TextView;
 import com.shree.wordguess.R;
 
 /**
- * Created by SrinivasDonapati on 1/23/2018.
+ * Custom Spinner button <br>
+ * Shows title,subtitle and dropdown icon
  */
 
 public class SpinnerButton extends LinearLayout {

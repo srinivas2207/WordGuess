@@ -22,12 +22,19 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
 
+/**
+ * Utility class to handle app level common operations
+ */
 public class Utils {
 
 	public static int currentTheme = ApplicationConstants.GREEN_THEME;
-	public static int primayColorDark = 0;
+	public static int primaryColorDark = 0;
 
-
+	/**
+	 * Changin app's theme
+	 * @param activity
+	 * @param theme
+	 */
 	public static void changeToTheme(Activity activity, int theme) {
 		currentTheme = theme;
 		DatabaseUtil.getInstance().setAppTheme(theme);
@@ -71,7 +78,7 @@ public class Utils {
 
 		TypedValue typedValue = new TypedValue();
 		if (activity.getTheme().resolveAttribute(R.attr.colorPrimaryDark, typedValue, true)) {
-			primayColorDark = typedValue.data;
+			primaryColorDark = typedValue.data;
 		}
 		if (Build.VERSION.SDK_INT >= 21) {
 			activity.getWindow().setStatusBarColor(activity.getResources().getColor(statusBarColor));
@@ -91,6 +98,11 @@ public class Utils {
 		return 0;
 	}
 
+	/**
+	 * Sorting JSON Array of score details
+	 * @param scoreList
+	 * @return
+	 */
 	public static JSONArray sortScores(JSONArray scoreList) {
 		if (scoreList == null || scoreList.length() == 0) {
 			return scoreList;

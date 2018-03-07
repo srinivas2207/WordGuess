@@ -17,7 +17,11 @@ import com.shree.wordguess.util.Utils;
 
 import java.util.ArrayList;
 
-public class CustomTextView extends View {
+/**
+ * Custom view to draw word in boxes
+ */
+
+public class WordBoxTextView extends View {
 
 	private int borderColor = Color.BLACK;
 	private int textColor = Color.WHITE;
@@ -31,7 +35,7 @@ public class CustomTextView extends View {
 	private Paint bgPaintGreen = new Paint(Paint.ANTI_ALIAS_FLAG | Paint.DITHER_FLAG);
 	private Paint borderPaint = new Paint(Paint.ANTI_ALIAS_FLAG | Paint.DITHER_FLAG);
 	
-	private int successBackgroundColor = Utils.primayColorDark; //Color.parseColor("#006600");
+	private int successBackgroundColor = Utils.primaryColorDark; //Color.parseColor("#006600");
 	private int failureBackgroundColor = Color.DKGRAY;//Color.parseColor("#CC0000");
 	private int whiteBackgroundColor = Color.WHITE;
 	
@@ -85,15 +89,21 @@ public class CustomTextView extends View {
 	}
 	
 
-	public CustomTextView(Context context) {
+	public WordBoxTextView(Context context) {
 	    this(context, null);
 	}
 
-	public CustomTextView(Context context, AttributeSet attrs) {
+	public WordBoxTextView(Context context, AttributeSet attrs) {
 		super(context, attrs);
 		init(context);
 	}
-	
+
+	/**
+	 * Drawing words in boxes
+	 * @param word Word to be drawn
+	 * @param revealedChars Revealed characters with different color
+	 * @param shallReveal Reveal status of the word
+	 */
 	public void drawWordBlocks(String word, String revealedChars, boolean shallReveal) {
 		try {
 			word = word.toUpperCase();
@@ -133,8 +143,10 @@ public class CustomTextView extends View {
 	    boxWidth = boxHeight = (width)/10;
 	    calculateTheWordPositions();
 	}
-	
-	
+
+	/**
+	 * Calculating the position of the each character
+	 */
 	public void calculateTheWordPositions() {
 		wordSplitList = new ArrayList<>();
 		String[] splittedWords = word.split(" ");
@@ -217,7 +229,11 @@ public class CustomTextView extends View {
 	    drawWords(canvas);
 	    canvas.restore();
 	}
-	
+
+	/**
+	 * Drawing words on canvas, using the pre-calculated positions
+	 * @param canvas
+	 */
 	private void drawWords(Canvas canvas) {
 		int extraWidthSpace = width - maxWidth;
 		if (extraWidthSpace > 0) {

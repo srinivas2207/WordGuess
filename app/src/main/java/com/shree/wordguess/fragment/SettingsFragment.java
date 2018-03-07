@@ -12,6 +12,9 @@ import com.shree.wordguess.activity.ParentActivity;
 import com.shree.wordguess.util.ApplicationConstants;
 import com.shree.wordguess.util.Utils;
 
+/**
+ * Settings fragment, to show app settings UI
+ */
 public class SettingsFragment extends Fragment implements FragmentInterface{
 
 	public View content_layout;
@@ -64,6 +67,7 @@ public class SettingsFragment extends Fragment implements FragmentInterface{
 				break;
 		}
 	}
+
 
 	public void changeTheTheme(View v) {
 		switch (v.getId()) {

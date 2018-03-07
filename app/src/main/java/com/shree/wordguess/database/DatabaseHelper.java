@@ -5,6 +5,9 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import com.shree.wordguess.util.DBConstants;
 
+/**
+ * Database helper to create word table
+ */
 public class DatabaseHelper extends SQLiteOpenHelper {
 
 	 private static final String CREATE_TABLE_WORDS = "create table "

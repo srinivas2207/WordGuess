@@ -17,13 +17,20 @@ import com.shree.wordguess.adapter.FilterAdapter;
 
 import java.util.List;
 
+/**
+ * Custom dialog for showing list with searchable field
+ */
 public class SearchListDialog {
 
+	// Types of dialogs
 	public static final int LANGUAGE_DATA = 1;
 	public static final int CATEGORY_DATA = 2;
 
-	public static interface DialogListener {
-		public void onListItemSelection(int dialogType, Object data);
+	/**
+	 * Callback listener for list item selection
+	 */
+	public interface DialogListener {
+		void onListItemSelection(int dialogType, Object data);
 	}
 
 	private Context context;

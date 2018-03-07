@@ -5,11 +5,14 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.text.TextUtils;
 
+/**
+ * App level alert dialog
+ */
 public class CustomAlertDialog {
 
-	public static interface DialogListener {
-		public void onPossitiveBtnClick(int dialogType);
-		public void onNegativeBtnClick(int dialogType);
+	public interface DialogListener {
+		void onPositiveBtnClick(int dialogType);
+		void onNegativeBtnClick(int dialogType);
 	}
 
 	public static final int NORMAL_DIALOG = 0;
@@ -65,7 +68,7 @@ public class CustomAlertDialog {
 					@Override
 					public void onClick(DialogInterface arg0, int arg1) {
 						if (listener != null) {
-							listener.onPossitiveBtnClick(dialogType);
+							listener.onPositiveBtnClick(dialogType);
 						}
 					}
 				});

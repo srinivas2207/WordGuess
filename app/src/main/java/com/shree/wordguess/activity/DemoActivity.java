@@ -1,14 +1,10 @@
 package com.shree.wordguess.activity;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
-import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.os.Handler;
-import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 
@@ -16,12 +12,16 @@ import com.shree.wordguess.R;
 import com.shree.wordguess.adapter.DemoPageAdapter;
 import com.shree.wordguess.util.DatabaseUtil;
 
+/**
+ * This activity is for showing intro of the application, on first launch.
+ */
 public class DemoActivity extends AppCompatActivity {
 
     private DemoPageAdapter mAdapter;
     private Button skipBtn = null;
     private Button doneBtn = null;
 
+    // Demo screenshots
     private int[] mResources = {
             R.drawable.demo_1,
             R.drawable.demo_2,

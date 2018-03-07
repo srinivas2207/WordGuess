@@ -18,8 +18,6 @@ import android.support.v4.app.FragmentTransaction;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.Toast;
 
 import com.crashlytics.android.Crashlytics;
@@ -29,10 +27,10 @@ import com.shree.wordguess.BuildConfig;
 import com.shree.wordguess.R;
 import com.shree.wordguess.fragment.HomeFragment;
 import com.shree.wordguess.network.NetworkOperations;
+import com.shree.wordguess.network.UINotificationListener;
 import com.shree.wordguess.util.ApplicationConstants;
 import com.shree.wordguess.util.DatabaseUtil;
 import com.shree.wordguess.util.Utils;
-import com.shree.wordguess.network.UINotificationListener;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -40,6 +38,10 @@ import org.json.JSONObject;
 
 import java.util.List;
 
+/**
+ * Parent activity of the application's activities, <br>
+ * It contains the commonly used functionality.
+ */
 public abstract class ParentActivity extends AppCompatActivity implements UINotificationListener {
 
 	public View coordinatorLayout = null;
@@ -51,7 +53,7 @@ public abstract class ParentActivity extends AppCompatActivity implements UINoti
 	protected void onCreate(@Nullable Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 
-
+		// Checking the demo status, and launching demo activity
 		if (!DatabaseUtil.getInstance().getDemoStatus()) {
 			finish();
 			Intent intent = new Intent(this, DemoActivity.class);
@@ -59,16 +61,21 @@ public abstract class ParentActivity extends AppCompatActivity implements UINoti
 			return;
 		}
 
+		// Applying the theme
 		Utils.onActivityCreateSetTheme(this);
 
-		// Obtain the FirebaseAnalytics instance.
+		// Firebase analytics initialization
 		mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
+
+		//AdMob initialization
 		MobileAds.initialize(this, "YOUR_ADMOB_APP_ID");
 	}
 
 	@Override
 	protected void onResume() {
 		super.onResume();
+
+		// Registering UINotification broadcast receivers
 		uiNotificationReceiver = new UiNotificationReceiver();
 		IntentFilter filter = new IntentFilter(ApplicationConstants.UI_NOTIFIER);
 		registerReceiver(uiNotificationReceiver, filter);
@@ -76,6 +83,8 @@ public abstract class ParentActivity extends AppCompatActivity implements UINoti
 
 	@Override
 	protected void onPause() {
+
+		// UnRegistering UINotification broadcast receivers
 		if(uiNotificationReceiver!=null) {
 			unregisterReceiver(uiNotificationReceiver);
 			uiNotificationReceiver = null;
@@ -90,7 +99,7 @@ public abstract class ParentActivity extends AppCompatActivity implements UINoti
 	}
 
 	/**
-	 * Activity rest api callback receiver for notifying components about the rest call response
+	 * UI NOtification receiver to notifying activity/fragments from services/threads
 	 */
 	private class UiNotificationReceiver extends BroadcastReceiver {
 		@Override
@@ -102,7 +111,7 @@ public abstract class ParentActivity extends AppCompatActivity implements UINoti
 				return;
 			}
 
-			Fragment fragment = getActivieFragment();
+			Fragment fragment = getActiveFragment();
 			if (type == ApplicationConstants.APP_DATA_UPDATE_NOTIFICATION ) {
 				if (fragment instanceof HomeFragment) {
 					onUiNotification(type, data);
@@ -115,7 +124,11 @@ public abstract class ParentActivity extends AppCompatActivity implements UINoti
 		}
 	}
 
-	public Fragment getActivieFragment(){
+	/**
+	 * Getting the active/top visible fragment
+	 * @return
+	 */
+	public Fragment getActiveFragment(){
 		FragmentManager fragmentManager = getSupportFragmentManager();
 		List<Fragment> fragments = fragmentManager.getFragments();
 		if(fragments != null){
@@ -161,6 +174,11 @@ public abstract class ParentActivity extends AppCompatActivity implements UINoti
 		ft.commit();
 	}
 
+	/**
+	 * Configuring toolbar
+	 * @param title Title to be displayed
+	 * @param showBackButton Back arrow status
+	 */
 	public void configureToolbar(String title, boolean showBackButton) {
 		if (getSupportActionBar() != null) {
 			getSupportActionBar().setDisplayHomeAsUpEnabled(showBackButton);
@@ -168,6 +186,13 @@ public abstract class ParentActivity extends AppCompatActivity implements UINoti
 		}
 	}
 
+	/**
+	 * Showing snackbar message
+	 * @param autoCancel AutoCancel status
+	 * @param message Message to be displayed
+	 * @param button Button status
+	 * @param type Type of the message
+	 */
 	public void showSnackBarMessage(boolean autoCancel, String message, String button, final int type) {
 		if (autoCancel) {
 			Snackbar.make(coordinatorLayout, message, Snackbar.LENGTH_LONG)
@@ -192,16 +217,31 @@ public abstract class ParentActivity extends AppCompatActivity implements UINoti
 		}
 	}
 
+	/**
+	 * Showing toast message
+	 * @param message Message to be displayed
+	 * @param toastType Toast type
+	 */
 	public void showToast(String message, int toastType) {
 		Toast.makeText(this, message, toastType).show();
 	}
 
+	/**
+	 * Requesting application permissions
+	 * @param permissions
+	 * @param code
+	 */
 	public void requestAppPermissions(List<String> permissions, int code) {
 		String[] permissionArr = new String[permissions.size()];
 		permissionArr= permissions.toArray(permissionArr);
 		ActivityCompat.requestPermissions(this, permissionArr , code);
 	}
 
+	/**
+	 * Checking the permission status
+	 * @param permission
+	 * @return
+	 */
 	public boolean isPermissionGranted(String permission) {
 		if (!isUserPermissionsRequired()) {
 			return false;
@@ -232,6 +272,10 @@ public abstract class ParentActivity extends AppCompatActivity implements UINoti
 		onUiNotification(ApplicationConstants.APP_PERMISSION_NOTIFICATION, data.toString());
 	}
 
+	/**
+	 * Checking the requirement of the permission
+	 * @return
+	 */
 	private boolean isUserPermissionsRequired() {
 		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
 			return true;
@@ -243,6 +287,11 @@ public abstract class ParentActivity extends AppCompatActivity implements UINoti
 		Crashlytics.getInstance().crash(); // Force a crash
 	}
 
+	/**
+	 * Adding analytic data
+	 * @param key Type of the data
+	 * @param value Data to be analysed
+	 */
 	public void addAnalyticData(String key, String value) {
 		mFirebaseAnalytics.setUserProperty(key, value);
 	}

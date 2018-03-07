@@ -1,7 +1,7 @@
 package com.shree.wordguess.util;
 
 /**
- * Created by SrinivasDonapati on 2/8/2018.
+ * Database constants used across app data
  */
 
 public class DBConstants {
