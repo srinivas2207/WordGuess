@@ -13,7 +13,6 @@ This Game helps in improving English Spelling and Vocabulary by guessing the wor
       Guess the word using translation.
     </ol>
 
-    <br>
 
 <b>How to play:</b>
     <ol>
