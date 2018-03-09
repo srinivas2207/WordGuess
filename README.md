@@ -3,6 +3,7 @@
 
 <div>
 This Game helps in improving English Spelling and Vocabulary by guessing the words.
+    <br>
 <br>
     Play the game in 2 modes
     <ol>
