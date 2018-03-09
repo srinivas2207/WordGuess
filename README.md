@@ -15,20 +15,12 @@ This Game helps in improving English Spelling and Vocabulary by guessing the wor
 
     <br>
 
-    <b>How to play:</b>
+<b>How to play:</b>
     <ol>
       <li>Select the game type, language and word category.</li>
       <li>Guess the word by selecting the alphabets.</li>
       <li>All the occurrences of the selected alphabet will be revealed.</li>
       <li>Use options Hint, Help, Share and refresh.</li>
       <li>Finish the game with in allowed mistakes.</li>
-    </ol>
+</ol>
 
-<br>
-<p>Happy Gaming .. Happy Learning ..</p>
-    <hr>
-    <p>
-    Issues or suggestions, please send <a href="mailto:app.wordguess@gmail.com">here.</a>
-      </p>
-
-      </div>
