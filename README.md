@@ -1,17 +1,8 @@
 # WordGuess
 
-<style>
-div.disclaimer {
-    font-size: 10px;
-}
-ol {
-  line-height:150%;
-}
-</style>
+
 <div>
-
-    <p>This Game helps in improving English Spelling and Vocabulary by guessing the words.</p>
-
+This Game helps in improving English Spelling and Vocabulary by guessing the words.
 <br>
     Play the game in 2 modes
     <ol>
