@@ -50,10 +50,23 @@
     <string name="skip">Skip</string>
     <string name="done">Done</string>
 
+    <string name="pleaseWait">Please wait a moment</string>
+    <string name="notConnected">You are not connected</string>
 
-    <string name="ADMOB_ID">ca-app-pub-2409977848022050~3216740181</string>
+    <string name="someThingBroken">Some thing broken</string>
+    <string name="noWords">No words to play, try with other categories !</string>
+
+
+    <string name="successGameTitle">That\'s right !</string>
+    <string name="failureGameTitle">Game Over !</string>
+
+    <string name="successGameDesc">You got {0} points.</string>
+    <string name="failureGameDesc">Your total score is {0} points."</string>
+
+    <string name="ADMOB_ID">ca-app-pub-3940256099942544~3347511713</string>
     <string name="ADMOB_BANNER_ID">ca-app-pub-3940256099942544/6300978111</string>
     <string name="ADMOB_INTERSTITIAL_ID">ca-app-pub-3940256099942544/1033173712</string>
+
     <string name="title_activity_demo">DemoActivity</string>
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>

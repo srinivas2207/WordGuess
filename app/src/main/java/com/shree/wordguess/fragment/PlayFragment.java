@@ -45,6 +45,7 @@ import com.shree.wordguess.custom.WordBoxTextView;
 import com.shree.wordguess.network.NetworkOperations;
 import com.shree.wordguess.util.ApplicationConstants;
 import com.shree.wordguess.util.DatabaseUtil;
+import com.shree.wordguess.util.LocalizationUtil;
 import com.shree.wordguess.util.Utils;
 import com.shree.wordguess.util.WordData;
 
@@ -188,6 +189,7 @@ public class PlayFragment extends Fragment implements FragmentInterface {
             @Override
             public void onClick(View view) {
                 showLoadingPage();
+                randomWords = null;
                 fetchWords();
             }
         });
@@ -295,7 +297,7 @@ public class PlayFragment extends Fragment implements FragmentInterface {
         playContainer.setVisibility(View.GONE);
         refreshView.setVisibility(View.GONE);
         progressBar.setVisibility(View.VISIBLE);
-        messageView.setText("Please wait a moment");
+        messageView.setText(getResources().getString(R.string.pleaseWait));
 
         // show ad if loading takes more time
     }
@@ -310,7 +312,7 @@ public class PlayFragment extends Fragment implements FragmentInterface {
         playContainer.setVisibility(View.GONE);
         refreshView.setVisibility(View.VISIBLE);
         progressBar.setVisibility(View.GONE);
-        messageView.setText("You are not connected");
+        messageView.setText(getResources().getString(R.string.notConnected));
     }
 
     /**
@@ -323,7 +325,7 @@ public class PlayFragment extends Fragment implements FragmentInterface {
         playContainer.setVisibility(View.GONE);
         refreshView.setVisibility(View.VISIBLE);
         progressBar.setVisibility(View.GONE);
-        messageView.setText("Some thing broken");
+        messageView.setText(getResources().getString(R.string.someThingBroken));
     }
 
     /**
@@ -336,7 +338,7 @@ public class PlayFragment extends Fragment implements FragmentInterface {
         playContainer.setVisibility(View.GONE);
         refreshView.setVisibility(View.GONE);
         progressBar.setVisibility(View.GONE);
-        messageView.setText("No words to play, try with other categories !");
+        messageView.setText(getResources().getString(R.string.noWords));
     }
 
     /**
@@ -854,16 +856,17 @@ public class PlayFragment extends Fragment implements FragmentInterface {
 
             tryAgain.setVisibility(View.GONE);
             proceed.setVisibility(View.VISIBLE);
-            messageTitle.setText("Thats right !");
-            String messageDescStr = "You got " + currentScore + " points.";
-            messageDesc.setText(messageDescStr);
+            messageTitle.setText(getResources().getString(R.string.successGameTitle));
+            Object[] dynFileds =  {currentScore};
+            messageDesc.setText(LocalizationUtil.getString(getActivity(), R.string.successGameDesc, dynFileds));
         } else {
             canExitFromGame = true;
             tryAgain.setVisibility(View.VISIBLE);
             proceed.setVisibility(View.GONE);
-            messageTitle.setText("Game Over !");
-            String messageDescStr = "Your total score is " + totalScore + " points.";
-            messageDesc.setText(messageDescStr);
+            messageTitle.setText(getResources().getString(R.string.failureGameTitle));
+
+            Object[] dynFileds =  {totalScore};
+            messageDesc.setText(LocalizationUtil.getString(getActivity(), R.string.failureGameDesc, dynFileds));
 
             saveGame();
         }
@@ -1282,7 +1285,7 @@ public class PlayFragment extends Fragment implements FragmentInterface {
     }
 
 
-    private CountDownTimer loadingWaitCounter = new CountDownTimer(30000, 5000) {
+    private CountDownTimer loadingWaitCounter = new CountDownTimer(45000, 5000) {
         @Override
         public void onTick(long l) {
             if (!isLoading) {

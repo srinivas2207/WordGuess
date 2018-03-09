@@ -18,13 +18,11 @@ public class CustomProgressBar extends LinearLayout {
 	private TextView progressNumber;
 
 	public CustomProgressBar(Context context, AttributeSet attrs) {
-		super(context, attrs);
-		_init();
+		this(context, attrs, 0);
 	}
 
 	public CustomProgressBar(Context context) {
-		super(context, null);
-		_init();
+		this(context, null);
 	}
 
 	public CustomProgressBar(Context context, AttributeSet attrs, int defStyle) {

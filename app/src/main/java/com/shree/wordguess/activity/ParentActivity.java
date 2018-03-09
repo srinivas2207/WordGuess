@@ -68,7 +68,7 @@ public abstract class ParentActivity extends AppCompatActivity implements UINoti
 		mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
 
 		//AdMob initialization
-		MobileAds.initialize(this, "YOUR_ADMOB_APP_ID");
+		MobileAds.initialize(this, getResources().getString(R.string.ADMOB_ID));
 	}
 
 	@Override
